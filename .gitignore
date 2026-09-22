@@ -1,0 +1,44 @@
+# Secrets -- never commit
+.env
+*.pem
+*.key
+# snowflake-sdk writes this debug log to the cwd by default -- it includes
+# the real account identifier/username (not the password), so it shouldn't
+# ship in a repo even though it's not a full credential leak.
+snowflake.log
+# dbt's anonymous per-machine telemetry ID -- not project config, not secret,
+# just not meaningful to commit.
+.user.yml
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+
+# dbt
+dbt_project/target/
+dbt_project/dbt_packages/
+dbt_project/logs/
+
+# Large local data files -- these are inputs/outputs of the local ETL step,
+# not meant to live in git. The repo ships the PIPELINE that produces them,
+# not the multi-GB raw scan file itself (sample.jsonl / the full ~11GB file).
+# The much smaller CURATED outputs (data/curated/) are committed on purpose --
+# they're what actually got loaded into Snowflake for this submission, small
+# enough to review directly, and let a reviewer inspect real output without
+# needing the raw scan file at all.
+*.jsonl
+!evals/**/*.jsonl
+!data/curated/*.jsonl
+!app/frontend/data/*.jsonl
+sample_data/
+*.parquet
+
+# OS
+.DS_Store

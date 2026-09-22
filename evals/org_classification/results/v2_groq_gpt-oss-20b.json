@@ -1,0 +1,224 @@
+{
+  "skill": "org_classification",
+  "prompt_version": "v2",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b",
+  "timestamp": "2026-09-19T15:54:26",
+  "accuracy": 0.92,
+  "infra_metrics": {
+    "tp": 17,
+    "fp": 1,
+    "fn": 1,
+    "precision": 0.9444444444444444,
+    "recall": 0.9444444444444444
+  },
+  "end_business_metrics": {
+    "tp": 6,
+    "fp": 1,
+    "fn": 1,
+    "precision": 0.8571428571428571,
+    "recall": 0.8571428571428571
+  },
+  "records": [
+    {
+      "org_name": "Google LLC",
+      "expected": "infra",
+      "predicted": "infra",
+      "confidence": 0.92,
+      "reasoning": "Google\u2019s IP space is used for its public cloud, hosting, and CDN services that serve many third parties.",
+      "correct": true
+    },
+    {
+      "org_name": "Incapsula Inc",
+      "expected": "infra",
+      "predicted": "infra",
+      "confidence": 0.92,
+      "reasoning": "Incapsula operates a CDN and security service that hosts many third\u2011party sites.",
+      "correct": true
+    },
+    {
+      "org_name": "Cloudflare, Inc.",
+      "expected": "infra",
+      "predicted": "infra",
+      "confidence": 0.95,
+      "reasoning": "Cloudflare operates a public CDN and cloud infrastructure used by many third parties.",
+      "correct": true
+    },
+    {
+      "org_name": "Amazon.com, Inc.",
+      "expected": "infra",
+      "predicted": "infra",
+      "confidence": 0.92,
+      "reasoning": "Amazon operates AWS, a public cloud that hosts many third parties.",
+      "correct": true
+    },
+    {
+      "org_name": "Aliyun Computing Co., LTD",
+      "expected": "infra",
+      "predicted": "infra",
+      "confidence": 0.95,
+      "reasoning": "Aliyun is Alibaba Cloud, a public cloud provider whose IP space hosts many third parties.",
+      "correct": true
+    },
+    {
+      "org_name": "Korea Telecom",
+      "expected": "infra",
+      "predicted": "infra",
+      "confidence": 0.95,
+      "reasoning": "Korea Telecom operates as a national telecom provider, offering connectivity services to many customers.",
+      "correct": true
+    },
+    {
+      "org_name": "Microsoft Corporation",
+      "expected": "infra",
+      "predicted": "infra",
+      "confidence": 0.92,
+      "reasoning": "Microsoft\u2019s IP space is primarily used for Azure cloud services that host many third\u2011party customers.",
+      "correct": true
+    },
+    {
+      "org_name": "Hetzner Online GmbH",
+      "expected": "infra",
+      "predicted": "infra",
+      "confidence": 0.95,
+      "reasoning": "Hetzner Online GmbH operates a data center and hosting service used by many third parties.",
+      "correct": true
+    },
+    {
+      "org_name": "DigitalOcean, LLC",
+      "expected": "infra",
+      "predicted": "infra",
+      "confidence": 0.95,
+      "reasoning": "DigitalOcean operates a public cloud platform hosting many third\u2011party customers.",
+      "correct": true
+    },
+    {
+      "org_name": "Fiserv Solutions, LLC",
+      "expected": "end_business",
+      "predicted": "end_business",
+      "confidence": 0.9,
+      "reasoning": "Fiserv Solutions LLC is a financial services technology provider whose IP space is used for its own operations, not for hosting third parties.",
+      "correct": true
+    },
+    {
+      "org_name": "Egnyte Inc.",
+      "expected": "end_business",
+      "predicted": "end_business",
+      "confidence": 0.9,
+      "reasoning": "Egnyte operates its own file\u2011sync and collaboration services, using its IP space for its own business rather than hosting third parties.",
+      "correct": true
+    },
+    {
+      "org_name": "Bitly Inc",
+      "expected": "end_business",
+      "predicted": "end_business",
+      "confidence": 0.9,
+      "reasoning": "Bitly Inc operates its own URL shortening service, not a shared hosting or CDN infrastructure.",
+      "correct": true
+    },
+    {
+      "org_name": "Avago Technologies U.S. Inc.",
+      "expected": "end_business",
+      "predicted": "end_business",
+      "confidence": 0.9,
+      "reasoning": "Avago Technologies is a semiconductor manufacturer, not a hosting or infrastructure provider.",
+      "correct": true
+    },
+    {
+      "org_name": "Uzbektelekom Joint Stock Company",
+      "expected": "infra",
+      "predicted": "infra",
+      "confidence": 0.9,
+      "reasoning": "Uzbektelekom operates national telecom infrastructure and provides connectivity services to many customers.",
+      "correct": true
+    },
+    {
+      "org_name": "Scancom Limited",
+      "expected": "infra",
+      "predicted": "infra",
+      "confidence": 0.9,
+      "reasoning": "Scancom Limited operates as a telecommunications provider, offering connectivity services to many customers, indicating its IP space is used for hosting/infra.",
+      "correct": true
+    },
+    {
+      "org_name": "PEG TECH INC",
+      "expected": "end_business",
+      "predicted": "end_business",
+      "confidence": 0.8,
+      "reasoning": "PEG TECH INC appears to be a standalone technology company rather than a hosting or infrastructure provider.",
+      "correct": true
+    },
+    {
+      "org_name": "ACEVILLE PTE.LTD.",
+      "expected": "end_business",
+      "predicted": "end_business",
+      "confidence": 0.7,
+      "reasoning": "The name appears to be a private limited company, likely operating its own business rather than providing shared hosting or infrastructure services.",
+      "correct": true
+    },
+    {
+      "org_name": "A100 ROW GmbH",
+      "expected": "infra",
+      "predicted": "end_business",
+      "confidence": 0.9,
+      "reasoning": "The name indicates a German company likely operating its own business rather than providing hosting or cloud services.",
+      "correct": false
+    },
+    {
+      "org_name": "IONOS SE",
+      "expected": "infra",
+      "predicted": "infra",
+      "confidence": 0.92,
+      "reasoning": "IONOS SE operates a public cloud and hosting service, providing IP space for many third parties.",
+      "correct": true
+    },
+    {
+      "org_name": "Sakura Internet Inc.",
+      "expected": "infra",
+      "predicted": "infra",
+      "confidence": 0.92,
+      "reasoning": "Sakura Internet Inc. operates as an ISP and hosting provider, offering shared IP space to many customers.",
+      "correct": true
+    },
+    {
+      "org_name": "Charter Communications LLC",
+      "expected": "infra",
+      "predicted": "infra",
+      "confidence": 0.95,
+      "reasoning": "Charter Communications operates as an ISP providing connectivity to many customers, so its IP space is used for hosting third\u2011party traffic.",
+      "correct": true
+    },
+    {
+      "org_name": "Deutsche Telekom AG",
+      "expected": "infra",
+      "predicted": "infra",
+      "confidence": 0.95,
+      "reasoning": "Deutsche Telekom AG operates as a telecom infrastructure provider, offering connectivity services to many customers.",
+      "correct": true
+    },
+    {
+      "org_name": "Huawei Public Cloud Service (Huawei Software Technologies Ltd.Co)",
+      "expected": "infra",
+      "predicted": "infra",
+      "confidence": 0.92,
+      "reasoning": "The name explicitly references a public cloud service, indicating its IP space is used to host third\u2011party customers.",
+      "correct": true
+    },
+    {
+      "org_name": "CENCOM INC",
+      "expected": "end_business",
+      "predicted": "infra",
+      "confidence": 0.8,
+      "reasoning": "CENCOM INC is a telecommunications provider whose IP space is used for connectivity services.",
+      "correct": false
+    },
+    {
+      "org_name": "RailTel Corporation is an ISP.",
+      "expected": "infra",
+      "predicted": "infra",
+      "confidence": 0.92,
+      "reasoning": "RailTel Corporation operates as an ISP, providing connectivity to many customers, so its IP space is used for third\u2011party services.",
+      "correct": true
+    }
+  ]
+}

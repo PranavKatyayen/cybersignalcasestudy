@@ -1,0 +1,8 @@
+python-dotenv
+snowflake-connector-python
+anthropic
+polars
+zstandard
+pytest
+dbt-core
+dbt-snowflake

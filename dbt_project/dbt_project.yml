@@ -1,0 +1,21 @@
+name: 'cybersignal'
+version: '1.0.0'
+config-version: 2
+
+profile: 'cybersignal'
+
+model-paths: ["models"]
+test-paths: ["tests"]
+clean-targets: ["target", "dbt_packages"]
+
+models:
+  cybersignal:
+    staging:
+      +materialized: view       # cheap, always reflects the latest RAW load
+      +schema: staging
+    intermediate:
+      +materialized: view       # business logic, still cheap to recompute
+      +schema: staging
+    marts:
+      +materialized: table      # the app queries these directly -- worth
+      +schema: analytics

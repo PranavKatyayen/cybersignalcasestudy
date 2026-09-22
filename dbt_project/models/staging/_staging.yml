@@ -1,0 +1,41 @@
+version: 2
+
+models:
+  - name: stg_entities
+    description: One row per attributed business, lightly typed from RAW.SCORED_ENTITIES.
+    columns:
+      - name: entity_key
+        description: Domain or org name identifying the account.
+        tests:
+          - not_null
+          - unique
+      - name: attribution_confidence
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['HIGH', 'MEDIUM']
+      - name: total_score
+        tests:
+          - not_null
+
+  - name: stg_assets
+    description: One row per individual scored asset, lightly typed from RAW.SCORED_ASSETS.
+    columns:
+      - name: entity_key
+        description: Foreign key back to stg_entities.entity_key.
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('stg_entities')
+                field: entity_key
+      - name: attribution_confidence
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['HIGH', 'MEDIUM']
+      - name: adjusted_score
+        tests:
+          - not_null

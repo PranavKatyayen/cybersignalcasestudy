@@ -1,0 +1,21 @@
+version: 2
+
+sources:
+  - name: raw
+    database: CYBERSIGNAL
+    schema: RAW
+    description: >
+      Curated pipeline output loaded as-is by scripts/load_curated_to_snowflake.py.
+      No cleaning or business logic happens before this point -- see
+      docs/architecture.md for why the raw 11GB scan file itself is never
+      loaded here, only the already-attributed, already-scored curated output.
+    tables:
+      - name: scored_entities
+        description: One row per attributed business (aggregated across its scored assets).
+      - name: scored_assets
+        description: One row per individual scored asset -- the evidence detail behind an entity's findings.
+      - name: entity_narratives
+        description: >
+          One pre-generated risk narrative per entity, written offline by
+          scripts/generate_narratives.py. The app never calls the LLM live --
+          it only ever reads from this table.

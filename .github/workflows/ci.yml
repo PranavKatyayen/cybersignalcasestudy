@@ -1,0 +1,42 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  python:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Unit tests
+        run: python -m pytest tests -q
+      - name: dbt project parses
+        working-directory: dbt_project
+        env:
+          SNOWFLAKE_ACCOUNT: ci
+          SNOWFLAKE_USER: ci
+          SNOWFLAKE_PASSWORD: ci
+        run: dbt parse --profiles-dir .
+
+  web:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: app/frontend
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Install
+        run: npm install --no-audit --no-fund
+      - name: Generate route types
+        run: npx next typegen
+      - name: Type check
+        run: npx tsc --noEmit

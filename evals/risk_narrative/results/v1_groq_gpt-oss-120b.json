@@ -1,0 +1,416 @@
+{
+  "skill": "risk_narrative",
+  "prompt_version": "v1",
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b",
+  "timestamp": "2026-09-19T15:41:12",
+  "citation_validity_rate": 1.0,
+  "critical_coverage_rate": 1.0,
+  "fabrication_free_rate": 1.0,
+  "overclaim_free_rate": 0.5652173913043478,
+  "third_person_rate": 0.782608695652174,
+  "avg_evidence_coverage": 1.0,
+  "records": [
+    {
+      "entity_key": "duolingo.com",
+      "critical_category": "vulns_present",
+      "cited_evidence_indices": [
+        0,
+        1
+      ],
+      "critical_index": 0,
+      "citation_valid": true,
+      "critical_cited": true,
+      "fabricated_facts": [],
+      "overclaims": [],
+      "third_person": false,
+      "evidence_coverage": 1.0,
+      "summary": "Your site is running software with known security flaws (CVE-2025-23419 and CVE-2023-44487) and an outdated version of nginx that is no longer supported. These issues leave your public-facing services open to attacks that could disrupt service and damage your brand reputation.",
+      "outreach_angle": "Help Duolingo protect its high\u2011traffic platform by quickly patching critical vulnerabilities and upgrading to a supported web server version."
+    },
+    {
+      "entity_key": "ACEVILLE PTE.LTD.",
+      "critical_category": "vulns_present",
+      "cited_evidence_indices": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "critical_index": 0,
+      "citation_valid": true,
+      "critical_cited": true,
+      "fabricated_facts": [],
+      "overclaims": [
+        "data theft"
+      ],
+      "third_person": true,
+      "evidence_coverage": 1.0,
+      "summary": "ACEVILLE PTE.LTD. has multiple known vulnerabilities (CVE-2025-23419, CVE-2023-44487, CVE-2021-3618) and is running outdated nginx versions (1.14.0 and 1.25.5) that are no longer supported, leaving it open to attacks. In addition, an industrial control system (Siemens S7) is exposed directly to the internet, creating a high\u2011risk entry point for disruption or data theft.",
+      "outreach_angle": "Highlight how our solution can quickly patch known CVEs, replace unsupported web server software, and safely isolate critical control systems from internet exposure."
+    },
+    {
+      "entity_key": "nntc.net",
+      "critical_category": "vulns_present",
+      "cited_evidence_indices": [
+        0,
+        1
+      ],
+      "critical_index": 1,
+      "citation_valid": true,
+      "critical_cited": true,
+      "fabricated_facts": [],
+      "overclaims": [],
+      "third_person": true,
+      "evidence_coverage": 1.0,
+      "summary": "The scan found a self\u2011signed TLS certificate, meaning visitors see an untrusted security warning and attackers could more easily impersonate the site. It also revealed three known vulnerabilities (CVE\u20112016\u201110735, CVE\u20112018\u201114040, CVE\u20112018\u201114041) that could be exploited to gain unauthorized access or disrupt services. Together, these issues expose the business to reputation damage and potential downtime, directly affecting customer trust and revenue.",
+      "outreach_angle": "Help nntc.net quickly replace the self\u2011signed certificate and patch the known flaws to protect their brand and avoid costly service interruptions."
+    },
+    {
+      "entity_key": "BigTip, Inc.",
+      "critical_category": "vulns_present",
+      "cited_evidence_indices": [
+        0
+      ],
+      "critical_index": 0,
+      "citation_valid": true,
+      "critical_cited": true,
+      "fabricated_facts": [],
+      "overclaims": [
+        "breach"
+      ],
+      "third_person": true,
+      "evidence_coverage": 1.0,
+      "summary": "BigTip, Inc. currently has three known software vulnerabilities (CVE-2026-47729, CVE-2026-50012, CVE-2026-33515) on its internet\u2011facing assets, leaving the company exposed to attackers who can exploit these flaws. Addressing these weaknesses now can prevent potential data loss, service disruption, and the costly fallout of a breach.",
+      "outreach_angle": "Highlight how our solution can quickly patch or mitigate these known CVEs to safeguard operations and avoid expensive downtime."
+    },
+    {
+      "entity_key": "home.ne.jp",
+      "critical_category": "risky_port",
+      "cited_evidence_indices": [
+        0
+      ],
+      "critical_index": 0,
+      "citation_valid": true,
+      "critical_cited": true,
+      "fabricated_facts": [],
+      "overclaims": [
+        "leak"
+      ],
+      "third_person": true,
+      "evidence_coverage": 1.0,
+      "summary": "The scan shows that the SNMP service is openly reachable on the standard port 161, which often uses default community strings that can be guessed easily. This exposure lets attackers query or modify network devices, potentially leading to service disruption or data leakage that can affect business operations and reputation.",
+      "outreach_angle": "Highlight how our solution can quickly secure exposed SNMP services and prevent easy network device compromise."
+    },
+    {
+      "entity_key": "TATA TELESERVICES LTD - TATA INDICOM - CDMA DIVISION",
+      "critical_category": "risky_port",
+      "cited_evidence_indices": [
+        0,
+        1
+      ],
+      "critical_index": 0,
+      "citation_valid": true,
+      "critical_cited": true,
+      "fabricated_facts": [],
+      "overclaims": [
+        "attackers can"
+      ],
+      "third_person": false,
+      "evidence_coverage": 1.0,
+      "summary": "Your network is exposing an SNMP service on port 161, which often runs with default community strings that attackers can guess to gain internal information. In addition, the site uses a self\u2011signed TLS certificate, indicating poor certificate hygiene that can undermine trust and make encrypted traffic easier to intercept.",
+      "outreach_angle": "We can help you secure these exposed services and replace the self\u2011signed certificate with a trusted solution to protect your data and reputation."
+    },
+    {
+      "entity_key": "ctinets.com",
+      "critical_category": "risky_port",
+      "cited_evidence_indices": [
+        0
+      ],
+      "critical_index": 0,
+      "citation_valid": true,
+      "critical_cited": true,
+      "fabricated_facts": [],
+      "overclaims": [
+        "leak"
+      ],
+      "third_person": true,
+      "evidence_coverage": 1.0,
+      "summary": "The scan found an SNMP service openly listening on port 161, which often uses default community strings that can be guessed easily. This exposure lets attackers query or modify network devices, potentially leading to service disruption or data leakage that can affect business continuity.",
+      "outreach_angle": "Highlight how our solution can quickly secure exposed SNMP services and prevent costly network outages."
+    },
+    {
+      "entity_key": "Turkcell Iletisim Hizmetleri A.S",
+      "critical_category": "risky_port",
+      "cited_evidence_indices": [
+        0,
+        1
+      ],
+      "critical_index": 0,
+      "citation_valid": true,
+      "critical_cited": true,
+      "fabricated_facts": [],
+      "overclaims": [],
+      "third_person": false,
+      "evidence_coverage": 1.0,
+      "summary": "Your PostgreSQL database is openly reachable on the internet, which means anyone can attempt to connect and potentially extract or alter data. Additionally, the server uses a self\u2011signed TLS certificate, making encrypted communications vulnerable to interception and trust issues.",
+      "outreach_angle": "We can help you secure your database exposure and replace the weak certificate to protect your customer data and reputation."
+    },
+    {
+      "entity_key": "archive.org",
+      "critical_category": "open_dir",
+      "cited_evidence_indices": [
+        0
+      ],
+      "critical_index": 0,
+      "citation_valid": true,
+      "critical_cited": true,
+      "fabricated_facts": [],
+      "overclaims": [
+        "leak"
+      ],
+      "third_person": true,
+      "evidence_coverage": 1.0,
+      "summary": "The scan found an open directory listing on archive.org, which publicly reveals the contents of internal folders. This exposure can let competitors or attackers see files they shouldn\u2019t, increasing the risk of data leakage and brand damage.",
+      "outreach_angle": "Highlight how our solution can automatically detect and lock down open directories to protect sensitive information."
+    },
+    {
+      "entity_key": "traxms.com",
+      "critical_category": "open_dir",
+      "cited_evidence_indices": [
+        0
+      ],
+      "critical_index": 0,
+      "citation_valid": true,
+      "critical_cited": true,
+      "fabricated_facts": [],
+      "overclaims": [
+        "breach",
+        "data theft"
+      ],
+      "third_person": true,
+      "evidence_coverage": 1.0,
+      "summary": "The scan found an open directory listing on traxms.com, which publicly reveals the contents of a server folder. This exposure can let competitors or attackers see internal files, potentially leading to data theft or further attacks that could disrupt business operations.",
+      "outreach_angle": "Highlight how our solution can lock down exposed directories to protect sensitive information and reduce the risk of data breaches."
+    },
+    {
+      "entity_key": "vacsax.co.uk",
+      "critical_category": "open_dir",
+      "cited_evidence_indices": [
+        0
+      ],
+      "critical_index": 0,
+      "citation_valid": true,
+      "critical_cited": true,
+      "fabricated_facts": [],
+      "overclaims": [
+        "breach",
+        "data theft"
+      ],
+      "third_person": true,
+      "evidence_coverage": 1.0,
+      "summary": "The scan found an open directory listing on vacsax.co.uk, which publicly reveals the contents of a server folder. This exposure can let competitors or attackers see internal files, potentially leading to data theft or further attacks that could disrupt business operations.",
+      "outreach_angle": "Highlight how our solution can lock down exposed directories to protect sensitive information and prevent costly breaches."
+    },
+    {
+      "entity_key": "draytek.com",
+      "critical_category": "self_signed",
+      "cited_evidence_indices": [
+        0
+      ],
+      "critical_index": 0,
+      "citation_valid": true,
+      "critical_cited": true,
+      "fabricated_facts": [],
+      "overclaims": [],
+      "third_person": true,
+      "evidence_coverage": 1.0,
+      "summary": "The scan shows the public website is using a self\u2011signed TLS certificate, which means visitors cannot verify the site\u2019s identity and browsers will show security warnings. This can erode customer trust and cause lost sales or missed opportunities because users may avoid a site that appears insecure.",
+      "outreach_angle": "Help them replace the self\u2011signed certificate with a trusted, validated TLS certificate to protect their brand reputation and improve conversion rates."
+    },
+    {
+      "entity_key": "MVTV Wireless",
+      "critical_category": "self_signed",
+      "cited_evidence_indices": [
+        0
+      ],
+      "critical_index": 0,
+      "citation_valid": true,
+      "critical_cited": true,
+      "fabricated_facts": [],
+      "overclaims": [],
+      "third_person": true,
+      "evidence_coverage": 1.0,
+      "summary": "The scan found that MVTV Wireless is using a self\u2011signed TLS certificate, which triggers security warnings for anyone trying to visit their site. These warnings can erode trust and cause potential customers to abandon the connection, directly impacting sales and brand reputation.",
+      "outreach_angle": "Help MVTV Wireless replace the self\u2011signed certificate with a trusted SSL certificate to eliminate warnings and protect their customer experience."
+    },
+    {
+      "entity_key": "vin65.com",
+      "critical_category": "self_signed",
+      "cited_evidence_indices": [
+        0
+      ],
+      "critical_index": 0,
+      "citation_valid": true,
+      "critical_cited": true,
+      "fabricated_facts": [],
+      "overclaims": [],
+      "third_person": true,
+      "evidence_coverage": 1.0,
+      "summary": "The scan found that vin65.com is using a self\u2011signed TLS certificate, which means visitors cannot verify the site\u2019s identity and may see security warnings. This can erode customer trust and cause lost sales, especially for an e\u2011commerce platform.",
+      "outreach_angle": "Help them replace the self\u2011signed certificate with a trusted SSL to protect their brand and boost conversions."
+    },
+    {
+      "entity_key": "WOODSNET-PH",
+      "critical_category": "self_signed",
+      "cited_evidence_indices": [
+        0
+      ],
+      "critical_index": 0,
+      "citation_valid": true,
+      "critical_cited": true,
+      "fabricated_facts": [],
+      "overclaims": [
+        "breach"
+      ],
+      "third_person": true,
+      "evidence_coverage": 1.0,
+      "summary": "The scan found a self\u2011signed TLS certificate on the public\u2011facing service, meaning visitors cannot verify the site\u2019s identity and are vulnerable to impersonation attacks. This weakens customer trust and could lead to lost business or data breaches.",
+      "outreach_angle": "Highlight how our solution can replace weak self\u2011signed certificates with trusted, managed TLS to protect brand reputation and customer confidence."
+    },
+    {
+      "entity_key": "viettel.vn",
+      "critical_category": "iot_camera",
+      "cited_evidence_indices": [
+        0,
+        1,
+        2
+      ],
+      "critical_index": 0,
+      "citation_valid": true,
+      "critical_cited": true,
+      "fabricated_facts": [],
+      "overclaims": [],
+      "third_person": true,
+      "evidence_coverage": 1.0,
+      "summary": "The scan shows two internet\u2011facing Dahua camera systems (evidence\u202f0,\u202f1) that can be accessed from outside the network, plus a self\u2011signed TLS certificate (evidence\u202f2) indicating weak encryption hygiene. This combination creates a clear path for attackers to view or hijack video feeds and to exploit the insecure certificate for man\u2011in\u2011the\u2011middle attacks, putting corporate privacy and brand reputation at risk.",
+      "outreach_angle": "Highlight how our solution can quickly secure exposed camera devices and replace weak certificates to protect Viettel\u2019s visual data and brand trust."
+    },
+    {
+      "entity_key": "Broadband Services",
+      "critical_category": "iot_camera",
+      "cited_evidence_indices": [
+        0
+      ],
+      "critical_index": 0,
+      "citation_valid": true,
+      "critical_cited": true,
+      "fabricated_facts": [],
+      "overclaims": [],
+      "third_person": true,
+      "evidence_coverage": 1.0,
+      "summary": "The scan found an internet\u2011exposed Dahua\u2011based DVR, a type of video surveillance device often used in security cameras. Because it is reachable from the public internet, attackers could potentially view or tamper with video feeds, putting the company\u2019s operations and customer privacy at risk.",
+      "outreach_angle": "Highlight how our solution can quickly secure exposed surveillance equipment and protect sensitive visual data."
+    },
+    {
+      "entity_key": "vnpt.vn",
+      "critical_category": "iot_camera",
+      "cited_evidence_indices": [
+        0,
+        1
+      ],
+      "critical_index": 1,
+      "citation_valid": true,
+      "critical_cited": true,
+      "fabricated_facts": [],
+      "overclaims": [],
+      "third_person": true,
+      "evidence_coverage": 1.0,
+      "summary": "The scan shows that vnpt.vn is using a self\u2011signed TLS certificate, which means visitors cannot verify the site\u2019s identity and attackers could impersonate it. In addition, an internet\u2011facing Hikvision security camera is exposed, giving outsiders a direct view into the network and potential entry point for attacks.",
+      "outreach_angle": "Highlight how our solution can replace weak certificates and securely hide or protect exposed IoT cameras to safeguard the company\u2019s reputation and data."
+    },
+    {
+      "entity_key": "NETBOX LTD",
+      "critical_category": "iot_camera",
+      "cited_evidence_indices": [
+        0
+      ],
+      "critical_index": 0,
+      "citation_valid": true,
+      "critical_cited": true,
+      "fabricated_facts": [],
+      "overclaims": [],
+      "third_person": false,
+      "evidence_coverage": 1.0,
+      "summary": "Your network includes an internet\u2011exposed Hikvision IP camera, which can be accessed by anyone online. This open device could be hijacked to spy on your premises or become a foothold for attackers to reach other systems, putting your business operations and reputation at risk.",
+      "outreach_angle": "Highlight the danger of an unsecured surveillance camera that anyone can reach from the internet."
+    },
+    {
+      "entity_key": "hosted-by-vdsina.ru",
+      "critical_category": "eol_product",
+      "cited_evidence_indices": [
+        0
+      ],
+      "critical_index": 0,
+      "citation_valid": true,
+      "critical_cited": true,
+      "fabricated_facts": [],
+      "overclaims": [
+        "attackers can"
+      ],
+      "third_person": true,
+      "evidence_coverage": 1.0,
+      "summary": "The scan found the web server is running nginx version 1.26.3, which is end\u2011of\u2011life and no longer receives security updates. This leaves the site vulnerable to known bugs that attackers can exploit, putting the business\u2019s online presence and customer data at risk.",
+      "outreach_angle": "Offer a quick upgrade to a supported web server version to eliminate exposure from unsupported software."
+    },
+    {
+      "entity_key": "Orange WBC Broadband",
+      "critical_category": "eol_product",
+      "cited_evidence_indices": [
+        0
+      ],
+      "critical_index": 0,
+      "citation_valid": true,
+      "critical_cited": true,
+      "fabricated_facts": [],
+      "overclaims": [],
+      "third_person": true,
+      "evidence_coverage": 1.0,
+      "summary": "The scan found that Orange WBC Broadband is running an outdated version of nginx (1.26.3) that is no longer supported. This leaves the web server vulnerable to known security flaws that could be exploited, potentially causing service interruptions and damage to the brand\u2019s reputation.",
+      "outreach_angle": "Help Orange WBC Broadband replace its unsupported nginx version with a secure, up\u2011to\u2011date solution to protect their online services and customer trust."
+    },
+    {
+      "entity_key": "chatterxs.com",
+      "critical_category": "eol_product",
+      "cited_evidence_indices": [
+        0
+      ],
+      "critical_index": 0,
+      "citation_valid": true,
+      "critical_cited": true,
+      "fabricated_facts": [],
+      "overclaims": [],
+      "third_person": false,
+      "evidence_coverage": 1.0,
+      "summary": "Your website is running an outdated version of nginx (1.27.5) that is no longer supported, leaving it vulnerable to known security flaws. This exposure could lead to service interruptions, data loss, or damage to your brand reputation, especially for a Singapore\u2011based business that relies on online presence.",
+      "outreach_angle": "Help protect your brand and keep your site running smoothly by upgrading from the unsupported nginx version."
+    },
+    {
+      "entity_key": "epic.com.mt",
+      "critical_category": "eol_product",
+      "cited_evidence_indices": [
+        0
+      ],
+      "critical_index": 0,
+      "citation_valid": true,
+      "critical_cited": true,
+      "fabricated_facts": [],
+      "overclaims": [],
+      "third_person": true,
+      "evidence_coverage": 1.0,
+      "summary": "The scan found that epic.com.mt is running nginx version 1.29.1, which is end\u2011of\u2011life software. Because it no longer receives security updates, any newly discovered vulnerabilities will remain unpatched, putting the website and its visitors at risk of compromise.",
+      "outreach_angle": "Offer a quick upgrade path to a supported web server version to eliminate exposure from unsupported software."
+    }
+  ]
+}

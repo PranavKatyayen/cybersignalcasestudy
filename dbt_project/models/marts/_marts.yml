@@ -1,0 +1,29 @@
+version: 2
+
+models:
+  - name: mart_prospect_accounts
+    description: >
+      Final, app-facing ranked account list. One row per prospect, sorted by
+      priority_rank. This is the table the Next.js dashboard queries directly.
+    columns:
+      - name: entity_key
+        tests:
+          - not_null
+          - unique
+      - name: priority_rank
+        tests:
+          - not_null
+          - unique
+
+  - name: mart_asset_evidence
+    description: >
+      Evidence detail behind each account's findings, for the account-detail
+      "why am I seeing this" drill-down view.
+    columns:
+      - name: entity_key
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('mart_prospect_accounts')
+                field: entity_key

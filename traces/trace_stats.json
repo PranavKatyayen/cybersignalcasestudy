@@ -1,0 +1,1 @@
+{"total_calls":1866,"total_cost_usd":0.3659,"avg_latency_ms":6474.6,"success_count":1863,"failed_count":3,"by_skill":{"org_classification":{"calls":1124,"total_cost_usd":0.1123,"avg_latency_ms":7651.2},"risk_narrative":{"calls":742,"total_cost_usd":0.2537,"avg_latency_ms":4692.1}}}

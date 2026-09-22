@@ -1,0 +1,392 @@
+{
+  "skill": "risk_narrative",
+  "prompt_version": "v2",
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b",
+  "timestamp": "2026-09-19T15:42:55",
+  "citation_validity_rate": 1.0,
+  "critical_coverage_rate": 1.0,
+  "fabrication_free_rate": 1.0,
+  "overclaim_free_rate": 1.0,
+  "third_person_rate": 1.0,
+  "avg_evidence_coverage": 0.982608695652174,
+  "records": [
+    {
+      "entity_key": "duolingo.com",
+      "critical_category": "vulns_present",
+      "cited_evidence_indices": [
+        0,
+        1
+      ],
+      "critical_index": 0,
+      "citation_valid": true,
+      "critical_cited": true,
+      "fabricated_facts": [],
+      "overclaims": [],
+      "third_person": true,
+      "evidence_coverage": 1.0,
+      "summary": "Duolingo\u2019s external scan reveals the presence of known vulnerabilities CVE-2025-23419 and CVE-2023-44487, and it is running nginx version 1.22.1 which is end\u2011of\u2011life and no longer receives security updates. These issues indicate that the web server may be exposed to unpatched security flaws, a situation that typically warrants remediation.",
+      "outreach_angle": "Has your team evaluated the recent CVEs affecting your web server stack and the risks of running an end\u2011of\u2011life version of nginx?"
+    },
+    {
+      "entity_key": "ACEVILLE PTE.LTD.",
+      "critical_category": "vulns_present",
+      "cited_evidence_indices": [
+        0,
+        1,
+        2
+      ],
+      "critical_index": 0,
+      "citation_valid": true,
+      "critical_cited": true,
+      "fabricated_facts": [],
+      "overclaims": [],
+      "third_person": true,
+      "evidence_coverage": 0.6,
+      "summary": "ACEVILLE PTE.LTD. exposes several high\u2011risk vulnerabilities, including CVE-2025-23419 and CVE-2023-44487, and runs end\u2011of\u2011life nginx 1.14.0, which no longer receives security updates. Additionally, an industrial control service (Siemens S7) is exposed on port 102, presenting a potential attack surface. These findings indicate the environment contains outdated software and known exploitable flaws.",
+      "outreach_angle": "Would you be interested in a review of your legacy web server and industrial control exposures to ensure they\u2019re protected against known vulnerabilities?"
+    },
+    {
+      "entity_key": "nntc.net",
+      "critical_category": "vulns_present",
+      "cited_evidence_indices": [
+        0,
+        1
+      ],
+      "critical_index": 1,
+      "citation_valid": true,
+      "critical_cited": true,
+      "fabricated_facts": [],
+      "overclaims": [],
+      "third_person": true,
+      "evidence_coverage": 1.0,
+      "summary": "nntc.net exposes a self\u2011signed TLS certificate, indicating broken certificate hygiene, and its services are vulnerable to multiple known CVEs (CVE\u20112016\u201110735, CVE\u20112018\u201114040, CVE\u20112018\u201114041). These findings suggest the environment may be running outdated or unpatched software, which can increase exposure to known exploits.",
+      "outreach_angle": "Has your team evaluated the risks associated with the self\u2011signed certificate and the known CVEs on your public services?"
+    },
+    {
+      "entity_key": "BigTip, Inc.",
+      "critical_category": "vulns_present",
+      "cited_evidence_indices": [
+        0
+      ],
+      "critical_index": 0,
+      "citation_valid": true,
+      "critical_cited": true,
+      "fabricated_facts": [],
+      "overclaims": [],
+      "third_person": true,
+      "evidence_coverage": 1.0,
+      "summary": "BigTip, Inc. has internet\u2011facing assets that are vulnerable to multiple known CVEs (CVE\u20112026\u201147729, CVE\u20112026\u201150012, CVE\u20112026\u201133515). These vulnerabilities indicate that the exposed services may be susceptible to exploitation, and unpatched software can be a security risk.",
+      "outreach_angle": "Has your team evaluated the recent CVE\u20112026 vulnerabilities affecting your external services and considered remediation options?"
+    },
+    {
+      "entity_key": "home.ne.jp",
+      "critical_category": "risky_port",
+      "cited_evidence_indices": [
+        0
+      ],
+      "critical_index": 0,
+      "citation_valid": true,
+      "critical_cited": true,
+      "fabricated_facts": [],
+      "overclaims": [],
+      "third_person": true,
+      "evidence_coverage": 1.0,
+      "summary": "home.ne.jp has an SNMP service exposed on the standard UDP port 161, which often uses default community strings that can be guessed easily. This exposure can allow unauthorized network enumeration and device configuration attempts, a concern because default credentials are widely known.",
+      "outreach_angle": "Would you be interested in reviewing the SNMP configuration to ensure strong community strings and restrict access to trusted hosts?"
+    },
+    {
+      "entity_key": "TATA TELESERVICES LTD - TATA INDICOM - CDMA DIVISION",
+      "critical_category": "risky_port",
+      "cited_evidence_indices": [
+        0,
+        1
+      ],
+      "critical_index": 0,
+      "citation_valid": true,
+      "critical_cited": true,
+      "fabricated_facts": [],
+      "overclaims": [],
+      "third_person": true,
+      "evidence_coverage": 1.0,
+      "summary": "TATA TELESERVICES LTD - TATA INDICOM - CDMA DIVISION has an SNMP service exposed on the default port 161, which may be using default community strings, and it also presents a self\u2011signed TLS certificate indicating poor certificate hygiene. Both findings suggest potential gaps in network management and encryption practices that could be addressed to improve security posture.",
+      "outreach_angle": "Would you be interested in reviewing your SNMP configuration and certificate management to ensure they align with best\u2011practice security standards?"
+    },
+    {
+      "entity_key": "ctinets.com",
+      "critical_category": "risky_port",
+      "cited_evidence_indices": [
+        0
+      ],
+      "critical_index": 0,
+      "citation_valid": true,
+      "critical_cited": true,
+      "fabricated_facts": [],
+      "overclaims": [],
+      "third_person": true,
+      "evidence_coverage": 1.0,
+      "summary": "The account ctinets.com has an internet-facing SNMP service listening on UDP port 161, which commonly uses default community strings that can be guessed or brute\u2011forced. Exposing SNMP publicly can allow unauthorized enumeration of network devices and configuration details, a concern especially for self\u2011hosted environments.",
+      "outreach_angle": "Has your team evaluated the security of the publicly exposed SNMP service and considered restricting it to trusted networks or changing default community strings?"
+    },
+    {
+      "entity_key": "Turkcell Iletisim Hizmetleri A.S",
+      "critical_category": "risky_port",
+      "cited_evidence_indices": [
+        0,
+        1
+      ],
+      "critical_index": 0,
+      "citation_valid": true,
+      "critical_cited": true,
+      "fabricated_facts": [],
+      "overclaims": [],
+      "third_person": true,
+      "evidence_coverage": 1.0,
+      "summary": "Turkcell Iletisim Hizmetleri A.S. has an internet-facing PostgreSQL service listening on port 5432, which can be accessed without restriction. Additionally, the host presents a self\u2011signed TLS certificate, indicating suboptimal certificate hygiene. Both findings suggest potential exposure to unauthorized access and encryption weaknesses.",
+      "outreach_angle": "Would you be interested in discussing how a managed database security solution could help harden your PostgreSQL deployment and replace self\u2011signed certificates with trusted ones?"
+    },
+    {
+      "entity_key": "archive.org",
+      "critical_category": "open_dir",
+      "cited_evidence_indices": [
+        0
+      ],
+      "critical_index": 0,
+      "citation_valid": true,
+      "critical_cited": true,
+      "fabricated_facts": [],
+      "overclaims": [],
+      "third_person": true,
+      "evidence_coverage": 1.0,
+      "summary": "Archive.org\u2019s external scan reveals an open directory listing, which can expose file names and potentially sensitive information. Such information disclosure can aid adversaries in mapping the environment and identifying further attack vectors.",
+      "outreach_angle": "Has your team evaluated the risks associated with publicly accessible directory listings and considered tightening access controls?"
+    },
+    {
+      "entity_key": "traxms.com",
+      "critical_category": "open_dir",
+      "cited_evidence_indices": [
+        0
+      ],
+      "critical_index": 0,
+      "citation_valid": true,
+      "critical_cited": true,
+      "fabricated_facts": [],
+      "overclaims": [],
+      "third_person": true,
+      "evidence_coverage": 1.0,
+      "summary": "Traxms.com has an open directory listing on its internet-facing server, which can expose file names and potentially sensitive information. Such information disclosure can aid attackers in reconnaissance and mapping the internal structure.",
+      "outreach_angle": "Would you be interested in a quick review of your web server configuration to ensure directory listings are properly restricted?"
+    },
+    {
+      "entity_key": "vacsax.co.uk",
+      "critical_category": "open_dir",
+      "cited_evidence_indices": [
+        0
+      ],
+      "critical_index": 0,
+      "citation_valid": true,
+      "critical_cited": true,
+      "fabricated_facts": [],
+      "overclaims": [],
+      "third_person": true,
+      "evidence_coverage": 1.0,
+      "summary": "vacsax.co.uk exposes an open directory listing, which can reveal file names and potentially sensitive information to anyone on the internet. Such information disclosure can aid attackers in mapping the internal structure and locating valuable assets.",
+      "outreach_angle": "Would you be interested in a quick review of how to secure your web directories and prevent unintended data exposure?"
+    },
+    {
+      "entity_key": "draytek.com",
+      "critical_category": "self_signed",
+      "cited_evidence_indices": [
+        0
+      ],
+      "critical_index": 0,
+      "citation_valid": true,
+      "critical_cited": true,
+      "fabricated_facts": [],
+      "overclaims": [],
+      "third_person": true,
+      "evidence_coverage": 1.0,
+      "summary": "The draytek.com domain presents a self\u2011signed TLS certificate, indicating broken certificate hygiene. This exposure could leave the site vulnerable to trust and encryption issues, as self\u2011signed certificates are not validated by trusted authorities.",
+      "outreach_angle": "Would you be interested in discussing how a managed PKI solution could replace the self\u2011signed certificate with a trusted, regularly\u2011rotated TLS certificate?"
+    },
+    {
+      "entity_key": "MVTV Wireless",
+      "critical_category": "self_signed",
+      "cited_evidence_indices": [
+        0
+      ],
+      "critical_index": 0,
+      "citation_valid": true,
+      "critical_cited": true,
+      "fabricated_facts": [],
+      "overclaims": [],
+      "third_person": true,
+      "evidence_coverage": 1.0,
+      "summary": "MVTV Wireless has an internet-facing service that presents a self\u2011signed TLS certificate, indicating broken certificate hygiene. This can undermine trust and may expose the service to man\u2011in\u2011the\u2011middle risks, especially since self\u2011signed certificates are not validated by trusted authorities.",
+      "outreach_angle": "Has your team considered replacing the self\u2011signed certificate with one issued by a trusted Certificate Authority to improve security and client trust?"
+    },
+    {
+      "entity_key": "vin65.com",
+      "critical_category": "self_signed",
+      "cited_evidence_indices": [
+        0
+      ],
+      "critical_index": 0,
+      "citation_valid": true,
+      "critical_cited": true,
+      "fabricated_facts": [],
+      "overclaims": [],
+      "third_person": true,
+      "evidence_coverage": 1.0,
+      "summary": "The account vin65.com hosts four internet-facing assets, all of which present a self\u2011signed TLS certificate, indicating broken certificate hygiene. This can expose the organization to trust and encryption issues, as self\u2011signed certificates are not validated by trusted authorities.",
+      "outreach_angle": "Has your team considered replacing the self\u2011signed certificates with publicly trusted ones to improve security and client confidence?"
+    },
+    {
+      "entity_key": "WOODSNET-PH",
+      "critical_category": "self_signed",
+      "cited_evidence_indices": [
+        0
+      ],
+      "critical_index": 0,
+      "citation_valid": true,
+      "critical_cited": true,
+      "fabricated_facts": [],
+      "overclaims": [],
+      "third_person": true,
+      "evidence_coverage": 1.0,
+      "summary": "WOODSNET-PH hosts an internet-facing service that presents a self\u2011signed TLS certificate, indicating broken certificate hygiene. Such misconfigurations can undermine trust and may expose the service to man\u2011in\u2011the\u2011middle risks.",
+      "outreach_angle": "Would you be interested in reviewing your TLS certificate management to ensure proper validation and reduce potential security concerns?"
+    },
+    {
+      "entity_key": "viettel.vn",
+      "critical_category": "iot_camera",
+      "cited_evidence_indices": [
+        0,
+        1,
+        2
+      ],
+      "critical_index": 0,
+      "citation_valid": true,
+      "critical_cited": true,
+      "fabricated_facts": [],
+      "overclaims": [],
+      "third_person": true,
+      "evidence_coverage": 1.0,
+      "summary": "The account exposes multiple IoT camera devices, specifically a Dahua-based DHI\u2011NVR1108HS\u2011S3/H and a Dahua DH\u2011XVR1A08, which are internet\u2011facing. Additionally, the services use a self\u2011signed TLS certificate, indicating weak certificate hygiene. These exposures can increase the attack surface of the network.",
+      "outreach_angle": "Would you be interested in discussing how to securely segment and harden your publicly exposed camera systems and improve TLS certificate management?"
+    },
+    {
+      "entity_key": "Broadband Services",
+      "critical_category": "iot_camera",
+      "cited_evidence_indices": [
+        0
+      ],
+      "critical_index": 0,
+      "citation_valid": true,
+      "critical_cited": true,
+      "fabricated_facts": [],
+      "overclaims": [],
+      "third_person": true,
+      "evidence_coverage": 1.0,
+      "summary": "Broadband Services has an internet-facing IoT camera system identified as a Dahua-based DVR. This type of device can be prone to vulnerabilities that may be exploitable if left exposed.",
+      "outreach_angle": "Would you be interested in a quick review of the security posture of your Dahua DVR to ensure it\u2019s properly protected?"
+    },
+    {
+      "entity_key": "vnpt.vn",
+      "critical_category": "iot_camera",
+      "cited_evidence_indices": [
+        0,
+        1
+      ],
+      "critical_index": 1,
+      "citation_valid": true,
+      "critical_cited": true,
+      "fabricated_facts": [],
+      "overclaims": [],
+      "third_person": true,
+      "evidence_coverage": 1.0,
+      "summary": "The vnpt.vn network uses a self\u2011signed TLS certificate, indicating broken certificate hygiene, and it publicly exposes a Hikvision IP camera device. Both findings suggest potential gaps in security controls for internet\u2011facing assets.",
+      "outreach_angle": "Would you be interested in a review of your TLS certificate management and secure configuration of IoT devices like the Hikvision camera?"
+    },
+    {
+      "entity_key": "NETBOX LTD",
+      "critical_category": "iot_camera",
+      "cited_evidence_indices": [
+        0
+      ],
+      "critical_index": 0,
+      "citation_valid": true,
+      "critical_cited": true,
+      "fabricated_facts": [],
+      "overclaims": [],
+      "third_person": true,
+      "evidence_coverage": 1.0,
+      "summary": "NETBOX LTD has an internet-facing Hikvision IP camera exposed to the public internet.",
+      "outreach_angle": "Has your team evaluated the security posture of the publicly accessible Hikvision camera and considered segmentation or firmware updates?"
+    },
+    {
+      "entity_key": "hosted-by-vdsina.ru",
+      "critical_category": "eol_product",
+      "cited_evidence_indices": [
+        0
+      ],
+      "critical_index": 0,
+      "citation_valid": true,
+      "critical_cited": true,
+      "fabricated_facts": [],
+      "overclaims": [],
+      "third_person": true,
+      "evidence_coverage": 1.0,
+      "summary": "The account hosted-by-vdsina.ru runs nginx version 1.26.3, which is identified as end-of-life software. Running an unsupported web server means it no longer receives security patches, increasing exposure risk.",
+      "outreach_angle": "Would you be interested in discussing how upgrading to a supported web server version could improve your security posture?"
+    },
+    {
+      "entity_key": "Orange WBC Broadband",
+      "critical_category": "eol_product",
+      "cited_evidence_indices": [
+        0
+      ],
+      "critical_index": 0,
+      "citation_valid": true,
+      "critical_cited": true,
+      "fabricated_facts": [],
+      "overclaims": [],
+      "third_person": true,
+      "evidence_coverage": 1.0,
+      "summary": "Orange WBC Broadband runs an internet\u2011facing service that includes nginx version 1.26.3, which is end\u2011of\u2011life and no longer receives security updates. Running unsupported software can leave the service vulnerable to known exploits.",
+      "outreach_angle": "Would you be interested in discussing how upgrading to a supported web server version could improve your security posture?"
+    },
+    {
+      "entity_key": "chatterxs.com",
+      "critical_category": "eol_product",
+      "cited_evidence_indices": [
+        0
+      ],
+      "critical_index": 0,
+      "citation_valid": true,
+      "critical_cited": true,
+      "fabricated_facts": [],
+      "overclaims": [],
+      "third_person": true,
+      "evidence_coverage": 1.0,
+      "summary": "The account hosts an internet-facing server running nginx version 1.27.5, which is identified as end-of-life software and no longer receives security updates. Running unsupported software can leave the system vulnerable to known exploits.",
+      "outreach_angle": "Would you be interested in discussing how upgrading to a supported web server version could improve your security posture?"
+    },
+    {
+      "entity_key": "epic.com.mt",
+      "critical_category": "eol_product",
+      "cited_evidence_indices": [
+        0
+      ],
+      "critical_index": 0,
+      "citation_valid": true,
+      "critical_cited": true,
+      "fabricated_facts": [],
+      "overclaims": [],
+      "third_person": true,
+      "evidence_coverage": 1.0,
+      "summary": "Epic.com.mt runs an internet-facing nginx 1.29.1 instance that is end-of-life and no longer receives security updates.",
+      "outreach_angle": "Would you be interested in discussing how upgrading or hardening your web server could reduce exposure to known vulnerabilities?"
+    }
+  ]
+}

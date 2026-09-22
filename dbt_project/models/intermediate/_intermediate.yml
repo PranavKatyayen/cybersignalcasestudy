@@ -1,0 +1,22 @@
+version: 2
+
+models:
+  - name: int_scored_entities
+    description: >
+      Entities with priority tiering applied (business logic layer -- see
+      the model's own header comment for where the tier thresholds come from).
+    columns:
+      - name: entity_key
+        tests:
+          - not_null
+          - unique
+      - name: priority_tier
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['CRITICAL', 'HIGH', 'MEDIUM', 'LOW']
+      - name: priority_rank
+        tests:
+          - not_null
+          - unique

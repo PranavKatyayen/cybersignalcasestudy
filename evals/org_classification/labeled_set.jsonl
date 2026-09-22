@@ -1,0 +1,25 @@
+{"org_name": "Google LLC", "expected": "infra", "note": "Cloud provider"}
+{"org_name": "Incapsula Inc", "expected": "infra", "note": "CDN/WAF provider (Imperva)"}
+{"org_name": "Cloudflare, Inc.", "expected": "infra", "note": "CDN provider"}
+{"org_name": "Amazon.com, Inc.", "expected": "infra", "note": "Cloud provider"}
+{"org_name": "Aliyun Computing Co., LTD", "expected": "infra", "note": "Alibaba Cloud"}
+{"org_name": "Korea Telecom", "expected": "infra", "note": "National telecom/ISP"}
+{"org_name": "Microsoft Corporation", "expected": "infra", "note": "Cloud provider (Azure)"}
+{"org_name": "Hetzner Online GmbH", "expected": "infra", "note": "Dedicated server/hosting provider"}
+{"org_name": "DigitalOcean, LLC", "expected": "infra", "note": "Cloud hosting provider"}
+{"org_name": "Fiserv Solutions, LLC", "expected": "end_business", "note": "Fintech/payments company, not a reseller of hosting"}
+{"org_name": "Egnyte Inc.", "expected": "end_business", "note": "SaaS content-collaboration company"}
+{"org_name": "Bitly Inc", "expected": "end_business", "note": "URL-shortening SaaS product company"}
+{"org_name": "Avago Technologies U.S. Inc.", "expected": "end_business", "note": "Semiconductor manufacturer (now Broadcom)"}
+{"org_name": "Uzbektelekom Joint Stock Company", "expected": "infra", "note": "National telecom"}
+{"org_name": "Scancom Limited", "expected": "infra", "note": "Operates as MTN Ghana, a mobile telecom"}
+{"org_name": "PEG TECH INC", "expected": "end_business", "note": "Ambiguous small tech company name -- kept for difficulty"}
+{"org_name": "ACEVILLE PTE.LTD.", "expected": "end_business", "note": "Singapore-registered company, not a known hosting brand"}
+{"org_name": "A100 ROW GmbH", "expected": "infra", "note": "Colocation/hosting provider (regional, low brand recognition -- hard case)"}
+{"org_name": "IONOS SE", "expected": "infra", "note": "Web hosting / cloud provider"}
+{"org_name": "Sakura Internet Inc.", "expected": "infra", "note": "Japanese cloud/hosting provider"}
+{"org_name": "Charter Communications LLC", "expected": "infra", "note": "Cable ISP (Spectrum)"}
+{"org_name": "Deutsche Telekom AG", "expected": "infra", "note": "National telecom/ISP"}
+{"org_name": "Huawei Public Cloud Service (Huawei Software Technologies Ltd.Co)", "expected": "infra", "note": "Cloud provider"}
+{"org_name": "CENCOM INC", "expected": "end_business", "note": "Not a recognized hosting/telecom brand"}
+{"org_name": "RailTel Corporation is an ISP.", "expected": "infra", "note": "Explicitly self-describes as ISP in the string itself"}

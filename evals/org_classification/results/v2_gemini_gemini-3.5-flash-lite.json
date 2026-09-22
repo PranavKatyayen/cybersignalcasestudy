@@ -1,0 +1,224 @@
+{
+  "skill": "org_classification",
+  "prompt_version": "v2",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp": "2026-09-19T17:35:59",
+  "accuracy": 0.92,
+  "infra_metrics": {
+    "tp": 17,
+    "fp": 1,
+    "fn": 1,
+    "precision": 0.9444444444444444,
+    "recall": 0.9444444444444444
+  },
+  "end_business_metrics": {
+    "tp": 6,
+    "fp": 1,
+    "fn": 1,
+    "precision": 0.8571428571428571,
+    "recall": 0.8571428571428571
+  },
+  "records": [
+    {
+      "org_name": "Google LLC",
+      "expected": "infra",
+      "predicted": "infra",
+      "confidence": 0.95,
+      "reasoning": "Google operates a massive cloud and hosting infrastructure (Google Cloud Platform) that serves millions of third-party customers.",
+      "correct": true
+    },
+    {
+      "org_name": "Incapsula Inc",
+      "expected": "infra",
+      "predicted": "infra",
+      "confidence": 0.95,
+      "reasoning": "Incapsula is a known cloud-based WAF and CDN provider whose IP space serves many third-party websites.",
+      "correct": true
+    },
+    {
+      "org_name": "Cloudflare, Inc.",
+      "expected": "infra",
+      "predicted": "infra",
+      "confidence": 1.0,
+      "reasoning": "Cloudflare is a major CDN and web infrastructure provider whose IP space serves millions of third-party websites.",
+      "correct": true
+    },
+    {
+      "org_name": "Amazon.com, Inc.",
+      "expected": "infra",
+      "predicted": "infra",
+      "confidence": 0.95,
+      "reasoning": "Amazon operates AWS, a massive cloud infrastructure provider whose IP space hosts third-party services.",
+      "correct": true
+    },
+    {
+      "org_name": "Aliyun Computing Co., LTD",
+      "expected": "infra",
+      "predicted": "infra",
+      "confidence": 0.99,
+      "reasoning": "Aliyun is Alibaba's cloud computing and web hosting subsidiary, providing infrastructure services to third parties.",
+      "correct": true
+    },
+    {
+      "org_name": "Korea Telecom",
+      "expected": "infra",
+      "predicted": "infra",
+      "confidence": 0.95,
+      "reasoning": "Korea Telecom is a major telecommunications and internet service provider providing connectivity and infrastructure services.",
+      "correct": true
+    },
+    {
+      "org_name": "Microsoft Corporation",
+      "expected": "infra",
+      "predicted": "infra",
+      "confidence": 0.95,
+      "reasoning": "Microsoft operates a major cloud infrastructure provider (Azure) that hosts third-party services.",
+      "correct": true
+    },
+    {
+      "org_name": "Hetzner Online GmbH",
+      "expected": "infra",
+      "predicted": "infra",
+      "confidence": 1.0,
+      "reasoning": "Hetzner Online GmbH is a well-known web hosting and datacenter provider that sells server infrastructure to third-party customers.",
+      "correct": true
+    },
+    {
+      "org_name": "DigitalOcean, LLC",
+      "expected": "infra",
+      "predicted": "infra",
+      "confidence": 1.0,
+      "reasoning": "DigitalOcean is a major cloud hosting provider whose IP space is used to host third-party websites and services.",
+      "correct": true
+    },
+    {
+      "org_name": "Fiserv Solutions, LLC",
+      "expected": "end_business",
+      "predicted": "end_business",
+      "confidence": 0.9,
+      "reasoning": "Fiserv Solutions is a financial services technology company that uses its IP space for its own corporate and product operations rather than third-party cloud hosting.",
+      "correct": true
+    },
+    {
+      "org_name": "Egnyte Inc.",
+      "expected": "end_business",
+      "predicted": "end_business",
+      "confidence": 0.9,
+      "reasoning": "Egnyte Inc. is a software product company providing cloud file management and governance solutions for its own business operations.",
+      "correct": true
+    },
+    {
+      "org_name": "Bitly Inc",
+      "expected": "end_business",
+      "predicted": "end_business",
+      "confidence": 0.9,
+      "reasoning": "Bitly operates its own link management and shortening software platform rather than providing general cloud hosting or ISP services.",
+      "correct": true
+    },
+    {
+      "org_name": "Avago Technologies U.S. Inc.",
+      "expected": "end_business",
+      "predicted": "end_business",
+      "confidence": 0.9,
+      "reasoning": "Avago Technologies is a designer and developer of analog and digital semiconductor devices for its own corporate and industrial operations.",
+      "correct": true
+    },
+    {
+      "org_name": "Uzbektelekom Joint Stock Company",
+      "expected": "infra",
+      "predicted": "infra",
+      "confidence": 0.95,
+      "reasoning": "Uzbektelekom is a national telecommunications operator providing internet connectivity and infrastructure services.",
+      "correct": true
+    },
+    {
+      "org_name": "Scancom Limited",
+      "expected": "infra",
+      "predicted": "infra",
+      "confidence": 0.85,
+      "reasoning": "Scancom Limited operates as a major telecommunications provider (Areeba/MTN Ghana), supplying network and internet connectivity.",
+      "correct": true
+    },
+    {
+      "org_name": "PEG TECH INC",
+      "expected": "end_business",
+      "predicted": "end_business",
+      "confidence": 0.5,
+      "reasoning": "The name suggests a technology business likely operating for its own use rather than as an infrastructure or cloud provider.",
+      "correct": true
+    },
+    {
+      "org_name": "ACEVILLE PTE.LTD.",
+      "expected": "end_business",
+      "predicted": "end_business",
+      "confidence": 0.5,
+      "reasoning": "The name suggests a private commercial company rather than an internet service provider, cloud host, or telecommunications infrastructure operator.",
+      "correct": true
+    },
+    {
+      "org_name": "A100 ROW GmbH",
+      "expected": "infra",
+      "predicted": "end_business",
+      "confidence": 0.5,
+      "reasoning": "The name suggests a standard corporate entity rather than a recognized infrastructure or hosting provider.",
+      "correct": false
+    },
+    {
+      "org_name": "IONOS SE",
+      "expected": "infra",
+      "predicted": "infra",
+      "confidence": 0.95,
+      "reasoning": "IONOS SE is a major web hosting and cloud provider offering infrastructure services to third parties.",
+      "correct": true
+    },
+    {
+      "org_name": "Sakura Internet Inc.",
+      "expected": "infra",
+      "predicted": "infra",
+      "confidence": 0.95,
+      "reasoning": "Sakura Internet is a major Japanese ISP, cloud provider, and data center operator providing hosting services to third parties.",
+      "correct": true
+    },
+    {
+      "org_name": "Charter Communications LLC",
+      "expected": "infra",
+      "predicted": "infra",
+      "confidence": 0.95,
+      "reasoning": "Charter Communications is a major telecommunications and internet service provider offering connectivity to end users.",
+      "correct": true
+    },
+    {
+      "org_name": "Deutsche Telekom AG",
+      "expected": "infra",
+      "predicted": "infra",
+      "confidence": 0.95,
+      "reasoning": "Deutsche Telekom AG is a major telecommunications and internet service provider offering connectivity to third parties.",
+      "correct": true
+    },
+    {
+      "org_name": "Huawei Public Cloud Service (Huawei Software Technologies Ltd.Co)",
+      "expected": "infra",
+      "predicted": "infra",
+      "confidence": 0.95,
+      "reasoning": "The organization provides public cloud services, acting as a cloud provider and hosting infrastructure for third parties.",
+      "correct": true
+    },
+    {
+      "org_name": "CENCOM INC",
+      "expected": "end_business",
+      "predicted": "infra",
+      "confidence": 0.7,
+      "reasoning": "Cencom Inc is typically a regional telecommunications and internet service provider, which places it in the infrastructure category.",
+      "correct": false
+    },
+    {
+      "org_name": "RailTel Corporation is an ISP.",
+      "expected": "infra",
+      "predicted": "infra",
+      "confidence": 1.0,
+      "reasoning": "RailTel Corporation is explicitly described as an ISP, providing connectivity services.",
+      "correct": true
+    }
+  ]
+}
