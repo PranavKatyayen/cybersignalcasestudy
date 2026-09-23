@@ -2,12 +2,14 @@
 
 ## The data decides the product
 
-The supplied file is internet-scan data (one record per IP and port: banner, organization, location, software, CVEs), not a company list. I inspected a 30,000-record sample of the ~11 GB file before designing anything. Two findings shaped the product:
+The supplied file is internet-scan data (one record per IP and port: banner, organization, location, software, CVEs), not a company list. I inspected a 100,000+ record sample of the ~11 GB file before designing anything. Two findings shaped the product:
 
-1. **It is a single ~12-minute snapshot** (14 September 2026). There is no history, so the product never claims a trend such as "exposure is getting worse".
-2. **The usable signal is externally visible security exposure**, not company size, industry or funding. That gives *need* signals (a known CVE, end-of-life software, an exposed remote-access port), not *fit* or *intent* signals.
+1.	It is a small snapshot in which no history, so the product never claims a trend such as "exposure is getting worse".
 
-So the product is **CyberSignal: external exposure intelligence for a security sales team**.
+2.	The usable signal is externally visible security exposure, not company size, industry or funding. That gives need signals (a known CVE, end-of-life software, an exposed remote-access port), not fit or intent signals.
+
+So the product is CyberSignal: external exposure intelligence for a security sales team.
+
 
 ## Use cases chosen
 
