@@ -39,4 +39,4 @@ jobs:
       - name: Generate route types
         run: npx next typegen
       - name: Type check
-        run: npx tsc --noEmit
+        run: npx tsc --noEmitt
