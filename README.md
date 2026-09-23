@@ -36,14 +36,8 @@ prompts are versioned files that the code actually loads; every LLM skill has a 
 | `evals/` | Labelled sets, harnesses and real results for org classification, briefs, and the chat assistant |
 | `data/curated/` | Pipeline outputs that were loaded into Snowflake |
 | `traces/` | Aggregate + sample of the LLM call log (the full log stays local) |
-| `docs/` | Planning, architecture and the how-I-built-this reflection (Markdown, with Word versions in `docs/word/`) |
+| `docs/` | Planning, architecture and the how-I-built-this reflection  |
 
-## Documentation
-
-- [`docs/planning.md`](docs/planning.md) - the use cases chosen and why, what was left out, how it maps to B2B prospecting
-- [`docs/architecture.md`](docs/architecture.md) - how the pieces fit, the rule-vs-LLM split, design decisions and trade-offs, the cost model and ceiling
-- [`docs/how_i_built_this.md`](docs/how_i_built_this.md) - dev loop and tools, where AI helped and cost more, one weakness to flag
-- Word versions of the three: [`docs/word/`](docs/word/)
 
 ## Quick start
 
@@ -69,7 +63,7 @@ LLM provider is chosen per skill (`LLM_PROVIDER_<SKILL>`), then globally (`LLM_P
 
 ## Honest limits
 
-- The dataset is a single ~12-minute scan snapshot: no trend or change claims are made anywhere.
+- The dataset is a small scan snapshot: no trend or change claims are made anywhere.
 - Scores measure *need* (visible weakness), not *fit* (company size, industry) or *intent*.
 - Evals are small (25 and 23 labelled examples plus 12 chat questions); v2 prompts were written after seeing v1's failures on the
   same sets, and some checks are keyword-based. Results and caveats are in `skills/*/SKILL.md` and `evals/*/results/`.
