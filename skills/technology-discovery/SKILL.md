@@ -74,4 +74,4 @@ exists.
 - **One-off device models** (`dahua dh-xvr1a08`) arrive as separate technologies; review rolls them up to the vendor.
 - The labelled set is small and was a first pass written by reading banners and hostnames, and the scanner had already
   parsed most fields. It mainly guards normalization, versions and false positives.
-- One real miss remains: WordPress identified only from a `wp-json` link in a banner is not detected.
+- The one miss the eval had (WordPress seen only in a `Link: wp-json` header) is fixed by a `banner_patterns` rule: WordPress now appears in 72 scan records instead of 21 and the eval reaches 100%. The labelled record had also lost that header, so `build_labeled_set.py` now keeps `link:` lines. A 100% on 38 records is a regression guard, not proof of coverage.

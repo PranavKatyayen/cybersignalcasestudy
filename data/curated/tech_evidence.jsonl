@@ -495,6 +495,7 @@
 {"entity_key": "adns.de", "technology": "Apache HTTP Server", "version": null, "source": "cpe", "signal": "cpe:2.3:a:apache:http_server", "ip": "217.31.83.151", "port": 443, "country": "Germany"}
 {"entity_key": "adns.de", "technology": "Apache HTTP Server", "version": null, "source": "product", "signal": "Apache httpd", "ip": "217.31.83.151", "port": 443, "country": "Germany"}
 {"entity_key": "adns.de", "technology": "Apache HTTP Server", "version": null, "source": "server_header", "signal": "Apache", "ip": "217.31.83.151", "port": 443, "country": "Germany"}
+{"entity_key": "adns.de", "technology": "WordPress", "version": null, "source": "banner", "signal": "Link: <https://www.gruener-systemtechnik.de/wp-json/>; rel=\"https://api.w.org/\", <https://www.gruener-systemtechnik.de/w", "ip": "217.31.83.151", "port": 443, "country": "Germany"}
 {"entity_key": "adns.de", "technology": "WordPress", "version": "7.1", "source": "cpe", "signal": "cpe:2.3:a:wordpress:wordpress:7.1", "ip": "217.31.83.151", "port": 443, "country": "Germany"}
 {"entity_key": "adrianluca.de", "technology": "Apache HTTP Server", "version": null, "source": "component", "signal": "Apache HTTP Server", "ip": "5.189.131.171", "port": 80, "country": "Germany"}
 {"entity_key": "adrianluca.de", "technology": "Apache HTTP Server", "version": "2.4.58", "source": "cpe", "signal": "cpe:2.3:a:apache:http_server:2.4.58", "ip": "5.189.131.171", "port": 80, "country": "Germany"}
@@ -534,6 +535,7 @@
 {"entity_key": "aemandassociates.com", "technology": "Apache HTTP Server", "version": null, "source": "cpe", "signal": "cpe:2.3:a:apache:http_server", "ip": "162.255.164.224", "port": 443, "country": "United States"}
 {"entity_key": "aemandassociates.com", "technology": "Apache HTTP Server", "version": null, "source": "product", "signal": "Apache httpd", "ip": "162.255.164.224", "port": 443, "country": "United States"}
 {"entity_key": "aemandassociates.com", "technology": "Apache HTTP Server", "version": null, "source": "server_header", "signal": "Apache", "ip": "162.255.164.224", "port": 443, "country": "United States"}
+{"entity_key": "aemandassociates.com", "technology": "WordPress", "version": null, "source": "banner", "signal": "Link: <https://aemandassociates.com/wp-json/>; rel=\"https://api.w.org/\", <https://aemandassociates.com/wp-json", "ip": "162.255.164.224", "port": 443, "country": "United States"}
 {"entity_key": "aenetworks.com", "technology": "AWS", "version": null, "source": "cloud", "signal": "Amazon", "ip": "100.55.229.107", "port": 443, "country": "United States"}
 {"entity_key": "aenetworks.com", "technology": "AWS", "version": null, "source": "cloud", "signal": "Amazon", "ip": "3.169.183.13", "port": 443, "country": "United States"}
 {"entity_key": "aenetworks.com", "technology": "AWS", "version": null, "source": "component", "signal": "Amazon Web Services", "ip": "3.169.183.13", "port": 443, "country": "United States"}
@@ -660,6 +662,7 @@
 {"entity_key": "akb.ch", "technology": "Apache HTTP Server", "version": null, "source": "server_header", "signal": "Apache", "ip": "193.222.68.101", "port": 443, "country": "Switzerland"}
 {"entity_key": "akuamana.com", "technology": "Apache HTTP Server", "version": null, "source": "server_header", "signal": "Apache", "ip": "157.7.107.88", "port": 80, "country": "Japan"}
 {"entity_key": "akuamana.com", "technology": "PHP", "version": "7.1.33", "source": "cpe", "signal": "cpe:2.3:a:php:php:7.1.33", "ip": "157.7.107.88", "port": 80, "country": "Japan"}
+{"entity_key": "akuamana.com", "technology": "WordPress", "version": null, "source": "banner", "signal": "Link: <https://cure.akuamana.com/wp-json/>; rel=\"https://api.w.org", "ip": "157.7.107.88", "port": 80, "country": "Japan"}
 {"entity_key": "akutagawa.co.jp", "technology": "Apache HTTP Server", "version": null, "source": "cpe", "signal": "cpe:2.3:a:apache:http_server", "ip": "60.43.224.186", "port": 443, "country": "Japan"}
 {"entity_key": "akutagawa.co.jp", "technology": "Apache HTTP Server", "version": null, "source": "product", "signal": "Apache httpd", "ip": "60.43.224.186", "port": 443, "country": "Japan"}
 {"entity_key": "akutagawa.co.jp", "technology": "Apache HTTP Server", "version": null, "source": "server_header", "signal": "Apache", "ip": "60.43.224.186", "port": 443, "country": "Japan"}
@@ -1017,6 +1020,7 @@
 {"entity_key": "ansaol.ie", "technology": "Apache HTTP Server", "version": null, "source": "product", "signal": "Apache httpd", "ip": "78.153.218.43", "port": 443, "country": "Ireland"}
 {"entity_key": "ansaol.ie", "technology": "Apache HTTP Server", "version": null, "source": "server_header", "signal": "Apache", "ip": "78.153.218.43", "port": 443, "country": "Ireland"}
 {"entity_key": "ansaol.ie", "technology": "PHP", "version": "5.3.3", "source": "cpe", "signal": "cpe:2.3:a:php:php:5.3.3", "ip": "78.153.218.43", "port": 443, "country": "Ireland"}
+{"entity_key": "ansaol.ie", "technology": "WordPress", "version": null, "source": "banner", "signal": "Link: <https://ansaol.ie/wp-json/>; rel=\"https://api.w.org", "ip": "78.153.218.43", "port": 443, "country": "Ireland"}
 {"entity_key": "ansaol.ie", "technology": "WordPress", "version": "4.5.3", "source": "cpe", "signal": "cpe:2.3:a:wordpress:wordpress:4.5.3", "ip": "78.153.218.43", "port": 443, "country": "Ireland"}
 {"entity_key": "antheapeche.com", "technology": "cPanel & WHM", "version": null, "source": "cpe", "signal": "cpe:2.3:a:cpanel:whm", "ip": "108.174.195.142", "port": 2087, "country": "United States"}
 {"entity_key": "antheapeche.com", "technology": "cPanel & WHM", "version": null, "source": "product", "signal": "WHM", "ip": "108.174.195.142", "port": 2087, "country": "United States"}
@@ -1565,6 +1569,7 @@
 {"entity_key": "bathmaster.com", "technology": "Apache HTTP Server", "version": null, "source": "cpe", "signal": "cpe:2.3:a:apache:http_server", "ip": "3.99.19.112", "port": 443, "country": "Canada"}
 {"entity_key": "bathmaster.com", "technology": "Apache HTTP Server", "version": null, "source": "product", "signal": "Apache httpd", "ip": "3.99.19.112", "port": 443, "country": "Canada"}
 {"entity_key": "bathmaster.com", "technology": "Apache HTTP Server", "version": null, "source": "server_header", "signal": "Apache", "ip": "3.99.19.112", "port": 443, "country": "Canada"}
+{"entity_key": "bathmaster.com", "technology": "WordPress", "version": null, "source": "banner", "signal": "Link: <https://www.example.bathmaster.com/wp-json/>; rel=\"https://api.w.org/\", <https://www.example.bathmaster.com/wp-js", "ip": "3.99.19.112", "port": 443, "country": "Canada"}
 {"entity_key": "bayad.com", "technology": "AWS", "version": null, "source": "cloud", "signal": "Amazon", "ip": "3.169.173.38", "port": 80, "country": "United States"}
 {"entity_key": "bayad.com", "technology": "AWS", "version": null, "source": "component", "signal": "Amazon Web Services", "ip": "3.169.173.38", "port": 80, "country": "United States"}
 {"entity_key": "bayad.com", "technology": "Amazon CloudFront", "version": null, "source": "cloud", "signal": "Amazon:CLOUDFRONT", "ip": "3.169.173.38", "port": 80, "country": "United States"}
@@ -1768,6 +1773,7 @@
 {"entity_key": "biotronik.com", "technology": "Nginx", "version": null, "source": "server_header", "signal": "nginx", "ip": "137.184.218.136", "port": 443, "country": "United States"}
 {"entity_key": "birthindueseason.org", "technology": "Cloudflare", "version": null, "source": "cpe", "signal": "cpe:2.3:a:cloudflare:cloudflare", "ip": "172.67.164.146", "port": 443, "country": "United States"}
 {"entity_key": "birthindueseason.org", "technology": "Cloudflare", "version": null, "source": "server_header", "signal": "cloudflare", "ip": "172.67.164.146", "port": 443, "country": "United States"}
+{"entity_key": "birthindueseason.org", "technology": "WordPress", "version": null, "source": "banner", "signal": "link: <https://birthindueseason.org/wp-json/>; rel=\"https://api.w.org", "ip": "172.67.164.146", "port": 443, "country": "United States"}
 {"entity_key": "bisecthosting.com", "technology": "Ncat", "version": null, "source": "product", "signal": "Ncat http proxy", "ip": "192.99.174.93", "port": 8080, "country": "Canada"}
 {"entity_key": "bisnet.co.za", "technology": "OpenSSH", "version": "7.4", "source": "cpe", "signal": "cpe:2.3:a:openbsd:openssh:7.4", "ip": "95.216.149.58", "port": 22, "country": "Finland"}
 {"entity_key": "bisnet.co.za", "technology": "OpenSSH", "version": "7.4", "source": "product", "signal": "OpenSSH", "ip": "95.216.149.58", "port": 22, "country": "Finland"}
@@ -1787,6 +1793,7 @@
 {"entity_key": "bkworks-design.com", "technology": "Apache HTTP Server", "version": null, "source": "product", "signal": "Apache httpd", "ip": "133.130.64.144", "port": 443, "country": "Japan"}
 {"entity_key": "bkworks-design.com", "technology": "Apache HTTP Server", "version": null, "source": "server_header", "signal": "Apache", "ip": "133.130.64.144", "port": 443, "country": "Japan"}
 {"entity_key": "bkworks-design.com", "technology": "PHP", "version": "8.4.21", "source": "cpe", "signal": "cpe:2.3:a:php:php:8.4.21", "ip": "133.130.64.144", "port": 443, "country": "Japan"}
+{"entity_key": "bkworks-design.com", "technology": "WordPress", "version": null, "source": "banner", "signal": "Link: <https://bkworks-design.com/wp-json/>; rel=\"https://api.w.org", "ip": "133.130.64.144", "port": 443, "country": "Japan"}
 {"entity_key": "blacklandsmalt.com", "technology": "Cloudflare", "version": null, "source": "component", "signal": "Cloudflare", "ip": "104.21.45.10", "port": 80, "country": "United States"}
 {"entity_key": "blacklandsmalt.com", "technology": "Cloudflare", "version": null, "source": "cpe", "signal": "cpe:2.3:a:cloudflare:cloudflare", "ip": "104.21.45.10", "port": 80, "country": "United States"}
 {"entity_key": "blacklandsmalt.com", "technology": "Cloudflare", "version": null, "source": "server_header", "signal": "cloudflare", "ip": "104.21.45.10", "port": 80, "country": "United States"}
@@ -2368,6 +2375,7 @@
 {"entity_key": "cfch.com.au", "technology": "Cloudflare", "version": null, "source": "server_header", "signal": "cloudflare", "ip": "172.67.202.27", "port": 80, "country": "United States"}
 {"entity_key": "cfcrozier.ca", "technology": "Cloudflare", "version": null, "source": "cpe", "signal": "cpe:2.3:a:cloudflare:cloudflare", "ip": "172.67.214.179", "port": 443, "country": "United States"}
 {"entity_key": "cfcrozier.ca", "technology": "Cloudflare", "version": null, "source": "server_header", "signal": "cloudflare", "ip": "172.67.214.179", "port": 443, "country": "United States"}
+{"entity_key": "cfcrozier.ca", "technology": "WordPress", "version": null, "source": "banner", "signal": "link: <https://www.cfcrozier.ca/wp-json/>; rel=\"https://api.w.org", "ip": "172.67.214.179", "port": 443, "country": "United States"}
 {"entity_key": "changehealthcare.com", "technology": "Akamai", "version": null, "source": "hostname", "signal": "a184-86-170-161.deploy.static.akamaitechnologies.com", "ip": "184.86.170.161", "port": 443, "country": "United States"}
 {"entity_key": "changehealthcare.com", "technology": "Akamai", "version": null, "source": "product", "signal": "AkamaiGHost", "ip": "184.86.170.161", "port": 443, "country": "United States"}
 {"entity_key": "changehealthcare.com", "technology": "Akamai", "version": null, "source": "server_header", "signal": "AkamaiGHost", "ip": "184.86.170.161", "port": 443, "country": "United States"}
@@ -2408,6 +2416,7 @@
 {"entity_key": "choreservicelh.org", "technology": "MySQL", "version": null, "source": "cpe", "signal": "cpe:2.3:a:mysql:mysql", "ip": "172.67.220.20", "port": 443, "country": "United States"}
 {"entity_key": "choreservicelh.org", "technology": "PHP", "version": null, "source": "component", "signal": "PHP", "ip": "172.67.220.20", "port": 443, "country": "United States"}
 {"entity_key": "choreservicelh.org", "technology": "PHP", "version": null, "source": "cpe", "signal": "cpe:2.3:a:php:php", "ip": "172.67.220.20", "port": 443, "country": "United States"}
+{"entity_key": "choreservicelh.org", "technology": "WordPress", "version": null, "source": "banner", "signal": "Link: <https://choreservicelh.org/wp-json/>; rel=\"https://api.w.org", "ip": "172.67.220.20", "port": 443, "country": "United States"}
 {"entity_key": "choreservicelh.org", "technology": "WordPress", "version": null, "source": "component", "signal": "WordPress Block Editor", "ip": "172.67.220.20", "port": 443, "country": "United States"}
 {"entity_key": "choreservicelh.org", "technology": "WordPress", "version": "7.1", "source": "cpe", "signal": "cpe:2.3:a:wordpress:wordpress:7.1", "ip": "172.67.220.20", "port": 443, "country": "United States"}
 {"entity_key": "choreservicelh.org", "technology": "Yoast SEO", "version": null, "source": "component", "signal": "Yoast SEO", "ip": "172.67.220.20", "port": 443, "country": "United States"}
@@ -3632,6 +3641,7 @@
 {"entity_key": "considercreative.co.uk", "technology": "Nginx", "version": null, "source": "cpe", "signal": "cpe:2.3:a:f5:nginx", "ip": "23.185.0.4", "port": 443, "country": "United States"}
 {"entity_key": "considercreative.co.uk", "technology": "Nginx", "version": null, "source": "product", "signal": "nginx", "ip": "23.185.0.4", "port": 443, "country": "United States"}
 {"entity_key": "considercreative.co.uk", "technology": "Nginx", "version": null, "source": "server_header", "signal": "nginx", "ip": "23.185.0.4", "port": 443, "country": "United States"}
+{"entity_key": "considercreative.co.uk", "technology": "WordPress", "version": null, "source": "banner", "signal": "Link: <https://considercreative.co.uk/wp-json/>; rel=\"https://api.w.org", "ip": "23.185.0.4", "port": 443, "country": "United States"}
 {"entity_key": "controlprint.com", "technology": "AWS", "version": null, "source": "cloud", "signal": "Amazon", "ip": "65.1.234.111", "port": 443, "country": "India"}
 {"entity_key": "controlprint.com", "technology": "AWS", "version": null, "source": "component", "signal": "Amazon Web Services", "ip": "65.1.234.111", "port": 443, "country": "India"}
 {"entity_key": "controlprint.com", "technology": "AWS", "version": null, "source": "hostname", "signal": "amazonaws.com", "ip": "65.1.234.111", "port": 443, "country": "India"}
@@ -3673,6 +3683,7 @@
 {"entity_key": "coreserver.jp", "technology": "OpenResty", "version": "1.31.1.1", "source": "cpe", "signal": "cpe:2.3:a:openresty:lua-nginx-module:1.31.1.1", "ip": "163.44.176.11", "port": 80, "country": "Japan"}
 {"entity_key": "coreserver.jp", "technology": "OpenResty", "version": "1.31.1.1", "source": "product", "signal": "OpenResty", "ip": "163.44.176.11", "port": 80, "country": "Japan"}
 {"entity_key": "coreserver.jp", "technology": "OpenResty", "version": "1.31.1.1", "source": "server_header", "signal": "openresty/1.31.1.1", "ip": "163.44.176.11", "port": 80, "country": "Japan"}
+{"entity_key": "coreserver.jp", "technology": "WordPress", "version": null, "source": "banner", "signal": "Link: <https://world.food-stadium.com/wp-json/>; rel=\"https://api.w.org", "ip": "202.172.28.160", "port": 80, "country": "Japan"}
 {"entity_key": "coronishealth.com", "technology": "Cloudflare", "version": null, "source": "component", "signal": "Cloudflare", "ip": "141.193.213.11", "port": 443, "country": "Germany"}
 {"entity_key": "coronishealth.com", "technology": "Cloudflare", "version": null, "source": "cpe", "signal": "cpe:2.3:a:cloudflare:cloudflare", "ip": "141.193.213.11", "port": 443, "country": "Germany"}
 {"entity_key": "coronishealth.com", "technology": "Cloudflare", "version": null, "source": "server_header", "signal": "cloudflare", "ip": "141.193.213.11", "port": 443, "country": "Germany"}
@@ -3739,6 +3750,7 @@
 {"entity_key": "creditandmanagementsystems.com", "technology": "PHP", "version": "5.6.34", "source": "cpe", "signal": "cpe:2.3:a:php:php:5.6.34", "ip": "209.17.116.7", "port": 443, "country": "United States"}
 {"entity_key": "creditandmanagementsystems.com", "technology": "Windows", "version": null, "source": "cpe", "signal": "cpe:2.3:o:microsoft:windows", "ip": "209.17.116.7", "port": 443, "country": "United States"}
 {"entity_key": "creditandmanagementsystems.com", "technology": "Windows", "version": null, "source": "os", "signal": "Windows", "ip": "209.17.116.7", "port": 443, "country": "United States"}
+{"entity_key": "creditandmanagementsystems.com", "technology": "WordPress", "version": null, "source": "banner", "signal": "Link: <https://www.icmsglobal.com/wp-json/>; rel=\"https://api.w.org", "ip": "209.17.116.7", "port": 443, "country": "United States"}
 {"entity_key": "creditandmanagementsystems.com", "technology": "WordPress", "version": "5.2.2", "source": "cpe", "signal": "cpe:2.3:a:wordpress:wordpress:5.2.2", "ip": "209.17.116.7", "port": 443, "country": "United States"}
 {"entity_key": "creditbookapi.com", "technology": "AWS", "version": null, "source": "cloud", "signal": "Amazon", "ip": "18.142.150.169", "port": 443, "country": "Singapore"}
 {"entity_key": "creditbookapi.com", "technology": "AWS", "version": null, "source": "hostname", "signal": "amazonaws.com", "ip": "18.142.150.169", "port": 443, "country": "Singapore"}
@@ -3784,6 +3796,7 @@
 {"entity_key": "crsdenver.com", "technology": "Nginx", "version": null, "source": "cpe", "signal": "cpe:2.3:a:f5:nginx", "ip": "35.208.174.148", "port": 443, "country": "United States"}
 {"entity_key": "crsdenver.com", "technology": "Nginx", "version": null, "source": "product", "signal": "nginx", "ip": "35.208.174.148", "port": 443, "country": "United States"}
 {"entity_key": "crsdenver.com", "technology": "Nginx", "version": null, "source": "server_header", "signal": "nginx", "ip": "35.208.174.148", "port": 443, "country": "United States"}
+{"entity_key": "crsdenver.com", "technology": "WordPress", "version": null, "source": "banner", "signal": "Link: <https://crsdenver.com/wp-json/>; rel=\"https://api.w.org", "ip": "35.208.174.148", "port": 443, "country": "United States"}
 {"entity_key": "crsroofing-reading.co.uk", "technology": "Cloudflare", "version": null, "source": "component", "signal": "Cloudflare", "ip": "104.21.27.134", "port": 80, "country": "United States"}
 {"entity_key": "crsroofing-reading.co.uk", "technology": "Cloudflare", "version": null, "source": "cpe", "signal": "cpe:2.3:a:cloudflare:cloudflare", "ip": "104.21.27.134", "port": 80, "country": "United States"}
 {"entity_key": "crsroofing-reading.co.uk", "technology": "Cloudflare", "version": null, "source": "server_header", "signal": "cloudflare", "ip": "104.21.27.134", "port": 80, "country": "United States"}
@@ -3845,6 +3858,7 @@
 {"entity_key": "custompools.com", "technology": "Nginx", "version": null, "source": "product", "signal": "nginx", "ip": "72.55.253.12", "port": 443, "country": "United States"}
 {"entity_key": "custompools.com", "technology": "Nginx", "version": null, "source": "server_header", "signal": "nginx", "ip": "72.55.253.12", "port": 443, "country": "United States"}
 {"entity_key": "custompools.com", "technology": "PHP", "version": "7.4.33", "source": "cpe", "signal": "cpe:2.3:a:php:php:7.4.33", "ip": "72.55.253.12", "port": 443, "country": "United States"}
+{"entity_key": "custompools.com", "technology": "WordPress", "version": null, "source": "banner", "signal": "Link: <https://custompools.com/wp-json/>; rel=\"https://api.w.org/\", <https://custompools.com/wp-json", "ip": "72.55.253.12", "port": 443, "country": "United States"}
 {"entity_key": "cvmgroup.co.uk", "technology": "AWS", "version": null, "source": "cloud", "signal": "Amazon", "ip": "15.197.225.128", "port": 80, "country": "United States"}
 {"entity_key": "cvmgroup.co.uk", "technology": "AWS", "version": null, "source": "component", "signal": "Amazon Web Services", "ip": "15.197.225.128", "port": 80, "country": "United States"}
 {"entity_key": "cvmgroup.co.uk", "technology": "AWS", "version": null, "source": "hostname", "signal": "aec037177372cc6cd.awsglobalaccelerator.com", "ip": "15.197.225.128", "port": 80, "country": "United States"}
@@ -4516,6 +4530,7 @@
 {"entity_key": "elcat.kg", "technology": "Nginx", "version": null, "source": "product", "signal": "nginx", "ip": "185.54.255.212", "port": 1080, "country": "Kyrgyzstan"}
 {"entity_key": "electrical-contracting.net", "technology": "Cloudflare", "version": null, "source": "cpe", "signal": "cpe:2.3:a:cloudflare:cloudflare", "ip": "2606:4700:3031::ac43:8dea", "port": 443, "country": "United States"}
 {"entity_key": "electrical-contracting.net", "technology": "Cloudflare", "version": null, "source": "server_header", "signal": "cloudflare", "ip": "2606:4700:3031::ac43:8dea", "port": 443, "country": "United States"}
+{"entity_key": "electrical-contracting.net", "technology": "WordPress", "version": null, "source": "banner", "signal": "Link: <https://www.electrical-contracting.net/wp-json/>; rel=\"https://api.w.org/\", <https://www.electrical-contracting.n", "ip": "2606:4700:3031::ac43:8dea", "port": 443, "country": "United States"}
 {"entity_key": "elestio.app", "technology": "Nginx", "version": null, "source": "component", "signal": "Nginx", "ip": "49.12.98.6", "port": 80, "country": "Germany"}
 {"entity_key": "elestio.app", "technology": "Nginx", "version": null, "source": "cpe", "signal": "cpe:2.3:a:f5:nginx", "ip": "49.12.98.6", "port": 80, "country": "Germany"}
 {"entity_key": "elestio.app", "technology": "OpenResty", "version": null, "source": "component", "signal": "OpenResty", "ip": "49.12.98.6", "port": 80, "country": "Germany"}
@@ -4599,6 +4614,7 @@
 {"entity_key": "enginepowersource.com", "technology": "Nginx", "version": null, "source": "cpe", "signal": "cpe:2.3:a:f5:nginx", "ip": "159.65.226.110", "port": 443, "country": "United States"}
 {"entity_key": "enginepowersource.com", "technology": "Nginx", "version": null, "source": "product", "signal": "nginx", "ip": "159.65.226.110", "port": 443, "country": "United States"}
 {"entity_key": "enginepowersource.com", "technology": "Nginx", "version": null, "source": "server_header", "signal": "nginx", "ip": "159.65.226.110", "port": 443, "country": "United States"}
+{"entity_key": "enginepowersource.com", "technology": "WordPress", "version": null, "source": "banner", "signal": "Link: <https://www.enginepowersource.com/wp-json/>; rel=\"https://api.w.org", "ip": "159.65.226.110", "port": 443, "country": "United States"}
 {"entity_key": "engsfinance.com", "technology": "Genesis Theme", "version": null, "source": "component", "signal": "Genesis theme", "ip": "104.198.11.164", "port": 443, "country": "United States"}
 {"entity_key": "engsfinance.com", "technology": "Google Cloud", "version": null, "source": "cloud", "signal": "Google", "ip": "104.198.11.164", "port": 443, "country": "United States"}
 {"entity_key": "engsfinance.com", "technology": "Google Cloud", "version": null, "source": "hostname", "signal": "164.11.198.104.bc.googleusercontent.com", "ip": "104.198.11.164", "port": 443, "country": "United States"}
@@ -4612,6 +4628,7 @@
 {"entity_key": "engsfinance.com", "technology": "PHP", "version": null, "source": "component", "signal": "PHP", "ip": "104.198.11.164", "port": 443, "country": "United States"}
 {"entity_key": "engsfinance.com", "technology": "PHP", "version": null, "source": "cpe", "signal": "cpe:2.3:a:php:php", "ip": "104.198.11.164", "port": 443, "country": "United States"}
 {"entity_key": "engsfinance.com", "technology": "WP Engine", "version": null, "source": "component", "signal": "WP Engine", "ip": "104.198.11.164", "port": 443, "country": "United States"}
+{"entity_key": "engsfinance.com", "technology": "WordPress", "version": null, "source": "banner", "signal": "Link: <https://equipmentfinance.engsfinance.com/wp-json/>; rel=\"https://api.w.org", "ip": "104.198.11.164", "port": 443, "country": "United States"}
 {"entity_key": "engsfinance.com", "technology": "WordPress", "version": null, "source": "component", "signal": "WordPress", "ip": "104.198.11.164", "port": 443, "country": "United States"}
 {"entity_key": "engsfinance.com", "technology": "WordPress", "version": null, "source": "cpe", "signal": "cpe:2.3:a:wordpress:wordpress", "ip": "104.198.11.164", "port": 443, "country": "United States"}
 {"entity_key": "engsfinance.com", "technology": "Yoast SEO", "version": null, "source": "component", "signal": "Yoast SEO", "ip": "104.198.11.164", "port": 443, "country": "United States"}
@@ -5068,6 +5085,7 @@
 {"entity_key": "findmeagift.com", "technology": "Windows Server", "version": null, "source": "component", "signal": "Windows Server", "ip": "20.90.226.227", "port": 80, "country": "United Kingdom"}
 {"entity_key": "finess.co.jp", "technology": "Apache HTTP Server", "version": null, "source": "server_header", "signal": "Apache", "ip": "157.7.107.31", "port": 443, "country": "Japan"}
 {"entity_key": "finess.co.jp", "technology": "PHP", "version": "8.3.33", "source": "cpe", "signal": "cpe:2.3:a:php:php:8.3.33", "ip": "157.7.107.31", "port": 443, "country": "Japan"}
+{"entity_key": "finess.co.jp", "technology": "WordPress", "version": null, "source": "banner", "signal": "Link: <https://recruit.finess.co.jp/wp-json/>; rel=\"https://api.w.org", "ip": "157.7.107.31", "port": 443, "country": "Japan"}
 {"entity_key": "finvisor4.com", "technology": "Open proxy", "version": null, "source": "tag", "signal": "proxy", "ip": "192.186.168.101", "port": 8000, "country": "United States"}
 {"entity_key": "finvisor4.com", "technology": "Squid", "version": "3.5.20", "source": "cpe", "signal": "cpe:2.3:a:squid-cache:squid:3.5.20", "ip": "192.186.168.101", "port": 8000, "country": "United States"}
 {"entity_key": "finvisor4.com", "technology": "Squid", "version": "3.5.20", "source": "product", "signal": "Squid http proxy", "ip": "192.186.168.101", "port": 8000, "country": "United States"}
@@ -5221,6 +5239,7 @@
 {"entity_key": "future-care.biz", "technology": "Apache HTTP Server", "version": null, "source": "product", "signal": "Apache httpd", "ip": "182.48.44.246", "port": 443, "country": "Japan"}
 {"entity_key": "future-care.biz", "technology": "Apache HTTP Server", "version": null, "source": "server_header", "signal": "Apache", "ip": "182.48.44.246", "port": 443, "country": "Japan"}
 {"entity_key": "future-care.biz", "technology": "PHP", "version": "7.4.33", "source": "cpe", "signal": "cpe:2.3:a:php:php:7.4.33", "ip": "182.48.44.246", "port": 443, "country": "Japan"}
+{"entity_key": "future-care.biz", "technology": "WordPress", "version": null, "source": "banner", "signal": "Link: <https://future-care.biz/wp-json/>; rel=\"https://api.w.org", "ip": "182.48.44.246", "port": 443, "country": "Japan"}
 {"entity_key": "future-medics.com", "technology": "Nginx", "version": null, "source": "component", "signal": "Nginx", "ip": "185.151.30.145", "port": 443, "country": "United Kingdom"}
 {"entity_key": "future-medics.com", "technology": "Nginx", "version": null, "source": "cpe", "signal": "cpe:2.3:a:f5:nginx", "ip": "185.151.30.145", "port": 443, "country": "United Kingdom"}
 {"entity_key": "future-medics.com", "technology": "Nginx", "version": null, "source": "product", "signal": "nginx", "ip": "185.151.30.145", "port": 443, "country": "United Kingdom"}
@@ -5322,6 +5341,7 @@
 {"entity_key": "geislinger.com", "technology": "Cloudflare", "version": null, "source": "server_header", "signal": "cloudflare", "ip": "104.26.4.120", "port": 443, "country": "United States"}
 {"entity_key": "gemission.org", "technology": "Cloudflare", "version": null, "source": "cpe", "signal": "cpe:2.3:a:cloudflare:cloudflare", "ip": "172.66.43.168", "port": 443, "country": "United States"}
 {"entity_key": "gemission.org", "technology": "Cloudflare", "version": null, "source": "server_header", "signal": "cloudflare", "ip": "172.66.43.168", "port": 443, "country": "United States"}
+{"entity_key": "gemission.org", "technology": "WordPress", "version": null, "source": "banner", "signal": "Link: <https://gemission.org/wp-json/>; rel=\"https://api.w.org/\", <https://gemission.org/wp-json", "ip": "172.66.43.168", "port": 443, "country": "United States"}
 {"entity_key": "general-electric.de", "technology": "Hetzner", "version": null, "source": "hostname", "signal": "static.138.59.76.144.clients.your-server.de", "ip": "144.76.59.138", "port": 443, "country": "Germany"}
 {"entity_key": "gerban.de", "technology": "Apache HTTP Server", "version": null, "source": "server_header", "signal": "Apache", "ip": "217.160.0.35", "port": 443, "country": "Germany"}
 {"entity_key": "getbuilt.com", "technology": "AWS", "version": null, "source": "cloud", "signal": "Amazon", "ip": "65.8.180.117", "port": 80, "country": "United States"}
@@ -5359,6 +5379,7 @@
 {"entity_key": "ggsv.jp", "technology": "Apache HTTP Server", "version": null, "source": "cpe", "signal": "cpe:2.3:a:apache:http_server", "ip": "59.106.75.17", "port": 80, "country": "Japan"}
 {"entity_key": "ggsv.jp", "technology": "Apache HTTP Server", "version": null, "source": "product", "signal": "Apache httpd", "ip": "59.106.75.17", "port": 80, "country": "Japan"}
 {"entity_key": "ggsv.jp", "technology": "Apache HTTP Server", "version": null, "source": "server_header", "signal": "Apache", "ip": "59.106.75.17", "port": 80, "country": "Japan"}
+{"entity_key": "ggsv.jp", "technology": "WordPress", "version": null, "source": "banner", "signal": "Link: <http://sun-eagle.co.jp/index.php?rest_route=/>; rel=\"https://api.w.org", "ip": "59.106.75.17", "port": 80, "country": "Japan"}
 {"entity_key": "ggsv.jp", "technology": "WordPress", "version": "5.6", "source": "cpe", "signal": "cpe:2.3:a:wordpress:wordpress:5.6", "ip": "59.106.75.17", "port": 80, "country": "Japan"}
 {"entity_key": "ghchwa.org", "technology": "Linode", "version": null, "source": "cloud", "signal": "Linode", "ip": "192.155.84.236", "port": 80, "country": "United States"}
 {"entity_key": "ghchwa.org", "technology": "Linode", "version": null, "source": "cloud", "signal": "Linode", "ip": "23.239.4.93", "port": 443, "country": "United States"}
@@ -5492,6 +5513,7 @@
 {"entity_key": "gmoserver.jp", "technology": "Apache HTTP Server", "version": null, "source": "cpe", "signal": "cpe:2.3:a:apache:http_server", "ip": "210.131.236.150", "port": 443, "country": "Japan"}
 {"entity_key": "gmoserver.jp", "technology": "Apache HTTP Server", "version": null, "source": "product", "signal": "Apache httpd", "ip": "210.131.236.150", "port": 443, "country": "Japan"}
 {"entity_key": "gmoserver.jp", "technology": "Apache HTTP Server", "version": null, "source": "server_header", "signal": "Apache", "ip": "210.131.236.150", "port": 443, "country": "Japan"}
+{"entity_key": "gmoserver.jp", "technology": "WordPress", "version": null, "source": "banner", "signal": "Link: <https://sample.lineajapan.co.jp/wp-json/>; rel=\"https://api.w.org", "ip": "210.131.236.150", "port": 443, "country": "Japan"}
 {"entity_key": "gnani.ai", "technology": "Cloudflare", "version": null, "source": "component", "signal": "Cloudflare", "ip": "172.67.68.37", "port": 80, "country": "United States"}
 {"entity_key": "gnani.ai", "technology": "Cloudflare", "version": null, "source": "cpe", "signal": "cpe:2.3:a:cloudflare:cloudflare", "ip": "172.67.68.37", "port": 80, "country": "United States"}
 {"entity_key": "gnani.ai", "technology": "Cloudflare", "version": null, "source": "server_header", "signal": "cloudflare", "ip": "172.67.68.37", "port": 80, "country": "United States"}
@@ -6139,6 +6161,7 @@
 {"entity_key": "hscoscdn-eu1.net", "technology": "Cloudflare", "version": null, "source": "server_header", "signal": "cloudflare", "ip": "141.101.90.98", "port": 443, "country": "Germany"}
 {"entity_key": "hseelectrical.com.au", "technology": "Cloudflare", "version": null, "source": "cpe", "signal": "cpe:2.3:a:cloudflare:cloudflare", "ip": "172.67.221.221", "port": 443, "country": "United States"}
 {"entity_key": "hseelectrical.com.au", "technology": "Cloudflare", "version": null, "source": "server_header", "signal": "cloudflare", "ip": "172.67.221.221", "port": 443, "country": "United States"}
+{"entity_key": "hseelectrical.com.au", "technology": "WordPress", "version": null, "source": "banner", "signal": "link: <https://hseelectrical.com.au/wp-json/>; rel=\"https://api.w.org", "ip": "172.67.221.221", "port": 443, "country": "United States"}
 {"entity_key": "hsrlimited.co.uk", "technology": "Apache HTTP Server", "version": null, "source": "component", "signal": "Apache HTTP Server", "ip": "217.160.0.150", "port": 80, "country": "Germany"}
 {"entity_key": "hsrlimited.co.uk", "technology": "Apache HTTP Server", "version": null, "source": "cpe", "signal": "cpe:2.3:a:apache:http_server", "ip": "217.160.0.150", "port": 80, "country": "Germany"}
 {"entity_key": "hsrlimited.co.uk", "technology": "Apache HTTP Server", "version": null, "source": "server_header", "signal": "Apache", "ip": "217.160.0.150", "port": 80, "country": "Germany"}
@@ -6234,6 +6257,7 @@
 {"entity_key": "igepa.be", "technology": "Cloudflare", "version": null, "source": "server_header", "signal": "cloudflare", "ip": "104.21.37.161", "port": 80, "country": "United States"}
 {"entity_key": "igepa.be", "technology": "Cloudflare", "version": null, "source": "server_header", "signal": "cloudflare", "ip": "172.67.210.116", "port": 443, "country": "United States"}
 {"entity_key": "igepa.be", "technology": "Cloudflare Browser Insights", "version": null, "source": "component", "signal": "Cloudflare Browser Insights", "ip": "104.21.37.161", "port": 80, "country": "United States"}
+{"entity_key": "igepa.be", "technology": "WordPress", "version": null, "source": "banner", "signal": "link: <https://igepa.be/wp-json/>; rel=\"https://api.w.org/\", <https://igepa.be/wp-json", "ip": "172.67.210.116", "port": 443, "country": "United States"}
 {"entity_key": "ignisband.ro", "technology": "Debian", "version": null, "source": "cpe", "signal": "cpe:2.3:o:debian:debian_linux", "ip": "86.121.235.45", "port": 22, "country": "Romania"}
 {"entity_key": "ignisband.ro", "technology": "Linux", "version": null, "source": "cpe", "signal": "cpe:2.3:o:linux:linux_kernel", "ip": "86.121.235.45", "port": 22, "country": "Romania"}
 {"entity_key": "ignisband.ro", "technology": "Linux", "version": null, "source": "os", "signal": "Linux", "ip": "86.121.235.45", "port": 22, "country": "Romania"}
@@ -6332,6 +6356,7 @@
 {"entity_key": "inazumaweb.com", "technology": "Nginx", "version": "1.27.0", "source": "product", "signal": "nginx", "ip": "162.43.27.7", "port": 443, "country": "Japan"}
 {"entity_key": "inazumaweb.com", "technology": "Nginx", "version": "1.27.0", "source": "server_header", "signal": "nginx/1.27.0", "ip": "162.43.27.7", "port": 443, "country": "Japan"}
 {"entity_key": "inazumaweb.com", "technology": "PHP", "version": "8.2.20", "source": "cpe", "signal": "cpe:2.3:a:php:php:8.2.20", "ip": "162.43.27.7", "port": 443, "country": "Japan"}
+{"entity_key": "inazumaweb.com", "technology": "WordPress", "version": null, "source": "banner", "signal": "Link: <https://inazumaweb.com/wp-json/>; rel=\"https://api.w.org", "ip": "162.43.27.7", "port": 443, "country": "Japan"}
 {"entity_key": "incapsula.com", "technology": "Imperva", "version": null, "source": "component", "signal": "Imperva", "ip": "45.60.17.161", "port": 7001, "country": "Singapore"}
 {"entity_key": "incapsula.com", "technology": "Imperva", "version": null, "source": "cpe", "signal": "cpe:2.3:a:imperva:incapsula", "ip": "45.60.17.161", "port": 7001, "country": "Singapore"}
 {"entity_key": "incapsula.com", "technology": "Imperva", "version": null, "source": "hostname", "signal": "imperva.com", "ip": "45.60.17.161", "port": 7001, "country": "Singapore"}
@@ -6346,6 +6371,7 @@
 {"entity_key": "informa.hu", "technology": "Nginx", "version": null, "source": "cpe", "signal": "cpe:2.3:a:f5:nginx", "ip": "80.77.112.102", "port": 443, "country": "Hungary"}
 {"entity_key": "informa.hu", "technology": "Nginx", "version": null, "source": "product", "signal": "nginx", "ip": "80.77.112.102", "port": 443, "country": "Hungary"}
 {"entity_key": "informa.hu", "technology": "Nginx", "version": null, "source": "server_header", "signal": "nginx", "ip": "80.77.112.102", "port": 443, "country": "Hungary"}
+{"entity_key": "informa.hu", "technology": "WordPress", "version": null, "source": "banner", "signal": "Link: <https://informa.hu/wp-json/>; rel=\"https://api.w.org", "ip": "80.77.112.102", "port": 443, "country": "Hungary"}
 {"entity_key": "informa.hu", "technology": "WordPress", "version": "7.1", "source": "cpe", "signal": "cpe:2.3:a:wordpress:wordpress:7.1", "ip": "80.77.112.102", "port": 443, "country": "Hungary"}
 {"entity_key": "informer.com", "technology": "Cloudflare", "version": null, "source": "component", "signal": "Cloudflare", "ip": "104.20.17.203", "port": 80, "country": "United States"}
 {"entity_key": "informer.com", "technology": "Cloudflare", "version": null, "source": "component", "signal": "Cloudflare", "ip": "172.66.154.49", "port": 80, "country": "United States"}
@@ -6576,6 +6602,7 @@
 {"entity_key": "iteconomy.ch", "technology": "Apache HTTP Server", "version": null, "source": "server_header", "signal": "Apache", "ip": "195.201.108.141", "port": 443, "country": "Germany"}
 {"entity_key": "iternalnetworks.com", "technology": "Cloudflare", "version": null, "source": "cpe", "signal": "cpe:2.3:a:cloudflare:cloudflare", "ip": "172.67.215.172", "port": 443, "country": "United States"}
 {"entity_key": "iternalnetworks.com", "technology": "Cloudflare", "version": null, "source": "server_header", "signal": "cloudflare", "ip": "172.67.215.172", "port": 443, "country": "United States"}
+{"entity_key": "iternalnetworks.com", "technology": "WordPress", "version": null, "source": "banner", "signal": "link: <https://iternalnetworks.com/wp-json/>; rel=\"https://api.w.org", "ip": "172.67.215.172", "port": 443, "country": "United States"}
 {"entity_key": "itin.cz", "technology": "Apache HTTP Server", "version": null, "source": "component", "signal": "Apache HTTP Server", "ip": "213.192.42.16", "port": 80, "country": "Czechia"}
 {"entity_key": "itin.cz", "technology": "Apache HTTP Server", "version": null, "source": "cpe", "signal": "cpe:2.3:a:apache:http_server", "ip": "213.192.42.16", "port": 80, "country": "Czechia"}
 {"entity_key": "itin.cz", "technology": "Apache HTTP Server", "version": null, "source": "product", "signal": "Apache httpd", "ip": "213.192.42.16", "port": 80, "country": "Czechia"}
@@ -6583,6 +6610,7 @@
 {"entity_key": "itinnovators.com", "technology": "Apache HTTP Server", "version": null, "source": "cpe", "signal": "cpe:2.3:a:apache:http_server", "ip": "75.103.65.172", "port": 443, "country": "United States"}
 {"entity_key": "itinnovators.com", "technology": "Apache HTTP Server", "version": null, "source": "product", "signal": "Apache httpd", "ip": "75.103.65.172", "port": 443, "country": "United States"}
 {"entity_key": "itinnovators.com", "technology": "Apache HTTP Server", "version": null, "source": "server_header", "signal": "Apache", "ip": "75.103.65.172", "port": 443, "country": "United States"}
+{"entity_key": "itinnovators.com", "technology": "WordPress", "version": null, "source": "banner", "signal": "Link: <https://www.itinnovators.com/wp-json/>; rel=\"https://api.w.org", "ip": "75.103.65.172", "port": 443, "country": "United States"}
 {"entity_key": "itinnovators.com", "technology": "WordPress", "version": "4.9.26", "source": "cpe", "signal": "cpe:2.3:a:wordpress:wordpress:4.9.26", "ip": "75.103.65.172", "port": 443, "country": "United States"}
 {"entity_key": "itshoney.net", "technology": "Apache HTTP Server", "version": null, "source": "component", "signal": "Apache HTTP Server", "ip": "192.185.195.47", "port": 443, "country": "United States"}
 {"entity_key": "itshoney.net", "technology": "Apache HTTP Server", "version": null, "source": "cpe", "signal": "cpe:2.3:a:apache:http_server", "ip": "192.185.195.47", "port": 443, "country": "United States"}
@@ -6720,6 +6748,7 @@
 {"entity_key": "jhcloud.fi", "technology": "Nginx", "version": null, "source": "cpe", "signal": "cpe:2.3:a:f5:nginx", "ip": "192.194.58.185", "port": 443, "country": "Finland"}
 {"entity_key": "jhcloud.fi", "technology": "Nginx", "version": null, "source": "product", "signal": "nginx", "ip": "192.194.58.185", "port": 443, "country": "Finland"}
 {"entity_key": "jhcloud.fi", "technology": "Nginx", "version": null, "source": "server_header", "signal": "nginx", "ip": "192.194.58.185", "port": 443, "country": "Finland"}
+{"entity_key": "jhcloud.fi", "technology": "WordPress", "version": null, "source": "banner", "signal": "Link: <https://metsakonepalveluylianttila.fi/wp-json/>; rel=\"https://api.w.org/\", <https://metsakonepalveluylianttila.fi", "ip": "192.194.58.185", "port": 443, "country": "Finland"}
 {"entity_key": "jibramed.com", "technology": "Nginx", "version": "1.31.3", "source": "cpe", "signal": "cpe:2.3:a:f5:nginx:1.31.3", "ip": "158.101.254.106", "port": 443, "country": "Saudi Arabia"}
 {"entity_key": "jibramed.com", "technology": "Nginx", "version": "1.31.3", "source": "product", "signal": "nginx", "ip": "158.101.254.106", "port": 443, "country": "Saudi Arabia"}
 {"entity_key": "jibramed.com", "technology": "Nginx", "version": "1.31.3", "source": "server_header", "signal": "nginx/1.31.3", "ip": "158.101.254.106", "port": 443, "country": "Saudi Arabia"}
@@ -6993,6 +7022,7 @@
 {"entity_key": "kokku.com", "technology": "Nginx", "version": null, "source": "cpe", "signal": "cpe:2.3:a:f5:nginx", "ip": "199.16.173.15", "port": 443, "country": "United States"}
 {"entity_key": "kokku.com", "technology": "Nginx", "version": null, "source": "product", "signal": "nginx", "ip": "199.16.173.15", "port": 443, "country": "United States"}
 {"entity_key": "kokku.com", "technology": "Nginx", "version": null, "source": "server_header", "signal": "nginx", "ip": "199.16.173.15", "port": 443, "country": "United States"}
+{"entity_key": "kokku.com", "technology": "WordPress", "version": null, "source": "banner", "signal": "Link: <https://bambooinsurance.com/wp-json/>; rel=\"https://api.w.org", "ip": "199.16.173.15", "port": 443, "country": "United States"}
 {"entity_key": "komitec.de", "technology": "Apache HTTP Server", "version": null, "source": "component", "signal": "Apache HTTP Server", "ip": "212.211.215.186", "port": 443, "country": "Germany"}
 {"entity_key": "komitec.de", "technology": "Apache HTTP Server", "version": "2.4.37", "source": "cpe", "signal": "cpe:2.3:a:apache:http_server:2.4.37", "ip": "212.211.215.186", "port": 443, "country": "Germany"}
 {"entity_key": "komitec.de", "technology": "Apache HTTP Server", "version": "2.4.37", "source": "product", "signal": "Apache httpd", "ip": "212.211.215.186", "port": 443, "country": "Germany"}
@@ -7242,6 +7272,7 @@
 {"entity_key": "limestone.gr.jp", "technology": "Nginx", "version": null, "source": "cpe", "signal": "cpe:2.3:a:f5:nginx", "ip": "219.94.236.66", "port": 443, "country": "Japan"}
 {"entity_key": "limestone.gr.jp", "technology": "Nginx", "version": null, "source": "product", "signal": "nginx", "ip": "219.94.236.66", "port": 443, "country": "Japan"}
 {"entity_key": "limestone.gr.jp", "technology": "Nginx", "version": null, "source": "server_header", "signal": "nginx", "ip": "219.94.236.66", "port": 443, "country": "Japan"}
+{"entity_key": "limestone.gr.jp", "technology": "WordPress", "version": null, "source": "banner", "signal": "Link: <https://www.limestone.gr.jp/wp-json/>; rel=\"https://api.w.org", "ip": "219.94.236.66", "port": 443, "country": "Japan"}
 {"entity_key": "lindquist.com", "technology": "AWS", "version": null, "source": "cloud", "signal": "Amazon", "ip": "13.248.169.48", "port": 443, "country": "United States"}
 {"entity_key": "lindquist.com", "technology": "AWS", "version": null, "source": "hostname", "signal": "a904c694c05102f30.awsglobalaccelerator.com", "ip": "13.248.169.48", "port": 443, "country": "United States"}
 {"entity_key": "lindquist.com", "technology": "AWS Global Accelerator", "version": null, "source": "cloud", "signal": "Amazon:GLOBALACCELERATOR", "ip": "13.248.169.48", "port": 443, "country": "United States"}
@@ -7313,6 +7344,7 @@
 {"entity_key": "longwoods-intl.com", "technology": "Cloudflare", "version": null, "source": "server_header", "signal": "cloudflare", "ip": "166.88.240.3", "port": 443, "country": "United States"}
 {"entity_key": "longyear.org", "technology": "Cloudflare", "version": null, "source": "cpe", "signal": "cpe:2.3:a:cloudflare:cloudflare", "ip": "162.159.135.42", "port": 443, "country": "United States"}
 {"entity_key": "longyear.org", "technology": "Cloudflare", "version": null, "source": "server_header", "signal": "cloudflare", "ip": "162.159.135.42", "port": 443, "country": "United States"}
+{"entity_key": "longyear.org", "technology": "WordPress", "version": null, "source": "banner", "signal": "Link: <https://www.longyear.org/wp-json/>; rel=\"https://api.w.org/\", <https://www.longyear.org/wp-json", "ip": "162.159.135.42", "port": 443, "country": "United States"}
 {"entity_key": "looprecruiting.com", "technology": "Cloudflare", "version": null, "source": "component", "signal": "Cloudflare", "ip": "104.21.58.180", "port": 80, "country": "United States"}
 {"entity_key": "looprecruiting.com", "technology": "Cloudflare", "version": null, "source": "cpe", "signal": "cpe:2.3:a:cloudflare:cloudflare", "ip": "104.21.58.180", "port": 80, "country": "United States"}
 {"entity_key": "looprecruiting.com", "technology": "Cloudflare", "version": null, "source": "server_header", "signal": "cloudflare", "ip": "104.21.58.180", "port": 80, "country": "United States"}
@@ -7575,6 +7607,7 @@
 {"entity_key": "meguri-dc.com", "technology": "Nginx", "version": null, "source": "product", "signal": "nginx", "ip": "49.212.117.75", "port": 443, "country": "Japan"}
 {"entity_key": "meguri-dc.com", "technology": "Nginx", "version": null, "source": "server_header", "signal": "nginx", "ip": "49.212.117.75", "port": 443, "country": "Japan"}
 {"entity_key": "meguri-dc.com", "technology": "PHP", "version": "7.4.33", "source": "cpe", "signal": "cpe:2.3:a:php:php:7.4.33", "ip": "49.212.117.75", "port": 443, "country": "Japan"}
+{"entity_key": "meguri-dc.com", "technology": "WordPress", "version": null, "source": "banner", "signal": "Link: <https://meguri-dc.com/wp-json/>; rel=\"https://api.w.org", "ip": "49.212.117.75", "port": 443, "country": "Japan"}
 {"entity_key": "meguri-dc.com", "technology": "WordPress", "version": null, "source": "cpe", "signal": "cpe:2.3:a:wordpress:wordpress", "ip": "49.212.117.75", "port": 443, "country": "Japan"}
 {"entity_key": "membersuite.com", "technology": "ASP.NET", "version": null, "source": "component", "signal": "Microsoft ASP.NET", "ip": "32.193.223.27", "port": 80, "country": "United States"}
 {"entity_key": "membersuite.com", "technology": "ASP.NET", "version": null, "source": "component", "signal": "Microsoft ASP.NET", "ip": "52.205.157.129", "port": 443, "country": "United States"}
@@ -7857,6 +7890,7 @@
 {"entity_key": "miyatsu.com", "technology": "Nginx", "version": null, "source": "cpe", "signal": "cpe:2.3:a:f5:nginx", "ip": "153.123.7.135", "port": 443, "country": "Japan"}
 {"entity_key": "miyatsu.com", "technology": "Nginx", "version": null, "source": "product", "signal": "nginx", "ip": "153.123.7.135", "port": 443, "country": "Japan"}
 {"entity_key": "miyatsu.com", "technology": "Nginx", "version": null, "source": "server_header", "signal": "nginx", "ip": "153.123.7.135", "port": 443, "country": "Japan"}
+{"entity_key": "miyatsu.com", "technology": "WordPress", "version": null, "source": "banner", "signal": "Link: <https://miyatsu.com/wp-json/>; rel=\"https://api.w.org/\", <https://miyatsu.com/wp-json", "ip": "153.123.7.135", "port": 443, "country": "Japan"}
 {"entity_key": "mizuho-sc.com", "technology": "Ivanti Endpoint Manager Mobile", "version": null, "source": "product", "signal": "Ivanti Endpoint Manager Mobile (EPMM)", "ip": "122.208.204.234", "port": 443, "country": "Japan"}
 {"entity_key": "mk.de", "technology": "3CX", "version": null, "source": "cpe", "signal": "cpe:2.3:a:3cx:3cx", "ip": "153.94.51.145", "port": 443, "country": "Germany"}
 {"entity_key": "mk.de", "technology": "3CX", "version": null, "source": "product", "signal": "3CX Phone System Management Console", "ip": "153.94.51.145", "port": 443, "country": "Germany"}
@@ -8160,6 +8194,7 @@
 {"entity_key": "mybluehost.me", "technology": "Nginx", "version": "1.29.8", "source": "cpe", "signal": "cpe:2.3:a:f5:nginx:1.29.8", "ip": "162.241.24.209", "port": 443, "country": "United States"}
 {"entity_key": "mybluehost.me", "technology": "Nginx", "version": "1.29.8", "source": "product", "signal": "nginx", "ip": "162.241.24.209", "port": 443, "country": "United States"}
 {"entity_key": "mybluehost.me", "technology": "Nginx", "version": "1.29.8", "source": "server_header", "signal": "nginx/1.29.8", "ip": "162.241.24.209", "port": 443, "country": "United States"}
+{"entity_key": "mybluehost.me", "technology": "WordPress", "version": null, "source": "banner", "signal": "Link: <https://whatthepup.spotandtango.com/wp-json", "ip": "162.241.24.209", "port": 443, "country": "United States"}
 {"entity_key": "myds.me", "technology": "Nginx", "version": null, "source": "component", "signal": "Nginx", "ip": "211.225.154.218", "port": 7443, "country": "Korea, Republic of"}
 {"entity_key": "myds.me", "technology": "Nginx", "version": null, "source": "component", "signal": "Nginx", "ip": "37.201.29.4", "port": 443, "country": "Germany"}
 {"entity_key": "myds.me", "technology": "Nginx", "version": null, "source": "cpe", "signal": "cpe:2.3:a:f5:nginx", "ip": "211.225.154.218", "port": 7443, "country": "Korea, Republic of"}
@@ -8766,6 +8801,7 @@
 {"entity_key": "odessatechnologies.com", "technology": "Nginx", "version": null, "source": "cpe", "signal": "cpe:2.3:a:f5:nginx", "ip": "20.85.34.107", "port": 443, "country": "United States"}
 {"entity_key": "odessatechnologies.com", "technology": "Nginx", "version": null, "source": "product", "signal": "nginx", "ip": "20.85.34.107", "port": 443, "country": "United States"}
 {"entity_key": "odessatechnologies.com", "technology": "Nginx", "version": null, "source": "server_header", "signal": "nginx", "ip": "20.85.34.107", "port": 443, "country": "United States"}
+{"entity_key": "odessatechnologies.com", "technology": "WordPress", "version": null, "source": "banner", "signal": "Link: <https://www.odessainc.com/wp-json/>; rel=\"https://api.w.org", "ip": "20.85.34.107", "port": 443, "country": "United States"}
 {"entity_key": "odishafdc.com", "technology": "Nginx", "version": null, "source": "component", "signal": "Nginx", "ip": "43.242.227.187", "port": 443, "country": "India"}
 {"entity_key": "odishafdc.com", "technology": "Nginx", "version": null, "source": "cpe", "signal": "cpe:2.3:a:f5:nginx", "ip": "43.242.227.187", "port": 443, "country": "India"}
 {"entity_key": "odishafdc.com", "technology": "OpenResty", "version": null, "source": "component", "signal": "OpenResty", "ip": "43.242.227.187", "port": 443, "country": "India"}
@@ -8783,6 +8819,7 @@
 {"entity_key": "officebrain.co.jp", "technology": "Nginx", "version": null, "source": "server_header", "signal": "nginx", "ip": "59.106.171.108", "port": 443, "country": "Japan"}
 {"entity_key": "oheyaclub.co.jp", "technology": "Apache HTTP Server", "version": null, "source": "server_header", "signal": "Apache", "ip": "157.7.107.197", "port": 443, "country": "Japan"}
 {"entity_key": "oheyaclub.co.jp", "technology": "PHP", "version": "8.3.33", "source": "cpe", "signal": "cpe:2.3:a:php:php:8.3.33", "ip": "157.7.107.197", "port": 443, "country": "Japan"}
+{"entity_key": "oheyaclub.co.jp", "technology": "WordPress", "version": null, "source": "banner", "signal": "Link: <https://oheyaclub.co.jp/wp-json/>; rel=\"https://api.w.org", "ip": "157.7.107.197", "port": 443, "country": "Japan"}
 {"entity_key": "okmc.info", "technology": "Apache HTTP Server", "version": null, "source": "cpe", "signal": "cpe:2.3:a:apache:http_server", "ip": "160.251.229.82", "port": 443, "country": "Japan"}
 {"entity_key": "okmc.info", "technology": "Apache HTTP Server", "version": null, "source": "product", "signal": "Apache httpd", "ip": "160.251.229.82", "port": 443, "country": "Japan"}
 {"entity_key": "okmc.info", "technology": "Apache HTTP Server", "version": null, "source": "server_header", "signal": "Apache", "ip": "160.251.229.82", "port": 443, "country": "Japan"}
@@ -9087,6 +9124,7 @@
 {"entity_key": "ovsd.org", "technology": "PHP", "version": "8.1.7", "source": "cpe", "signal": "cpe:2.3:a:php:php:8.1.7", "ip": "104.249.70.10", "port": 443, "country": "United States"}
 {"entity_key": "ovsd.org", "technology": "Windows", "version": null, "source": "cpe", "signal": "cpe:2.3:o:microsoft:windows", "ip": "104.249.70.10", "port": 443, "country": "United States"}
 {"entity_key": "ovsd.org", "technology": "Windows", "version": null, "source": "os", "signal": "Windows", "ip": "104.249.70.10", "port": 443, "country": "United States"}
+{"entity_key": "ovsd.org", "technology": "WordPress", "version": null, "source": "banner", "signal": "Link: <https://web.portal.ovsd.org/wp-json/>; rel=\"https://api.w.org", "ip": "104.249.70.10", "port": 443, "country": "United States"}
 {"entity_key": "ownmyserver.com", "technology": "LiteSpeed", "version": null, "source": "product", "signal": "LiteSpeed httpd", "ip": "51.79.6.178", "port": 80, "country": "Canada"}
 {"entity_key": "ownmyserver.com", "technology": "LiteSpeed", "version": null, "source": "server_header", "signal": "LiteSpeed", "ip": "51.79.6.178", "port": 80, "country": "Canada"}
 {"entity_key": "oxatis.com", "technology": "Cloudflare", "version": null, "source": "component", "signal": "Cloudflare", "ip": "104.18.10.136", "port": 443, "country": "United States"}
@@ -9438,6 +9476,7 @@
 {"entity_key": "premix.com.br", "technology": "Nginx", "version": null, "source": "server_header", "signal": "nginx", "ip": "35.164.210.137", "port": 80, "country": "United States"}
 {"entity_key": "presenhouse.com", "technology": "Apache HTTP Server", "version": null, "source": "server_header", "signal": "Apache", "ip": "163.44.185.183", "port": 443, "country": "Japan"}
 {"entity_key": "presenhouse.com", "technology": "PHP", "version": "8.3.33", "source": "cpe", "signal": "cpe:2.3:a:php:php:8.3.33", "ip": "163.44.185.183", "port": 443, "country": "Japan"}
+{"entity_key": "presenhouse.com", "technology": "WordPress", "version": null, "source": "banner", "signal": "Link: <https://st-m-morioka.presenhouse.com/wp-json/>; rel=\"https://api.w.org", "ip": "163.44.185.183", "port": 443, "country": "Japan"}
 {"entity_key": "prgr-golf.com", "technology": "Apache HTTP Server", "version": null, "source": "component", "signal": "Apache HTTP Server", "ip": "210.148.210.130", "port": 443, "country": "Japan"}
 {"entity_key": "prgr-golf.com", "technology": "Apache HTTP Server", "version": null, "source": "cpe", "signal": "cpe:2.3:a:apache:http_server", "ip": "210.148.210.130", "port": 443, "country": "Japan"}
 {"entity_key": "prgr-golf.com", "technology": "Apache HTTP Server", "version": null, "source": "product", "signal": "Apache httpd", "ip": "210.148.210.130", "port": 443, "country": "Japan"}
@@ -9606,6 +9645,7 @@
 {"entity_key": "pyc.cl", "technology": "Apache HTTP Server", "version": "2.4.6", "source": "server_header", "signal": "Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips mod_auth_gssapi/1.5.1 mod_nss/1.0.14 NSS/3.28.4 mod_wsgi/3.4 Python/2.7.5 PHP/7.4.19", "ip": "190.121.25.221", "port": 80, "country": "Chile"}
 {"entity_key": "pyc.cl", "technology": "OpenSSL", "version": "1.0.2k", "source": "cpe", "signal": "cpe:2.3:a:openssl:openssl:1.0.2k", "ip": "190.121.25.221", "port": 80, "country": "Chile"}
 {"entity_key": "pyc.cl", "technology": "PHP", "version": "7.4.19", "source": "cpe", "signal": "cpe:2.3:a:php:php:7.4.19", "ip": "190.121.25.221", "port": 80, "country": "Chile"}
+{"entity_key": "pyc.cl", "technology": "WordPress", "version": null, "source": "banner", "signal": "Link: <https://pyc.cl/index.php?rest_route=/>; rel=\"https://api.w.org", "ip": "190.121.25.221", "port": 80, "country": "Chile"}
 {"entity_key": "pycom.io", "technology": "AWS", "version": null, "source": "cloud", "signal": "Amazon", "ip": "18.138.172.119", "port": 443, "country": "Singapore"}
 {"entity_key": "pycom.io", "technology": "AWS", "version": null, "source": "hostname", "signal": "amazonaws.com", "ip": "18.138.172.119", "port": 443, "country": "Singapore"}
 {"entity_key": "pycom.io", "technology": "Amazon EC2", "version": null, "source": "cloud", "signal": "Amazon:EC2", "ip": "18.138.172.119", "port": 443, "country": "Singapore"}
@@ -9740,6 +9780,7 @@
 {"entity_key": "rallybound.com", "technology": "Amazon EC2", "version": null, "source": "cloud", "signal": "Amazon:EC2", "ip": "23.21.248.87", "port": 443, "country": "United States"}
 {"entity_key": "rapidcool.ca", "technology": "Cloudflare", "version": null, "source": "cpe", "signal": "cpe:2.3:a:cloudflare:cloudflare", "ip": "172.67.152.3", "port": 443, "country": "United States"}
 {"entity_key": "rapidcool.ca", "technology": "Cloudflare", "version": null, "source": "server_header", "signal": "cloudflare", "ip": "172.67.152.3", "port": 443, "country": "United States"}
+{"entity_key": "rapidcool.ca", "technology": "WordPress", "version": null, "source": "banner", "signal": "link: <https://rapidcool.ca/wp-json/>; rel=\"https://api.w.org", "ip": "172.67.152.3", "port": 443, "country": "United States"}
 {"entity_key": "rauscher-shk.de", "technology": "AWS", "version": null, "source": "cloud", "signal": "Amazon", "ip": "52.59.15.250", "port": 443, "country": "Germany"}
 {"entity_key": "rauscher-shk.de", "technology": "AWS", "version": null, "source": "cloud", "signal": "Amazon", "ip": "52.59.15.250", "port": 80, "country": "Germany"}
 {"entity_key": "rauscher-shk.de", "technology": "AWS", "version": null, "source": "hostname", "signal": "amazonaws.com", "ip": "52.59.15.250", "port": 443, "country": "Germany"}
@@ -10100,6 +10141,7 @@
 {"entity_key": "salzburg.at", "technology": "Debian", "version": null, "source": "cpe", "signal": "cpe:2.3:o:debian:debian_linux", "ip": "213.153.32.160", "port": 80, "country": "Austria"}
 {"entity_key": "salzburg.at", "technology": "Debian", "version": null, "source": "cpe", "signal": "cpe:2.3:o:debian:debian_linux", "ip": "213.153.32.163", "port": 80, "country": "Austria"}
 {"entity_key": "salzburg.at", "technology": "Microsoft Azure", "version": null, "source": "cloud", "signal": "Azure", "ip": "40.127.184.69", "port": 80, "country": "Ireland"}
+{"entity_key": "salzburg.at", "technology": "WordPress", "version": null, "source": "banner", "signal": "Link: <https://vs-unken.salzburg.at/wp-json/>; rel=\"https://api.w.org/\", <https://vs-unken.salzburg.at/wp-json", "ip": "213.153.32.163", "port": 443, "country": "Austria"}
 {"entity_key": "samesun.com", "technology": "Apache HTTP Server", "version": null, "source": "component", "signal": "Apache HTTP Server", "ip": "192.232.219.91", "port": 80, "country": "United States"}
 {"entity_key": "samesun.com", "technology": "Apache HTTP Server", "version": null, "source": "cpe", "signal": "cpe:2.3:a:apache:http_server", "ip": "192.232.219.91", "port": 80, "country": "United States"}
 {"entity_key": "samesun.com", "technology": "Apache HTTP Server", "version": null, "source": "product", "signal": "Apache httpd", "ip": "192.232.219.91", "port": 80, "country": "United States"}
@@ -10317,6 +10359,7 @@
 {"entity_key": "senecapolytechnic.ca", "technology": "Amazon CloudFront", "version": null, "source": "server_header", "signal": "CloudFront", "ip": "18.161.6.123", "port": 80, "country": "United States"}
 {"entity_key": "senturus.com", "technology": "Cloudflare", "version": null, "source": "cpe", "signal": "cpe:2.3:a:cloudflare:cloudflare", "ip": "104.21.44.56", "port": 443, "country": "United States"}
 {"entity_key": "senturus.com", "technology": "Cloudflare", "version": null, "source": "server_header", "signal": "cloudflare", "ip": "104.21.44.56", "port": 443, "country": "United States"}
+{"entity_key": "senturus.com", "technology": "WordPress", "version": null, "source": "banner", "signal": "link: <https://senturus.com/wp-json/>; rel=\"https://api.w.org", "ip": "104.21.44.56", "port": 443, "country": "United States"}
 {"entity_key": "serbinski.com", "technology": "Apache HTTP Server", "version": null, "source": "component", "signal": "Apache HTTP Server", "ip": "192.158.12.6", "port": 80, "country": "Canada"}
 {"entity_key": "serbinski.com", "technology": "Apache HTTP Server", "version": "2.4.37", "source": "cpe", "signal": "cpe:2.3:a:apache:http_server:2.4.37", "ip": "192.158.12.6", "port": 80, "country": "Canada"}
 {"entity_key": "serbinski.com", "technology": "Apache HTTP Server", "version": "2.4.37", "source": "product", "signal": "Apache httpd", "ip": "192.158.12.6", "port": 80, "country": "Canada"}
@@ -10413,6 +10456,7 @@
 {"entity_key": "shortgrade.net", "technology": "PHP", "version": "5.4.16", "source": "cpe", "signal": "cpe:2.3:a:php:php:5.4.16", "ip": "38.82.194.78", "port": 80, "country": "United States"}
 {"entity_key": "shuplanning.com", "technology": "Apache HTTP Server", "version": null, "source": "server_header", "signal": "Apache", "ip": "157.7.107.83", "port": 443, "country": "Japan"}
 {"entity_key": "shuplanning.com", "technology": "PHP", "version": "8.3.33", "source": "cpe", "signal": "cpe:2.3:a:php:php:8.3.33", "ip": "157.7.107.83", "port": 443, "country": "Japan"}
+{"entity_key": "shuplanning.com", "technology": "WordPress", "version": null, "source": "banner", "signal": "Link: <https://shuplanning.com/wp-json/>; rel=\"https://api.w.org", "ip": "157.7.107.83", "port": 443, "country": "Japan"}
 {"entity_key": "sidebysideclubhouse.org", "technology": "Squarespace", "version": null, "source": "server_header", "signal": "Squarespace", "ip": "198.185.159.144", "port": 443, "country": "United States"}
 {"entity_key": "siemens.com", "technology": "AWS", "version": null, "source": "cloud", "signal": "Amazon", "ip": "3.175.34.54", "port": 80, "country": "United States"}
 {"entity_key": "siemens.com", "technology": "AWS", "version": null, "source": "component", "signal": "Amazon Web Services", "ip": "3.175.34.54", "port": 80, "country": "United States"}
@@ -10772,6 +10816,7 @@
 {"entity_key": "sprezrents.com", "technology": "Apache HTTP Server", "version": "2.4.52", "source": "product", "signal": "Apache httpd", "ip": "161.35.238.203", "port": 80, "country": "United States"}
 {"entity_key": "sprezrents.com", "technology": "Apache HTTP Server", "version": "2.4.52", "source": "server_header", "signal": "Apache/2.4.52 (Ubuntu)", "ip": "161.35.238.203", "port": 80, "country": "United States"}
 {"entity_key": "sprezrents.com", "technology": "DigitalOcean", "version": null, "source": "cloud", "signal": "DigitalOcean", "ip": "161.35.238.203", "port": 80, "country": "United States"}
+{"entity_key": "sprezrents.com", "technology": "WordPress", "version": null, "source": "banner", "signal": "Link: <https://www.sprezrents.com/wp-json/>; rel=\"https://api.w.org", "ip": "161.35.238.203", "port": 80, "country": "United States"}
 {"entity_key": "sprinklr.com", "technology": "AWS", "version": null, "source": "cloud", "signal": "Amazon", "ip": "13.248.161.16", "port": 80, "country": "United States"}
 {"entity_key": "sprinklr.com", "technology": "AWS", "version": null, "source": "cloud", "signal": "Amazon", "ip": "143.204.1.96", "port": 80, "country": "Canada"}
 {"entity_key": "sprinklr.com", "technology": "AWS", "version": null, "source": "cloud", "signal": "Amazon", "ip": "3.163.24.72", "port": 80, "country": "United States"}
@@ -10870,6 +10915,7 @@
 {"entity_key": "staacademy.org", "technology": "Apache HTTP Server", "version": null, "source": "cpe", "signal": "cpe:2.3:a:apache:http_server", "ip": "173.236.254.34", "port": 443, "country": "United States"}
 {"entity_key": "staacademy.org", "technology": "Apache HTTP Server", "version": null, "source": "product", "signal": "Apache httpd", "ip": "173.236.254.34", "port": 443, "country": "United States"}
 {"entity_key": "staacademy.org", "technology": "Apache HTTP Server", "version": null, "source": "server_header", "signal": "Apache", "ip": "173.236.254.34", "port": 443, "country": "United States"}
+{"entity_key": "staacademy.org", "technology": "WordPress", "version": null, "source": "banner", "signal": "Link: <https://www.staacademy.org/wp-json/>; rel=\"https://api.w.org/\", <https://www.staacademy.org/wp-json", "ip": "173.236.254.34", "port": 443, "country": "United States"}
 {"entity_key": "stablehost.com", "technology": "Nginx", "version": null, "source": "component", "signal": "Nginx", "ip": "209.50.60.128", "port": 80, "country": "United States"}
 {"entity_key": "stablehost.com", "technology": "Nginx", "version": null, "source": "cpe", "signal": "cpe:2.3:a:f5:nginx", "ip": "209.50.60.128", "port": 80, "country": "United States"}
 {"entity_key": "stablehost.com", "technology": "OpenResty", "version": null, "source": "component", "signal": "OpenResty", "ip": "209.50.60.128", "port": 80, "country": "United States"}
@@ -11003,6 +11049,7 @@
 {"entity_key": "sucuri.net", "technology": "Sucuri", "version": "Cloudproxy", "source": "server_header", "signal": "Sucuri/Cloudproxy", "ip": "192.124.249.10", "port": 80, "country": "United States"}
 {"entity_key": "sucuri.net", "technology": "Sucuri", "version": "Cloudproxy", "source": "server_header", "signal": "Sucuri/Cloudproxy", "ip": "192.124.249.110", "port": 80, "country": "United States"}
 {"entity_key": "sucuri.net", "technology": "Sucuri", "version": "Cloudproxy", "source": "server_header", "signal": "Sucuri/Cloudproxy", "ip": "192.124.249.182", "port": 80, "country": "United States"}
+{"entity_key": "sucuri.net", "technology": "WordPress", "version": null, "source": "banner", "signal": "link: <http://www.empire-groupuk.com/wp-json/>; rel=\"https://api.w.org/\", <http://www.empire-groupuk.com/wp-json", "ip": "192.124.249.110", "port": 80, "country": "United States"}
 {"entity_key": "sugarbowl.com", "technology": "Flywheel", "version": "5.1.0", "source": "server_header", "signal": "Flywheel/5.1.0", "ip": "151.101.2.159", "port": 80, "country": "United States"}
 {"entity_key": "summit.com.mx", "technology": "Imperva", "version": null, "source": "component", "signal": "Imperva", "ip": "107.154.148.154", "port": 8081, "country": "Singapore"}
 {"entity_key": "summit.com.mx", "technology": "Imperva", "version": null, "source": "cpe", "signal": "cpe:2.3:a:imperva:incapsula", "ip": "107.154.148.154", "port": 8081, "country": "Singapore"}
@@ -11444,6 +11491,7 @@
 {"entity_key": "tmtinternational.it", "technology": "Shopify", "version": null, "source": "component", "signal": "Shopify", "ip": "89.46.106.17", "port": 443, "country": "Italy"}
 {"entity_key": "tmtinternational.it", "technology": "WPML", "version": null, "source": "component", "signal": "WPML", "ip": "89.46.106.17", "port": 443, "country": "Italy"}
 {"entity_key": "tmtinternational.it", "technology": "WPML", "version": null, "source": "cpe", "signal": "cpe:2.3:a:wpml:wpml:*:*:*:*:*:wordpress", "ip": "89.46.106.17", "port": 443, "country": "Italy"}
+{"entity_key": "tmtinternational.it", "technology": "WordPress", "version": null, "source": "banner", "signal": "Link: <https://www.tmtinternational.it/wp-json/>; rel=\"https://api.w.org/\", <https://www.tmtinternational.it/wp-json", "ip": "89.46.106.17", "port": 443, "country": "Italy"}
 {"entity_key": "tmtinternational.it", "technology": "WordPress", "version": null, "source": "component", "signal": "WordPress", "ip": "89.46.106.17", "port": 443, "country": "Italy"}
 {"entity_key": "tmtinternational.it", "technology": "WordPress", "version": null, "source": "cpe", "signal": "cpe:2.3:a:wordpress:wordpress", "ip": "89.46.106.17", "port": 443, "country": "Italy"}
 {"entity_key": "tmtinternational.it", "technology": "Yoast SEO", "version": null, "source": "component", "signal": "Yoast SEO", "ip": "89.46.106.17", "port": 443, "country": "Italy"}
@@ -11466,6 +11514,7 @@
 {"entity_key": "tokiwa-hoikuen.jp", "technology": "Amazon CloudFront", "version": null, "source": "hostname", "signal": "cloudfront.net", "ip": "52.85.151.73", "port": 443, "country": "United States"}
 {"entity_key": "tokiwa-hoikuen.jp", "technology": "Amazon ELB", "version": null, "source": "cpe", "signal": "cpe:2.3:a:amazon:elastic_load_balancing", "ip": "52.85.151.73", "port": 443, "country": "United States"}
 {"entity_key": "tokiwa-hoikuen.jp", "technology": "Apache HTTP Server", "version": null, "source": "server_header", "signal": "Apache", "ip": "52.85.151.73", "port": 443, "country": "United States"}
+{"entity_key": "tokiwa-hoikuen.jp", "technology": "WordPress", "version": null, "source": "banner", "signal": "Link: <https://tokiwa-hoikuen.jp/wp-json/>; rel=\"https://api.w.org", "ip": "52.85.151.73", "port": 443, "country": "United States"}
 {"entity_key": "toluca.gob.mx", "technology": "Apache HTTP Server", "version": null, "source": "component", "signal": "Apache HTTP Server", "ip": "187.174.218.140", "port": 80, "country": "Mexico"}
 {"entity_key": "toluca.gob.mx", "technology": "Apache HTTP Server", "version": "2.4.6", "source": "cpe", "signal": "cpe:2.3:a:apache:http_server:2.4.6", "ip": "187.174.218.140", "port": 80, "country": "Mexico"}
 {"entity_key": "toluca.gob.mx", "technology": "Apache HTTP Server", "version": "2.4.6", "source": "product", "signal": "Apache httpd", "ip": "187.174.218.140", "port": 80, "country": "Mexico"}
@@ -11787,6 +11836,7 @@
 {"entity_key": "uk.com", "technology": "Cloudflare", "version": null, "source": "cpe", "signal": "cpe:2.3:a:cloudflare:cloudflare", "ip": "104.21.56.203", "port": 80, "country": "United States"}
 {"entity_key": "uk.com", "technology": "Cloudflare", "version": null, "source": "server_header", "signal": "cloudflare", "ip": "104.21.52.243", "port": 80, "country": "United States"}
 {"entity_key": "uk.com", "technology": "Cloudflare", "version": null, "source": "server_header", "signal": "cloudflare", "ip": "104.21.56.203", "port": 80, "country": "United States"}
+{"entity_key": "uk.com", "technology": "WordPress", "version": null, "source": "banner", "signal": "Link: <https://1x.uk.com/wp-json/>; rel=\"https://api.w.org/\", <https://1x.uk.com/wp-json", "ip": "141.193.23.68", "port": 443, "country": "Canada"}
 {"entity_key": "ulakbel.com", "technology": "Nginx", "version": null, "source": "cpe", "signal": "cpe:2.3:a:f5:nginx", "ip": "176.236.169.195", "port": 3333, "country": "Turkey"}
 {"entity_key": "ulakbel.com", "technology": "Nginx", "version": null, "source": "product", "signal": "nginx", "ip": "176.236.169.195", "port": 3333, "country": "Turkey"}
 {"entity_key": "ulakbel.com", "technology": "Nginx", "version": null, "source": "server_header", "signal": "nginx", "ip": "176.236.169.195", "port": 3333, "country": "Turkey"}
@@ -12479,6 +12529,7 @@
 {"entity_key": "willis-heating.com", "technology": "Cloudflare", "version": null, "source": "cpe", "signal": "cpe:2.3:a:cloudflare:cloudflare", "ip": "172.67.188.198", "port": 443, "country": "United States"}
 {"entity_key": "willis-heating.com", "technology": "Cloudflare", "version": null, "source": "server_header", "signal": "cloudflare", "ip": "172.67.188.198", "port": 443, "country": "United States"}
 {"entity_key": "willis-heating.com", "technology": "PHP", "version": "7.4.33", "source": "cpe", "signal": "cpe:2.3:a:php:php:7.4.33", "ip": "172.67.188.198", "port": 443, "country": "United States"}
+{"entity_key": "willis-heating.com", "technology": "WordPress", "version": null, "source": "banner", "signal": "link: <https://willis-heating.com/wp-json/>; rel=\"https://api.w.org", "ip": "172.67.188.198", "port": 443, "country": "United States"}
 {"entity_key": "windows.net", "technology": "Azure Blob Storage", "version": "1.0", "source": "server_header", "signal": "Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0", "ip": "20.209.30.1", "port": 80, "country": "United Kingdom"}
 {"entity_key": "windows.net", "technology": "Microsoft Azure", "version": null, "source": "cloud", "signal": "Azure", "ip": "20.174.118.82", "port": 443, "country": "United Arab Emirates"}
 {"entity_key": "windows.net", "technology": "Microsoft Azure", "version": null, "source": "cloud", "signal": "Azure", "ip": "20.209.30.1", "port": 80, "country": "United Kingdom"}
@@ -12510,6 +12561,7 @@
 {"entity_key": "winstorms.com", "technology": "Apache HTTP Server", "version": null, "source": "product", "signal": "Apache httpd", "ip": "216.92.71.32", "port": 80, "country": "United States"}
 {"entity_key": "winstorms.com", "technology": "Apache HTTP Server", "version": null, "source": "server_header", "signal": "Apache", "ip": "216.92.71.32", "port": 80, "country": "United States"}
 {"entity_key": "wir-sind-ullmer.de", "technology": "Apache HTTP Server", "version": null, "source": "server_header", "signal": "Apache", "ip": "217.160.0.120", "port": 443, "country": "Germany"}
+{"entity_key": "wir-sind-ullmer.de", "technology": "WordPress", "version": null, "source": "banner", "signal": "Link: <https://wir-sind-ullmer.de/wp-json/>; rel=\"https://api.w.org/\", <https://wir-sind-ullmer.de/wp-json", "ip": "217.160.0.120", "port": 443, "country": "Germany"}
 {"entity_key": "wirtualne.net", "technology": "Postfix", "version": null, "source": "cpe", "signal": "cpe:2.3:a:postfix:postfix", "ip": "185.135.90.121", "port": 587, "country": "Poland"}
 {"entity_key": "wirtualne.net", "technology": "Postfix", "version": null, "source": "product", "signal": "Postfix smtpd", "ip": "185.135.90.121", "port": 587, "country": "Poland"}
 {"entity_key": "wixsite.com", "technology": "React", "version": null, "source": "component", "signal": "React", "ip": "185.230.63.171", "port": 443, "country": "Israel"}
@@ -12594,6 +12646,7 @@
 {"entity_key": "xserver.jp", "technology": "Nginx", "version": null, "source": "cpe", "signal": "cpe:2.3:a:f5:nginx", "ip": "183.90.228.35", "port": 443, "country": "Japan"}
 {"entity_key": "xserver.jp", "technology": "Nginx", "version": null, "source": "product", "signal": "nginx", "ip": "183.90.228.35", "port": 443, "country": "Japan"}
 {"entity_key": "xserver.jp", "technology": "Nginx", "version": null, "source": "server_header", "signal": "nginx", "ip": "183.90.228.35", "port": 443, "country": "Japan"}
+{"entity_key": "xserver.jp", "technology": "WordPress", "version": null, "source": "banner", "signal": "Link: <https://landmark-inc.com/wp-json/>; rel=\"https://api.w.org", "ip": "183.90.228.35", "port": 443, "country": "Japan"}
 {"entity_key": "xtec.cat", "technology": "Apache HTTP Server", "version": null, "source": "component", "signal": "Apache HTTP Server", "ip": "85.192.77.128", "port": 443, "country": "Spain"}
 {"entity_key": "xtec.cat", "technology": "Apache HTTP Server", "version": "2.4.29", "source": "cpe", "signal": "cpe:2.3:a:apache:http_server:2.4.29", "ip": "85.192.77.128", "port": 443, "country": "Spain"}
 {"entity_key": "xtec.cat", "technology": "Apache HTTP Server", "version": "2.4.29", "source": "product", "signal": "Apache httpd", "ip": "85.192.77.128", "port": 443, "country": "Spain"}

@@ -16,6 +16,7 @@ RULES = Rules({
         "Windows Server": {"category": "Operating system", "vendor": "Microsoft", "os_names": ["Windows Server"]},
         "Windows": {"category": "Operating system", "vendor": "Microsoft", "os_names": ["Windows"]},
         "AI service": {"category": "Exposed service type", "vendor": None, "tags": ["ai"]},
+        "WordPress": {"category": "Security", "vendor": "Automattic", "banner_patterns": [r"^link:.*(wp-json|api\.w\.org)"]},
     },
     "discovered": {
         "Okta": {"category": "Security", "vendor": "Okta", "components": ["Okta"]},
@@ -158,3 +159,10 @@ def test_carrier_and_hosting_names_are_infrastructure():
     for name in ("TerraTransit AG", "Network for hosting services", "PebbleHost", "Shaw Communications Inc."):
         assert attribution.is_infra_org_name(name), name
     assert not attribution.is_infra_org_name("Mitsubishi Electric Information Network Corporation")
+
+
+def test_banner_link_header_means_wordpress_but_other_text_does_not():
+    header = {"data": 'HTTP/1.1 200 OK\nlink: <https://site.com/wp-json/>; rel="https://api.w.org/"\nServer: x'}
+    assert [(h["technology"], h["source"]) for h in extract(header, RULES)] == [("WordPress", "banner")]
+    body_text = {"data": "HTTP/1.1 200 OK\n\n<p>read about wp-json here</p>"}
+    assert extract(body_text, RULES) == []

@@ -48,7 +48,7 @@ The rule: **rules decide anything that changes a ranking or states a fact; the L
 | org_classification | 25 labelled names | Accuracy, precision and recall per class | v1 80%, v2 92% |
 | risk_narrative | 23 real accounts | Citation validity, top-finding coverage, invented CVEs or ports, unsupported claims, perspective | Unsupported claims 56.5% to 100%; perspective 78.3% to 100% |
 | chat_assistant | 16 fixed questions | Correct filters (including technology), no invented accounts or CVEs, empty answers when nothing matches, refuses off-topic | All checks pass |
-| technology_extraction | 38 labelled records | Precision, recall, versions, records fully right | Seed rules F1 95.2%; with reviewed discovered rules 99.4% (recall 90.9% to 98.9%, precision 100%) |
+| technology_extraction | 38 labelled records | Precision, recall, versions, records fully right | Seed rules F1 95.2%; with reviewed discovered rules 99.4% (recall 90.9% to 98.9%, precision 100%); after a banner rule for WordPress, 100% on the 38 records |
 
 Every harness saves its results and can diff against an earlier run. The extraction eval needs no model: it is free and runs in about a second. Every LLM call is logged in full; the Traces page filters by skill, prompt version, provider, model and status and compares versions.
 
@@ -76,7 +76,7 @@ Cost per call = (input tokens x input price + output tokens x output price) / 1,
 - The score measures need, not fit or intent, and every CVE counts the same 40 points (CVSS severity is in the data but unused).
 - About 43% of accounts have an unknown hosting role. The label is explanatory only and never affects inclusion or score; it is set from the scan's own cloud and hosting evidence rather than guessed.
 - A few ISP or hosting names can remain (for example `shawcable.net`) when their machine names do not embed the IP and no keyword gives them away.
-- Technologies are only what the scan happened to show for each account, in one snapshot. WordPress detected only from a `wp-json` link is a known miss.
+- Technologies are only what the scan happened to show for each account, in one snapshot. WordPress seen only in a `Link: wp-json` header is now found by a banner rule (21 to 72 scan records), but other banner-only signals are not read.
 - Evals are small, v2 prompts were written after seeing v1's failures on the same sets, and the brief check is keyword-based. The extraction labels were a first pass written by reading banners and hostnames; the scanner already parsed most fields, so that score mostly guards normalization, versions and false positives.
 - Chat prompts live in code, and chat calls are logged to Vercel's runtime logs rather than the trace file.
 - The Snowflake account is a 120-day student trial; check its expiry date in Snowflake before relying on the live app after that. Free LLM tiers have daily caps.

@@ -57,7 +57,7 @@ models:
         tests:
           - accepted_values:
               arguments:
-                values: ['component', 'cpe', 'product', 'server_header', 'cloud', 'hostname', 'os', 'tag']
+                values: ['component', 'cpe', 'product', 'server_header', 'cloud', 'hostname', 'os', 'tag', 'banner']
 
   - name: stg_tech_catalog
     description: One row per technology.

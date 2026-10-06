@@ -71,7 +71,7 @@
     "AngularJS": {"category": "Web framework & front-end", "vendor": "Google", "components": ["AngularJS"], "cpe": ["angularjs:angular.js"]},
     "Next.js": {"category": "Web framework & front-end", "vendor": "Vercel", "components": ["Next.js"], "cpe": ["vercel:next.js"]},
     "Express": {"category": "Web framework & front-end", "vendor": "OpenJS", "components": ["Express"], "cpe": ["expressjs:express"]},
-    "WordPress": {"category": "CMS & e-commerce", "vendor": "Automattic", "components": ["WordPress"], "cpe": ["wordpress:wordpress"]},
+    "WordPress": {"category": "CMS & e-commerce", "vendor": "Automattic", "components": ["WordPress"], "cpe": ["wordpress:wordpress"], "banner_patterns": ["^link:.*(wp-json|api\\.w\\.org)"]},
     "Squarespace": {"category": "CMS & e-commerce", "vendor": "Squarespace", "server_headers": ["squarespace"]},
     "MySQL": {"category": "Database", "vendor": "Oracle", "components": ["MySQL"], "cpe": ["mysql:mysql"], "products": ["MySQL"]},
     "MariaDB": {"category": "Database", "vendor": "MariaDB", "components": ["MariaDB"], "cpe": ["mariadb_project:mariadb"], "products": ["MariaDB"]},

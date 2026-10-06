@@ -52,6 +52,7 @@ export const SOURCE_LABELS: Record<string, string> = {
   cpe: "software identifier (CPE)",
   product: "service banner",
   server_header: "HTTP server header",
+  banner: "Link header in the banner",
   cloud: "cloud IP range",
   hostname: "hostname",
   os: "operating system",

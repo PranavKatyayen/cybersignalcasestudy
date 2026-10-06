@@ -35,6 +35,7 @@ class Rules:
         self.ignore = {kind: {_norm(v) for v in values} for kind, values in data.get("ignore", {}).items()}
         self.technologies = {}
         self.origin_of = {}
+        self.banner_rules = []  # (compiled pattern, technology) for evidence that is a line of the raw banner
         self.index = {signal: defaultdict(list) for signal in SIGNALS}
         for origin in ("seed", "discovered"):
             if origin not in origins:
@@ -43,6 +44,8 @@ class Rules:
                 if name not in self.technologies:  # the first definition wins the category and vendor
                     self.technologies[name] = {"category": spec["category"], "vendor": spec.get("vendor")}
                     self.origin_of[name] = origin
+                for pattern in spec.get("banner_patterns", []):
+                    self.banner_rules.append((re.compile(pattern, re.IGNORECASE | re.MULTILINE), name))
                 for signal in SIGNALS:
                     for value in spec.get(signal, []):
                         if name not in self.index[signal][_norm(value)]:
@@ -147,6 +150,12 @@ def extract(rec: dict, rules: Rules | None = None) -> list[dict]:
             if host == suffix or host.endswith("." + suffix):
                 for name in rules.index["hostname_suffixes"][suffix]:
                     add(name, "hostname", host)
+
+    banner = rec.get("data") or ""
+    for pattern, name in rules.banner_rules:
+        found = pattern.search(banner)
+        if found:
+            add(name, "banner", found.group(0)[:120])
     return list(hits.values())
 
 

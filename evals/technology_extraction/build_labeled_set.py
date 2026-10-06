@@ -17,7 +17,7 @@ import re
 from pathlib import Path
 
 OUT = Path(__file__).with_name("labeled_set.jsonl")
-KEEP_HEADERS = re.compile(r"^(server|x-powered-by|x-aspnet-version|via|x-generator):", re.I)
+KEEP_HEADERS = re.compile(r"^(server|x-powered-by|x-aspnet-version|via|x-generator|link):", re.I)
 
 # record line number in sample.jsonl -> technologies a person would name (technology, version or None)
 LABELS = {
