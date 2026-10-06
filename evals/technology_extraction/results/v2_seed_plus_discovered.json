@@ -1,0 +1,251 @@
+{
+  "skill": "technology_extraction",
+  "label": "v2_seed_plus_discovered",
+  "rules_used": [
+    "seed",
+    "discovered"
+  ],
+  "timestamp": "2026-10-06T03:59:38",
+  "examples": 38,
+  "true_positives": 87,
+  "false_positives": 0,
+  "false_negatives": 1,
+  "precision": 1.0,
+  "recall": 0.9886,
+  "f1": 0.9943,
+  "version_accuracy": 1.0,
+  "versions_checked": 12,
+  "exact_match_rate": 0.9737,
+  "records": [
+    {
+      "id": 113,
+      "missed": [],
+      "extra": [],
+      "wrong_versions": []
+    },
+    {
+      "id": 1802,
+      "missed": [],
+      "extra": [],
+      "wrong_versions": []
+    },
+    {
+      "id": 4083,
+      "missed": [],
+      "extra": [],
+      "wrong_versions": []
+    },
+    {
+      "id": 4270,
+      "missed": [],
+      "extra": [],
+      "wrong_versions": []
+    },
+    {
+      "id": 5143,
+      "missed": [],
+      "extra": [],
+      "wrong_versions": []
+    },
+    {
+      "id": 5271,
+      "missed": [],
+      "extra": [],
+      "wrong_versions": []
+    },
+    {
+      "id": 5363,
+      "missed": [],
+      "extra": [],
+      "wrong_versions": []
+    },
+    {
+      "id": 6943,
+      "missed": [],
+      "extra": [],
+      "wrong_versions": []
+    },
+    {
+      "id": 11061,
+      "missed": [],
+      "extra": [],
+      "wrong_versions": []
+    },
+    {
+      "id": 11748,
+      "missed": [],
+      "extra": [],
+      "wrong_versions": []
+    },
+    {
+      "id": 11892,
+      "missed": [],
+      "extra": [],
+      "wrong_versions": []
+    },
+    {
+      "id": 12408,
+      "missed": [],
+      "extra": [],
+      "wrong_versions": []
+    },
+    {
+      "id": 12601,
+      "missed": [],
+      "extra": [],
+      "wrong_versions": []
+    },
+    {
+      "id": 12712,
+      "missed": [],
+      "extra": [],
+      "wrong_versions": []
+    },
+    {
+      "id": 12774,
+      "missed": [],
+      "extra": [],
+      "wrong_versions": []
+    },
+    {
+      "id": 14422,
+      "missed": [],
+      "extra": [],
+      "wrong_versions": []
+    },
+    {
+      "id": 15401,
+      "missed": [],
+      "extra": [],
+      "wrong_versions": []
+    },
+    {
+      "id": 18254,
+      "missed": [],
+      "extra": [],
+      "wrong_versions": []
+    },
+    {
+      "id": 18670,
+      "missed": [],
+      "extra": [],
+      "wrong_versions": []
+    },
+    {
+      "id": 19252,
+      "missed": [],
+      "extra": [],
+      "wrong_versions": []
+    },
+    {
+      "id": 19599,
+      "missed": [],
+      "extra": [],
+      "wrong_versions": []
+    },
+    {
+      "id": 19977,
+      "missed": [],
+      "extra": [],
+      "wrong_versions": []
+    },
+    {
+      "id": 20720,
+      "missed": [],
+      "extra": [],
+      "wrong_versions": []
+    },
+    {
+      "id": 20751,
+      "missed": [],
+      "extra": [],
+      "wrong_versions": []
+    },
+    {
+      "id": 20877,
+      "missed": [],
+      "extra": [],
+      "wrong_versions": []
+    },
+    {
+      "id": 21213,
+      "missed": [],
+      "extra": [],
+      "wrong_versions": []
+    },
+    {
+      "id": 21995,
+      "missed": [],
+      "extra": [],
+      "wrong_versions": []
+    },
+    {
+      "id": 23053,
+      "missed": [
+        "WordPress"
+      ],
+      "extra": [],
+      "wrong_versions": []
+    },
+    {
+      "id": 23231,
+      "missed": [],
+      "extra": [],
+      "wrong_versions": []
+    },
+    {
+      "id": 23856,
+      "missed": [],
+      "extra": [],
+      "wrong_versions": []
+    },
+    {
+      "id": 25621,
+      "missed": [],
+      "extra": [],
+      "wrong_versions": []
+    },
+    {
+      "id": 25863,
+      "missed": [],
+      "extra": [],
+      "wrong_versions": []
+    },
+    {
+      "id": 26096,
+      "missed": [],
+      "extra": [],
+      "wrong_versions": []
+    },
+    {
+      "id": 27220,
+      "missed": [],
+      "extra": [],
+      "wrong_versions": []
+    },
+    {
+      "id": 27470,
+      "missed": [],
+      "extra": [],
+      "wrong_versions": []
+    },
+    {
+      "id": 28160,
+      "missed": [],
+      "extra": [],
+      "wrong_versions": []
+    },
+    {
+      "id": 28658,
+      "missed": [],
+      "extra": [],
+      "wrong_versions": []
+    },
+    {
+      "id": 29011,
+      "missed": [],
+      "extra": [],
+      "wrong_versions": []
+    }
+  ]
+}

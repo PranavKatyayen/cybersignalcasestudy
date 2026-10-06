@@ -39,3 +39,36 @@ models:
       - name: adjusted_score
         tests:
           - not_null
+
+  - name: stg_tech_evidence
+    description: Technology evidence per asset, lightly typed from RAW.TECH_EVIDENCE.
+    columns:
+      - name: entity_key
+        tests:
+          - not_null
+      - name: technology
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('stg_tech_catalog')
+                field: technology
+      - name: source
+        tests:
+          - accepted_values:
+              arguments:
+                values: ['component', 'cpe', 'product', 'server_header', 'cloud', 'hostname', 'os', 'tag']
+
+  - name: stg_tech_catalog
+    description: One row per technology.
+    columns:
+      - name: technology
+        tests:
+          - not_null
+          - unique
+      - name: category
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['Cloud & hosting', 'CDN & edge', 'Web server & proxy', 'Load balancer & gateway', 'Security', 'Language & runtime', 'Web framework & front-end', 'CMS & e-commerce', 'Database', 'Operating system', 'Hosting control panel', 'Analytics & marketing', 'Mail & communications', 'Network & remote access', 'Devices & IoT', 'Exposed service type', 'Other']

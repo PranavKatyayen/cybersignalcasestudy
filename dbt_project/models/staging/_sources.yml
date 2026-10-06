@@ -19,3 +19,9 @@ sources:
           One pre-generated risk narrative per entity, written offline by
           scripts/generate_narratives.py. The app never calls the LLM live --
           it only ever reads from this table.
+      - name: tech_evidence
+        description: >
+          One row per technology seen on an asset of an account (from scripts/export_technologies.py).
+          Extraction is rule based; no model runs at this point.
+      - name: tech_catalog
+        description: One row per technology with its category and vendor.

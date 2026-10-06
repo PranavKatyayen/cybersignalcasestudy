@@ -65,6 +65,28 @@ ALTER TABLE RAW.ENTITY_NARRATIVES ADD COLUMN IF NOT EXISTS provider STRING;
 ALTER TABLE RAW.ENTITY_NARRATIVES ADD COLUMN IF NOT EXISTS model STRING;
 ALTER TABLE RAW.ENTITY_NARRATIVES ADD COLUMN IF NOT EXISTS prompt_version STRING;
 
+-- Technologies seen on each account's scanned assets (see scripts/export_technologies.py)
+CREATE TABLE IF NOT EXISTS RAW.TECH_EVIDENCE (
+    entity_key  STRING,
+    technology  STRING,
+    version     STRING,
+    source      STRING,
+    signal      STRING,
+    ip          STRING,
+    port        NUMBER,
+    country     STRING,
+    loaded_at   TIMESTAMP_NTZ DEFAULT CURRENT_TIMESTAMP()
+);
+
+-- One row per technology: its category and vendor, and whether the rule was hand-written or discovered
+CREATE TABLE IF NOT EXISTS RAW.TECH_CATALOG (
+    technology  STRING,
+    category    STRING,
+    vendor      STRING,
+    origin      STRING,
+    loaded_at   TIMESTAMP_NTZ DEFAULT CURRENT_TIMESTAMP()
+);
+
 -- File format + internal stage for loading the curated JSON output of the local pipeline
 CREATE FILE FORMAT IF NOT EXISTS RAW.JSON_FORMAT
   TYPE = 'JSON'

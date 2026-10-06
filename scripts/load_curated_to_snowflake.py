@@ -43,6 +43,22 @@ LOADS = {
         "findings": "$1:findings",
         "tags": "$1:tags",
     }),
+    "RAW.TECH_EVIDENCE": ("tech_evidence.jsonl", {
+        "entity_key": "$1:entity_key::STRING",
+        "technology": "$1:technology::STRING",
+        "version": "$1:version::STRING",
+        "source": "$1:source::STRING",
+        "signal": "$1:signal::STRING",
+        "ip": "$1:ip::STRING",
+        "port": "$1:port::NUMBER",
+        "country": "$1:country::STRING",
+    }),
+    "RAW.TECH_CATALOG": ("tech_catalog.jsonl", {
+        "technology": "$1:technology::STRING",
+        "category": "$1:category::STRING",
+        "vendor": "$1:vendor::STRING",
+        "origin": "$1:origin::STRING",
+    }),
     "RAW.ENTITY_NARRATIVES": ("narratives.jsonl", {
         "entity_key": "$1:entity_key::STRING",
         "summary": "$1:summary::STRING",

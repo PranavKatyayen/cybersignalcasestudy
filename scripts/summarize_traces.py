@@ -89,7 +89,11 @@ def eval_summary():
     rows = []
     for path in sorted((ROOT / "evals").glob("*/results/*.json")):
         d = json.loads(path.read_text(encoding="utf-8"))
-        if "skill" in d and "prompt_version" in d:
+        if d.get("skill") == "technology_extraction":
+            keys = ("precision", "recall", "f1", "exact_match_rate", "version_accuracy")
+            rows.append({"skill": "technology_extraction", "version": d["label"], "provider": None, "model": None,
+                         "metrics": {k: d[k] for k in keys if isinstance(d.get(k), (int, float))}, "file": path.name})
+        elif "skill" in d and "prompt_version" in d:
             metrics = {k: v for k, v in d.items() if isinstance(v, (int, float)) and k not in ("timestamp",)}
             rows.append({"skill": d["skill"], "version": d["prompt_version"], "provider": d.get("provider"),
                          "model": d.get("model"), "metrics": metrics, "file": path.name})

@@ -1,0 +1,265 @@
+{"technology": "3CX", "category": "Mail & communications", "vendor": "3CX", "origin": "discovered"}
+{"technology": "AI service", "category": "Exposed service type", "vendor": null, "origin": "seed"}
+{"technology": "ASP.NET", "category": "Language & runtime", "vendor": "Microsoft", "origin": "seed"}
+{"technology": "ASUS router", "category": "Devices & IoT", "vendor": "ASUS", "origin": "discovered"}
+{"technology": "AWS", "category": "Cloud & hosting", "vendor": "Amazon", "origin": "seed"}
+{"technology": "AWS Global Accelerator", "category": "Cloud & hosting", "vendor": "Amazon", "origin": "seed"}
+{"technology": "Akamai", "category": "CDN & edge", "vendor": "Akamai", "origin": "seed"}
+{"technology": "Akamai Connected Cloud", "category": "Cloud & hosting", "vendor": "Akamai", "origin": "discovered"}
+{"technology": "Akamai NetStorage", "category": "CDN & edge", "vendor": "Akamai", "origin": "discovered"}
+{"technology": "Alibaba Cloud", "category": "Cloud & hosting", "vendor": "Alibaba", "origin": "seed"}
+{"technology": "AlmaLinux", "category": "Operating system", "vendor": "AlmaLinux", "origin": "discovered"}
+{"technology": "Amazon CloudFront", "category": "CDN & edge", "vendor": "Amazon", "origin": "seed"}
+{"technology": "Amazon EC2", "category": "Cloud & hosting", "vendor": "Amazon", "origin": "seed"}
+{"technology": "Amazon ELB", "category": "Load balancer & gateway", "vendor": "Amazon", "origin": "seed"}
+{"technology": "Amazon S3", "category": "Cloud & hosting", "vendor": "Amazon", "origin": "seed"}
+{"technology": "AngularJS", "category": "Web framework & front-end", "vendor": "Google", "origin": "seed"}
+{"technology": "AnyDesk", "category": "Network & remote access", "vendor": "AnyDesk", "origin": "discovered"}
+{"technology": "Apache HTTP Server", "category": "Web server & proxy", "vendor": "Apache", "origin": "seed"}
+{"technology": "Apache Tomcat", "category": "Web server & proxy", "vendor": "Apache", "origin": "seed"}
+{"technology": "Apereo CAS", "category": "Security", "vendor": "Apereo Foundation", "origin": "discovered"}
+{"technology": "Apple AirPlay", "category": "Devices & IoT", "vendor": "Apple", "origin": "discovered"}
+{"technology": "Apple MapKit JS", "category": "Web framework & front-end", "vendor": "Apple", "origin": "discovered"}
+{"technology": "Aruba Instant", "category": "Network & remote access", "vendor": "Aruba Networks", "origin": "discovered"}
+{"technology": "Aruba Proxy", "category": "Web server & proxy", "vendor": "Aruba", "origin": "discovered"}
+{"technology": "Aruba.it", "category": "Cloud & hosting", "vendor": "Aruba", "origin": "discovered"}
+{"technology": "Azion", "category": "CDN & edge", "vendor": "Azion", "origin": "discovered"}
+{"technology": "Azure App Service", "category": "Cloud & hosting", "vendor": "Microsoft", "origin": "seed"}
+{"technology": "Azure Application Gateway", "category": "Load balancer & gateway", "vendor": "Microsoft", "origin": "seed"}
+{"technology": "Azure Blob Storage", "category": "Cloud & hosting", "vendor": "Microsoft", "origin": "discovered"}
+{"technology": "Azure Front Door", "category": "CDN & edge", "vendor": "Microsoft", "origin": "discovered"}
+{"technology": "BFE", "category": "Load balancer & gateway", "vendor": "Baidu", "origin": "discovered"}
+{"technology": "Barracuda Web Application Firewall", "category": "Security", "vendor": "Barracuda Networks", "origin": "discovered"}
+{"technology": "Bluehost", "category": "Cloud & hosting", "vendor": "Newfold Digital", "origin": "discovered"}
+{"technology": "Boa", "category": "Web server & proxy", "vendor": null, "origin": "discovered"}
+{"technology": "Bootstrap", "category": "Web framework & front-end", "vendor": "Bootstrap", "origin": "seed"}
+{"technology": "BootstrapCDN", "category": "CDN & edge", "vendor": "StackPath", "origin": "discovered"}
+{"technology": "Caddy", "category": "Web server & proxy", "vendor": "Caddy", "origin": "seed"}
+{"technology": "CentOS", "category": "Operating system", "vendor": "CentOS", "origin": "seed"}
+{"technology": "CentOS Web Panel", "category": "Hosting control panel", "vendor": "CWP", "origin": "discovered"}
+{"technology": "Cisco IOS", "category": "Operating system", "vendor": "Cisco", "origin": "discovered"}
+{"technology": "Cisco IP SLA", "category": "Network & remote access", "vendor": "Cisco", "origin": "discovered"}
+{"technology": "Citrix NetScaler", "category": "Load balancer & gateway", "vendor": "Citrix", "origin": "seed"}
+{"technology": "ClientJS", "category": "Web framework & front-end", "vendor": "ClientJS", "origin": "discovered"}
+{"technology": "Cloudflare", "category": "CDN & edge", "vendor": "Cloudflare", "origin": "seed"}
+{"technology": "Cloudflare Browser Insights", "category": "Analytics & marketing", "vendor": "Cloudflare", "origin": "seed"}
+{"technology": "Constellix", "category": "CDN & edge", "vendor": "Constellix", "origin": "discovered"}
+{"technology": "Contact Form 7", "category": "CMS & e-commerce", "vendor": null, "origin": "discovered"}
+{"technology": "Control Web Panel", "category": "Hosting control panel", "vendor": "CWP", "origin": "seed"}
+{"technology": "CrushFTP", "category": "Network & remote access", "vendor": "CrushFTP", "origin": "discovered"}
+{"technology": "D-Link camera", "category": "Devices & IoT", "vendor": "D-Link", "origin": "discovered"}
+{"technology": "D3.js", "category": "Web framework & front-end", "vendor": null, "origin": "discovered"}
+{"technology": "DDoS-Guard", "category": "Security", "vendor": "DDoS-Guard", "origin": "discovered"}
+{"technology": "Dahua DVR/NVR", "category": "Devices & IoT", "vendor": "Dahua Technology", "origin": "discovered"}
+{"technology": "DataDome", "category": "Security", "vendor": "DataDome", "origin": "discovered"}
+{"technology": "DataTables", "category": "Web framework & front-end", "vendor": "SpryMedia", "origin": "discovered"}
+{"technology": "Database service", "category": "Exposed service type", "vendor": null, "origin": "seed"}
+{"technology": "Debian", "category": "Operating system", "vendor": "Debian", "origin": "seed"}
+{"technology": "DevOps tooling", "category": "Exposed service type", "vendor": null, "origin": "seed"}
+{"technology": "DigitalOcean", "category": "Cloud & hosting", "vendor": "DigitalOcean", "origin": "seed"}
+{"technology": "Django", "category": "Web framework & front-end", "vendor": "Django Software Foundation", "origin": "discovered"}
+{"technology": "Dovecot Pigeonhole", "category": "Mail & communications", "vendor": "Dovecot", "origin": "discovered"}
+{"technology": "DrayTek Vigor", "category": "Devices & IoT", "vendor": "DrayTek", "origin": "discovered"}
+{"technology": "Dreamdata", "category": "Analytics & marketing", "vendor": "Dreamdata", "origin": "discovered"}
+{"technology": "Dropbear SSH", "category": "Network & remote access", "vendor": null, "origin": "discovered"}
+{"technology": "Drupal", "category": "CMS & e-commerce", "vendor": "Drupal", "origin": "discovered"}
+{"technology": "Dynatrace", "category": "Analytics & marketing", "vendor": "Dynatrace", "origin": "discovered"}
+{"technology": "EZproxy", "category": "Web server & proxy", "vendor": "OCLC", "origin": "seed"}
+{"technology": "Elementor", "category": "CMS & e-commerce", "vendor": "Elementor", "origin": "discovered"}
+{"technology": "Envoy", "category": "Web server & proxy", "vendor": "Envoy", "origin": "seed"}
+{"technology": "Exim", "category": "Mail & communications", "vendor": "Exim", "origin": "seed"}
+{"technology": "Express", "category": "Web framework & front-end", "vendor": "OpenJS", "origin": "seed"}
+{"technology": "Ext JS", "category": "Web framework & front-end", "vendor": "Sencha", "origin": "discovered"}
+{"technology": "F5 BIG-IP", "category": "Load balancer & gateway", "vendor": "F5", "origin": "seed"}
+{"technology": "F5 BIG-IP Access Policy Manager", "category": "Load balancer & gateway", "vendor": "F5", "origin": "discovered"}
+{"technology": "FancyBox", "category": "Web framework & front-end", "vendor": null, "origin": "discovered"}
+{"technology": "Fastly", "category": "CDN & edge", "vendor": "Fastly", "origin": "seed"}
+{"technology": "Fly.io", "category": "Cloud & hosting", "vendor": "Fly.io", "origin": "seed"}
+{"technology": "Flywheel", "category": "Cloud & hosting", "vendor": "Flywheel", "origin": "discovered"}
+{"technology": "FortiOS", "category": "Operating system", "vendor": "Fortinet", "origin": "discovered"}
+{"technology": "Foundation", "category": "Web framework & front-end", "vendor": "ZURB", "origin": "discovered"}
+{"technology": "Fourthwall", "category": "CMS & e-commerce", "vendor": "Fourthwall", "origin": "discovered"}
+{"technology": "FullCalendar", "category": "Web framework & front-end", "vendor": null, "origin": "discovered"}
+{"technology": "Gatsby", "category": "Web framework & front-end", "vendor": "Gatsby", "origin": "discovered"}
+{"technology": "Genesis Theme", "category": "CMS & e-commerce", "vendor": "StudioPress", "origin": "discovered"}
+{"technology": "GitHub Pages", "category": "Cloud & hosting", "vendor": "GitHub", "origin": "seed"}
+{"technology": "Go", "category": "Language & runtime", "vendor": "Google", "origin": "seed"}
+{"technology": "GoAhead Web Server", "category": "Web server & proxy", "vendor": "Embedthis", "origin": "discovered"}
+{"technology": "Google Analytics", "category": "Analytics & marketing", "vendor": "Google", "origin": "seed"}
+{"technology": "Google Cloud", "category": "Cloud & hosting", "vendor": "Google", "origin": "seed"}
+{"technology": "Google Cloud CDN", "category": "CDN & edge", "vendor": "Google", "origin": "seed"}
+{"technology": "Google Cloud Load Balancing", "category": "Load balancer & gateway", "vendor": "Google", "origin": "discovered"}
+{"technology": "Google Cloud Storage", "category": "Cloud & hosting", "vendor": "Google", "origin": "discovered"}
+{"technology": "Google Cloud Trace", "category": "Cloud & hosting", "vendor": "Google", "origin": "discovered"}
+{"technology": "Google Edge Cache", "category": "CDN & edge", "vendor": "Google", "origin": "discovered"}
+{"technology": "Google Frontend", "category": "Load balancer & gateway", "vendor": "Google", "origin": "discovered"}
+{"technology": "Google Hosted Libraries", "category": "CDN & edge", "vendor": "Google", "origin": "discovered"}
+{"technology": "Google Maps", "category": "Web framework & front-end", "vendor": "Google", "origin": "discovered"}
+{"technology": "Google Tag Manager", "category": "Analytics & marketing", "vendor": "Google", "origin": "seed"}
+{"technology": "Google Web Server", "category": "Web server & proxy", "vendor": "Google", "origin": "discovered"}
+{"technology": "H3C Comware", "category": "Network & remote access", "vendor": "H3C", "origin": "discovered"}
+{"technology": "Heroku", "category": "Cloud & hosting", "vendor": "Salesforce", "origin": "seed"}
+{"technology": "Hetzner", "category": "Cloud & hosting", "vendor": "Hetzner", "origin": "seed"}
+{"technology": "Highcharts", "category": "Web framework & front-end", "vendor": "Highsoft", "origin": "discovered"}
+{"technology": "Hikvision camera", "category": "Devices & IoT", "vendor": "Hikvision", "origin": "seed"}
+{"technology": "Hostinger", "category": "Cloud & hosting", "vendor": "Hostinger", "origin": "seed"}
+{"technology": "Huawei Cloud", "category": "Cloud & hosting", "vendor": "Huawei", "origin": "seed"}
+{"technology": "IBM HTTP Server", "category": "Web server & proxy", "vendor": "IBM", "origin": "discovered"}
+{"technology": "IIS Application Request Routing", "category": "Load balancer & gateway", "vendor": "Microsoft", "origin": "discovered"}
+{"technology": "IONOS Webserver", "category": "Web server & proxy", "vendor": "IONOS", "origin": "discovered"}
+{"technology": "Imperva", "category": "Security", "vendor": "Imperva", "origin": "seed"}
+{"technology": "Inertia.js", "category": "Web framework & front-end", "vendor": "Inertia.js", "origin": "discovered"}
+{"technology": "IoT device", "category": "Exposed service type", "vendor": null, "origin": "seed"}
+{"technology": "Istio", "category": "Load balancer & gateway", "vendor": "Istio", "origin": "seed"}
+{"technology": "Ivanti Endpoint Manager Mobile", "category": "Security", "vendor": "Ivanti", "origin": "discovered"}
+{"technology": "Java", "category": "Language & runtime", "vendor": "Oracle", "origin": "seed"}
+{"technology": "Jetty", "category": "Web server & proxy", "vendor": "Eclipse Foundation", "origin": "discovered"}
+{"technology": "Jitsi", "category": "Mail & communications", "vendor": "8x8", "origin": "discovered"}
+{"technology": "Kerio Connect", "category": "Mail & communications", "vendor": "GFI Software", "origin": "discovered"}
+{"technology": "Kestrel", "category": "Web server & proxy", "vendor": "Microsoft", "origin": "seed"}
+{"technology": "Kinsta", "category": "Cloud & hosting", "vendor": "Kinsta", "origin": "discovered"}
+{"technology": "Kong", "category": "Load balancer & gateway", "vendor": "Kong Inc.", "origin": "discovered"}
+{"technology": "Kubernetes", "category": "Cloud & hosting", "vendor": "Cloud Native Computing Foundation", "origin": "discovered"}
+{"technology": "Laravel", "category": "Web framework & front-end", "vendor": "Laravel", "origin": "discovered"}
+{"technology": "Leadfeeder", "category": "Analytics & marketing", "vendor": "Leadfeeder", "origin": "discovered"}
+{"technology": "Less", "category": "Web framework & front-end", "vendor": null, "origin": "discovered"}
+{"technology": "Linode", "category": "Cloud & hosting", "vendor": "Akamai", "origin": "seed"}
+{"technology": "Linux", "category": "Operating system", "vendor": "Linux", "origin": "seed"}
+{"technology": "LiteSpeed", "category": "Web server & proxy", "vendor": "LiteSpeed", "origin": "seed"}
+{"technology": "LiteSpeed Cache", "category": "CMS & e-commerce", "vendor": "LiteSpeed Technologies", "origin": "discovered"}
+{"technology": "Livewire", "category": "Web framework & front-end", "vendor": "Laravel", "origin": "discovered"}
+{"technology": "Lotus Domino", "category": "Mail & communications", "vendor": "HCL Technologies", "origin": "discovered"}
+{"technology": "MCP server", "category": "Exposed service type", "vendor": null, "origin": "seed"}
+{"technology": "Magnific Popup", "category": "Web framework & front-end", "vendor": null, "origin": "discovered"}
+{"technology": "MailEnable", "category": "Mail & communications", "vendor": "MailEnable", "origin": "discovered"}
+{"technology": "MariaDB", "category": "Database", "vendor": "MariaDB", "origin": "seed"}
+{"technology": "Microsoft Azure", "category": "Cloud & hosting", "vendor": "Microsoft", "origin": "seed"}
+{"technology": "Microsoft Azure Edge", "category": "CDN & edge", "vendor": "Microsoft", "origin": "discovered"}
+{"technology": "Microsoft Exchange Server", "category": "Mail & communications", "vendor": "Microsoft", "origin": "discovered"}
+{"technology": "Microsoft FTP Service", "category": "Network & remote access", "vendor": "Microsoft", "origin": "discovered"}
+{"technology": "Microsoft FrontPage", "category": "Web framework & front-end", "vendor": "Microsoft", "origin": "discovered"}
+{"technology": "Microsoft HTTPAPI", "category": "Web server & proxy", "vendor": "Microsoft", "origin": "seed"}
+{"technology": "Microsoft IIS", "category": "Web server & proxy", "vendor": "Microsoft", "origin": "seed"}
+{"technology": "Microsoft Power BI", "category": "Analytics & marketing", "vendor": "Microsoft", "origin": "discovered"}
+{"technology": "MikroTik", "category": "Devices & IoT", "vendor": "MikroTik", "origin": "seed"}
+{"technology": "MinIO", "category": "Cloud & hosting", "vendor": "MinIO", "origin": "discovered"}
+{"technology": "Moment.js", "category": "Web framework & front-end", "vendor": "Moment.js", "origin": "discovered"}
+{"technology": "Multicraft", "category": "Hosting control panel", "vendor": "Multicraft", "origin": "discovered"}
+{"technology": "MySQL", "category": "Database", "vendor": "Oracle", "origin": "seed"}
+{"technology": "NTP", "category": "Network & remote access", "vendor": "NTP.org", "origin": "discovered"}
+{"technology": "Ncat", "category": "Network & remote access", "vendor": "Nmap", "origin": "discovered"}
+{"technology": "Net-SNMP", "category": "Network & remote access", "vendor": "Net-SNMP", "origin": "discovered"}
+{"technology": "Netlify", "category": "Cloud & hosting", "vendor": "Netlify", "origin": "seed"}
+{"technology": "Next.js", "category": "Web framework & front-end", "vendor": "Vercel", "origin": "seed"}
+{"technology": "Nginx", "category": "Web server & proxy", "vendor": "F5", "origin": "seed"}
+{"technology": "Node.js", "category": "Language & runtime", "vendor": "OpenJS", "origin": "seed"}
+{"technology": "Nuxt.js", "category": "Web framework & front-end", "vendor": "Nuxt Labs", "origin": "discovered"}
+{"technology": "OVHcloud", "category": "Cloud & hosting", "vendor": "OVH", "origin": "seed"}
+{"technology": "Okta", "category": "Security", "vendor": "Okta", "origin": "discovered"}
+{"technology": "OneTrust", "category": "Analytics & marketing", "vendor": "OneTrust", "origin": "discovered"}
+{"technology": "Onsen UI", "category": "Web framework & front-end", "vendor": "Amiplica", "origin": "discovered"}
+{"technology": "Open proxy", "category": "Exposed service type", "vendor": null, "origin": "seed"}
+{"technology": "OpenBSD", "category": "Operating system", "vendor": "OpenBSD", "origin": "discovered"}
+{"technology": "OpenBSD httpd", "category": "Web server & proxy", "vendor": "OpenBSD", "origin": "discovered"}
+{"technology": "OpenResty", "category": "Web server & proxy", "vendor": "OpenResty", "origin": "seed"}
+{"technology": "OpenSSH", "category": "Network & remote access", "vendor": "OpenBSD", "origin": "seed"}
+{"technology": "OpenSSL", "category": "Security", "vendor": "OpenSSL Project", "origin": "discovered"}
+{"technology": "Oracle Cloud", "category": "Cloud & hosting", "vendor": "Oracle", "origin": "seed"}
+{"technology": "Oracle WebLogic Server", "category": "Web server & proxy", "vendor": "Oracle", "origin": "seed"}
+{"technology": "Owl Carousel", "category": "Web framework & front-end", "vendor": null, "origin": "discovered"}
+{"technology": "PHP", "category": "Language & runtime", "vendor": "PHP", "origin": "seed"}
+{"technology": "Pantheon", "category": "Cloud & hosting", "vendor": "Pantheon", "origin": "seed"}
+{"technology": "PayPal", "category": "CMS & e-commerce", "vendor": "PayPal", "origin": "discovered"}
+{"technology": "Perl", "category": "Language & runtime", "vendor": "Perl", "origin": "discovered"}
+{"technology": "Pexip Infinity", "category": "Mail & communications", "vendor": "Pexip", "origin": "discovered"}
+{"technology": "Pimcore", "category": "CMS & e-commerce", "vendor": "Pimcore", "origin": "discovered"}
+{"technology": "Plesk", "category": "Hosting control panel", "vendor": "Plesk", "origin": "seed"}
+{"technology": "Plesk Control Panel", "category": "Hosting control panel", "vendor": "Plesk", "origin": "discovered"}
+{"technology": "Plex Media Server", "category": "Other", "vendor": "Plex", "origin": "discovered"}
+{"technology": "Plotly", "category": "Web framework & front-end", "vendor": "Plotly", "origin": "discovered"}
+{"technology": "Postfix", "category": "Mail & communications", "vendor": "Postfix", "origin": "seed"}
+{"technology": "Premio Chaty", "category": "CMS & e-commerce", "vendor": "Premio", "origin": "discovered"}
+{"technology": "Prototype", "category": "Web framework & front-end", "vendor": null, "origin": "discovered"}
+{"technology": "Proxmox VE", "category": "Cloud & hosting", "vendor": "Proxmox", "origin": "discovered"}
+{"technology": "Proxygen", "category": "Web server & proxy", "vendor": "Meta", "origin": "discovered"}
+{"technology": "Pure-FTPd", "category": "Network & remote access", "vendor": "Frank Denis", "origin": "discovered"}
+{"technology": "Python", "category": "Language & runtime", "vendor": "Python", "origin": "seed"}
+{"technology": "React", "category": "Web framework & front-end", "vendor": "Meta", "origin": "seed"}
+{"technology": "Recurly", "category": "CMS & e-commerce", "vendor": "Recurly", "origin": "discovered"}
+{"technology": "Red Hat Enterprise Linux", "category": "Operating system", "vendor": "Red Hat", "origin": "discovered"}
+{"technology": "Remote Desktop Protocol", "category": "Network & remote access", "vendor": "Microsoft", "origin": "seed"}
+{"technology": "RequireJS", "category": "Web framework & front-end", "vendor": "JS Foundation", "origin": "discovered"}
+{"technology": "Ruby", "category": "Language & runtime", "vendor": "Ruby", "origin": "discovered"}
+{"technology": "Ruby on Rails", "category": "Web framework & front-end", "vendor": "David Heinemeier Hansson", "origin": "discovered"}
+{"technology": "SAP SuccessFactors", "category": "Other", "vendor": "SAP", "origin": "discovered"}
+{"technology": "Salesforce Edge", "category": "CDN & edge", "vendor": "Salesforce", "origin": "discovered"}
+{"technology": "Scaleway", "category": "Cloud & hosting", "vendor": "Scaleway", "origin": "seed"}
+{"technology": "Section.io", "category": "CDN & edge", "vendor": "Section", "origin": "discovered"}
+{"technology": "Select2", "category": "Web framework & front-end", "vendor": "Select2", "origin": "discovered"}
+{"technology": "ShareThis", "category": "Analytics & marketing", "vendor": "ShareThis", "origin": "discovered"}
+{"technology": "Shopify", "category": "CMS & e-commerce", "vendor": "Shopify", "origin": "discovered"}
+{"technology": "Skolengo", "category": "Other", "vendor": "Skolengo", "origin": "discovered"}
+{"technology": "SonicOS", "category": "Operating system", "vendor": "SonicWall", "origin": "discovered"}
+{"technology": "SonicWall", "category": "Network & remote access", "vendor": "SonicWall", "origin": "discovered"}
+{"technology": "Spotify Connect", "category": "Devices & IoT", "vendor": "Spotify", "origin": "discovered"}
+{"technology": "Sprinklr", "category": "Analytics & marketing", "vendor": "Sprinklr", "origin": "discovered"}
+{"technology": "Squarespace", "category": "CMS & e-commerce", "vendor": "Squarespace", "origin": "seed"}
+{"technology": "Squarespace Commerce", "category": "CMS & e-commerce", "vendor": "Squarespace", "origin": "discovered"}
+{"technology": "Squid", "category": "Web server & proxy", "vendor": "Squid", "origin": "seed"}
+{"technology": "Stimulus", "category": "Web framework & front-end", "vendor": "Basecamp", "origin": "discovered"}
+{"technology": "Stormshield Network Security", "category": "Security", "vendor": "Stormshield", "origin": "discovered"}
+{"technology": "Stripe", "category": "CMS & e-commerce", "vendor": "Stripe", "origin": "discovered"}
+{"technology": "Sucuri", "category": "Security", "vendor": "Sucuri", "origin": "seed"}
+{"technology": "Swagger UI", "category": "Web framework & front-end", "vendor": "SmartBear", "origin": "discovered"}
+{"technology": "SweetAlert2", "category": "Web framework & front-end", "vendor": null, "origin": "discovered"}
+{"technology": "Synology DiskStation Manager", "category": "Operating system", "vendor": "Synology", "origin": "discovered"}
+{"technology": "TR-069", "category": "Network & remote access", "vendor": "Broadband Forum", "origin": "discovered"}
+{"technology": "Tencent Cloud", "category": "Cloud & hosting", "vendor": "Tencent", "origin": "seed"}
+{"technology": "Tencent EdgeOne", "category": "CDN & edge", "vendor": "Tencent", "origin": "discovered"}
+{"technology": "Tengine", "category": "Web server & proxy", "vendor": "Alibaba", "origin": "seed"}
+{"technology": "TinyMCE", "category": "Web framework & front-end", "vendor": "Tiny", "origin": "discovered"}
+{"technology": "Tornado", "category": "Web server & proxy", "vendor": "Palantir", "origin": "discovered"}
+{"technology": "TypeScript", "category": "Language & runtime", "vendor": "Microsoft", "origin": "discovered"}
+{"technology": "Typesense", "category": "Database", "vendor": "Typesense", "origin": "discovered"}
+{"technology": "Ubiquiti AirRouter", "category": "Devices & IoT", "vendor": "Ubiquiti", "origin": "discovered"}
+{"technology": "Ubiquiti airOS", "category": "Operating system", "vendor": "Ubiquiti", "origin": "discovered"}
+{"technology": "Ubuntu", "category": "Operating system", "vendor": "Canonical", "origin": "seed"}
+{"technology": "Underscore.js", "category": "Web framework & front-end", "vendor": null, "origin": "discovered"}
+{"technology": "Unix", "category": "Operating system", "vendor": "Unix", "origin": "seed"}
+{"technology": "Usercentrics", "category": "Analytics & marketing", "vendor": "Usercentrics", "origin": "discovered"}
+{"technology": "Uvicorn", "category": "Web server & proxy", "vendor": "Encode", "origin": "seed"}
+{"technology": "VPN endpoint", "category": "Exposed service type", "vendor": null, "origin": "seed"}
+{"technology": "Vaadin", "category": "Web framework & front-end", "vendor": "Vaadin", "origin": "discovered"}
+{"technology": "Varnish", "category": "Web server & proxy", "vendor": "Varnish Software", "origin": "seed"}
+{"technology": "Vercel", "category": "Cloud & hosting", "vendor": "Vercel", "origin": "seed"}
+{"technology": "Vivotek camera", "category": "Devices & IoT", "vendor": "VIVOTEK", "origin": "discovered"}
+{"technology": "VolcEngine CLB", "category": "Load balancer & gateway", "vendor": "VolcEngine", "origin": "discovered"}
+{"technology": "Volcengine DCDN", "category": "CDN & edge", "vendor": "Volcengine", "origin": "discovered"}
+{"technology": "Vue.js", "category": "Web framework & front-end", "vendor": null, "origin": "discovered"}
+{"technology": "Vultr", "category": "Cloud & hosting", "vendor": "Vultr", "origin": "seed"}
+{"technology": "WP Engine", "category": "CMS & e-commerce", "vendor": "WP Engine", "origin": "discovered"}
+{"technology": "WPML", "category": "CMS & e-commerce", "vendor": "OnTheGoSystems", "origin": "discovered"}
+{"technology": "WildFly", "category": "Web server & proxy", "vendor": "Red Hat", "origin": "discovered"}
+{"technology": "Windows", "category": "Operating system", "vendor": "Microsoft", "origin": "seed"}
+{"technology": "Windows Server", "category": "Operating system", "vendor": "Microsoft", "origin": "seed"}
+{"technology": "Wix", "category": "CMS & e-commerce", "vendor": "Wix", "origin": "discovered"}
+{"technology": "WordPress", "category": "CMS & e-commerce", "vendor": "Automattic", "origin": "seed"}
+{"technology": "Wowza Streaming Engine", "category": "Other", "vendor": "Wowza", "origin": "discovered"}
+{"technology": "Yoast SEO", "category": "CMS & e-commerce", "vendor": "Yoast", "origin": "discovered"}
+{"technology": "Zscaler Client Connector", "category": "Security", "vendor": "Zscaler", "origin": "discovered"}
+{"technology": "Zscaler Cloud Services", "category": "Security", "vendor": "Zscaler", "origin": "discovered"}
+{"technology": "cPanel & WHM", "category": "Hosting control panel", "vendor": "cPanel", "origin": "seed"}
+{"technology": "cdnjs", "category": "CDN & edge", "vendor": "Cloudflare", "origin": "discovered"}
+{"technology": "hCaptcha", "category": "Security", "vendor": "Intuition Machines", "origin": "discovered"}
+{"technology": "iubenda", "category": "Analytics & marketing", "vendor": "iubenda", "origin": "discovered"}
+{"technology": "jQuery", "category": "Web framework & front-end", "vendor": "OpenJS", "origin": "seed"}
+{"technology": "jQuery CDN", "category": "CDN & edge", "vendor": "jQuery Foundation", "origin": "discovered"}
+{"technology": "jQuery UI", "category": "Web framework & front-end", "vendor": "OpenJS", "origin": "seed"}
+{"technology": "jsDelivr", "category": "CDN & edge", "vendor": "jsdelivr", "origin": "discovered"}
+{"technology": "lighttpd", "category": "Web server & proxy", "vendor": "lighttpd", "origin": "seed"}
+{"technology": "mini_httpd", "category": "Web server & proxy", "vendor": "Jef Poskanzer", "origin": "discovered"}
+{"technology": "mod_perl", "category": "Web server & proxy", "vendor": "Apache", "origin": "discovered"}
+{"technology": "o2switch PowerBoost", "category": "Cloud & hosting", "vendor": "o2switch", "origin": "discovered"}
+{"technology": "reCAPTCHA", "category": "Security", "vendor": "Google", "origin": "seed"}
+{"technology": "thttpd", "category": "Web server & proxy", "vendor": "Jef Poskanzer", "origin": "discovered"}
+{"technology": "unpkg", "category": "CDN & edge", "vendor": null, "origin": "discovered"}

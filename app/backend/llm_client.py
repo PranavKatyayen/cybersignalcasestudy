@@ -51,7 +51,7 @@ MODEL_PRICING = {
 }
 
 # Default provider for each skill
-SKILL_DEFAULT_PROVIDER = {"org_classification": "gemini", "risk_narrative": "gemini"}
+SKILL_DEFAULT_PROVIDER = {"org_classification": "gemini", "risk_narrative": "gemini", "technology_discovery": "gemini"}
 
 _last_call_at: dict[str, float] = {}
 

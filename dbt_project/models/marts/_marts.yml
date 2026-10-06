@@ -27,3 +27,50 @@ models:
               arguments:
                 to: ref('mart_prospect_accounts')
                 field: entity_key
+
+  - name: mart_tech_evidence
+    description: Every piece of technology evidence with its category, for the account page.
+    columns:
+      - name: entity_key
+        tests:
+          - not_null
+      - name: category
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['Cloud & hosting', 'CDN & edge', 'Web server & proxy', 'Load balancer & gateway', 'Security', 'Language & runtime', 'Web framework & front-end', 'CMS & e-commerce', 'Database', 'Operating system', 'Hosting control panel', 'Analytics & marketing', 'Mail & communications', 'Network & remote access', 'Devices & IoT', 'Exposed service type', 'Other']
+
+  - name: mart_account_technologies
+    description: One row per account and technology (how many assets showed it, which versions, how it was seen).
+    columns:
+      - name: entity_key
+        tests:
+          - not_null
+      - name: technology
+        tests:
+          - not_null
+      - name: asset_count
+        tests:
+          - not_null
+
+  - name: mart_account_tech_profile
+    description: >
+      One row per account with technology evidence. is_ranked is false for accounts that have no
+      exposure findings in this scan and therefore are not in the ranked list.
+    columns:
+      - name: entity_key
+        tests:
+          - not_null
+          - unique
+      - name: tech_count
+        tests:
+          - not_null
+
+  - name: mart_technology_catalog
+    description: One row per technology with the number of accounts that use it.
+    columns:
+      - name: technology
+        tests:
+          - not_null
+          - unique

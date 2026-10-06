@@ -1,0 +1,157 @@
+{
+  "rules_used": "seed,discovered",
+  "records": 30000,
+  "attributable_records": 3867,
+  "accounts": 2272,
+  "accounts_with_technology": 1987,
+  "evidence_rows": 12712,
+  "distinct_technologies": 262,
+  "avg_technologies_per_account": 2.0,
+  "by_category": {
+    "Web server & proxy": 3958,
+    "CDN & edge": 3412,
+    "Cloud & hosting": 2735,
+    "Operating system": 596,
+    "Load balancer & gateway": 523,
+    "Web framework & front-end": 345,
+    "Language & runtime": 300,
+    "Security": 238,
+    "Analytics & marketing": 153,
+    "Network & remote access": 108,
+    "CMS & e-commerce": 93,
+    "Hosting control panel": 87,
+    "Mail & communications": 55,
+    "Database": 43,
+    "Devices & IoT": 31,
+    "Exposed service type": 24,
+    "Other": 11
+  },
+  "unmapped_signal_values": 79,
+  "top_unmapped": [
+    {
+      "kind": "server_headers",
+      "value": "lego",
+      "records": 19
+    },
+    {
+      "kind": "server_headers",
+      "value": "jag",
+      "records": 13
+    },
+    {
+      "kind": "server_headers",
+      "value": "dnsme",
+      "records": 8
+    },
+    {
+      "kind": "server_headers",
+      "value": "gvs",
+      "records": 8
+    },
+    {
+      "kind": "server_headers",
+      "value": "ghs",
+      "records": 7
+    },
+    {
+      "kind": "components",
+      "value": "slick",
+      "records": 6
+    },
+    {
+      "kind": "server_headers",
+      "value": "cisco-ccspcwmptcpcr",
+      "records": 5
+    },
+    {
+      "kind": "components",
+      "value": "webpack",
+      "records": 5
+    },
+    {
+      "kind": "components",
+      "value": "modernizr",
+      "records": 5
+    },
+    {
+      "kind": "products",
+      "value": "ciscosystems",
+      "records": 5
+    },
+    {
+      "kind": "components",
+      "value": "popper",
+      "records": 5
+    },
+    {
+      "kind": "components",
+      "value": "font awesome",
+      "records": 4
+    },
+    {
+      "kind": "components",
+      "value": "jquery migrate",
+      "records": 4
+    },
+    {
+      "kind": "server_headers",
+      "value": "apple",
+      "records": 4
+    },
+    {
+      "kind": "server_headers",
+      "value": "redirectv2",
+      "records": 3
+    },
+    {
+      "kind": "server_headers",
+      "value": "pepyaka",
+      "records": 3
+    },
+    {
+      "kind": "products",
+      "value": "pptp",
+      "records": 2
+    },
+    {
+      "kind": "server_headers",
+      "value": "router",
+      "records": 2
+    },
+    {
+      "kind": "products",
+      "value": "mdns",
+      "records": 2
+    },
+    {
+      "kind": "server_headers",
+      "value": "volt-adc",
+      "records": 2
+    },
+    {
+      "kind": "server_headers",
+      "value": "mcp_vcloud_live",
+      "records": 2
+    },
+    {
+      "kind": "server_headers",
+      "value": "qscend",
+      "records": 2
+    },
+    {
+      "kind": "components",
+      "value": "typekit",
+      "records": 2
+    },
+    {
+      "kind": "components",
+      "value": "adobe fonts",
+      "records": 2
+    },
+    {
+      "kind": "components",
+      "value": "mod_ssl",
+      "records": 2
+    }
+  ]
+}
