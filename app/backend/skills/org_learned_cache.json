@@ -83,6 +83,13 @@
     "confidence": 0.95,
     "reasoning": "The name contains 'Hosters', indicating a web hosting and infrastructure provider."
   },
+  "al. jerozolimskie 98": {
+    "_model": "gemini-3.5-flash-lite",
+    "_provider": "gemini",
+    "classification": "end_business",
+    "confidence": 0.5,
+    "reasoning": "The name appears to be a street address in Warsaw, which likely represents a specific physical business location rather than an infrastructure provider."
+  },
   "alfanumeric": {
     "_model": "gemini-3.5-flash-lite",
     "_provider": "gemini",
@@ -265,6 +272,13 @@
     "confidence": 0.95,
     "reasoning": "This is an educational institution using its own network infrastructure for operations, not providing cloud, hosting, or ISP services."
   },
+  "brander group inc": {
+    "_model": "gemini-3.5-flash-lite",
+    "_provider": "gemini",
+    "classification": "infra",
+    "confidence": 0.8,
+    "reasoning": "Brander Group Inc specializes in IP address brokerage, management, and network infrastructure advisory services."
+  },
   "brasil digital servi\u00e7os de informatica e comercio": {
     "_model": "gemini-3.5-flash-lite",
     "_provider": "gemini",
@@ -334,6 +348,13 @@
     "classification": "infra",
     "confidence": 0.7,
     "reasoning": "Cencom Inc is likely an ISP or telecommunications provider operating connectivity infrastructure."
+  },
+  "chengdu west dimension digital technology co., ltd": {
+    "_model": "gemini-3.5-flash-lite",
+    "_provider": "gemini",
+    "classification": "infra",
+    "confidence": 0.9,
+    "reasoning": "Chengdu west dimension digital technology is a Chinese cloud service and web hosting provider."
   },
   "china mobile communications corporation": {
     "_model": "gemini-3.5-flash-lite",
@@ -418,6 +439,13 @@
     "classification": "end_business",
     "confidence": 0.8,
     "reasoning": "The name indicates a local business providing computer services rather than a large-scale cloud, hosting, or ISP infrastructure provider."
+  },
+  "cldin b.v.": {
+    "_model": "gemini-3.5-flash-lite",
+    "_provider": "gemini",
+    "classification": "infra",
+    "confidence": 0.85,
+    "reasoning": "CLDIN B.V. is a hosting and cloud service provider whose IP space serves multiple third parties."
   },
   "cluster logic inc": {
     "_model": "gemini-3.5-flash-lite",
@@ -509,6 +537,13 @@
     "classification": "infra",
     "confidence": 0.95,
     "reasoning": "Cable & Wireless Communications is a telecommunications and internet service provider."
+  },
+  "cyberneticos.com cpd": {
+    "_model": "gemini-3.5-flash-lite",
+    "_provider": "gemini",
+    "classification": "infra",
+    "confidence": 0.9,
+    "reasoning": "CPD stands for Centro de Procesamiento de Datos (Data Center), indicating web hosting and infrastructure services."
   },
   "cyberri technologies inc.": {
     "_model": "gemini-3.5-flash-lite",
@@ -720,6 +755,13 @@
     "confidence": 0.95,
     "reasoning": "Equifax is a consumer credit reporting agency that operates its own network for internal business operations."
   },
+  "equinix services, inc.": {
+    "_model": "gemini-3.5-flash-lite",
+    "_provider": "gemini",
+    "classification": "infra",
+    "confidence": 1.0,
+    "reasoning": "Equinix is a major global colocation and datacenter provider operating IP infrastructure for third parties."
+  },
   "esited solutions": {
     "_model": "gemini-3.5-flash-lite",
     "_provider": "gemini",
@@ -790,6 +832,13 @@
     "confidence": 0.55,
     "reasoning": "The name suggests a private commercial enterprise rather than an infrastructure or telecommunications provider."
   },
+  "flex llc.": {
+    "_model": "gemini-3.5-flash-lite",
+    "_provider": "gemini",
+    "classification": "end_business",
+    "confidence": 0.5,
+    "reasoning": "The name suggests a standard corporate entity rather than a network or hosting infrastructure provider."
+  },
   "fluidone ltd.": {
     "_model": "gemini-3.5-flash-lite",
     "_provider": "gemini",
@@ -846,6 +895,13 @@
     "confidence": 0.85,
     "reasoning": "UniNet is a major telecommunications and internet service provider network management entity."
   },
+  "gibirnet iletisim hizmetleri sanayi ve ticaret limited sirketigibirnet iletisim hizmetleri sanayi ve ticaret limited sirketi": {
+    "_model": "gemini-3.5-flash-lite",
+    "_provider": "gemini",
+    "classification": "infra",
+    "confidence": 0.9,
+    "reasoning": "The organization name contains telecommunication and internet service provider keywords ('ILETISIM HIZMETLERI'), indicating it provides connectivity and ISP services."
+  },
   "global cloud infrastructure llc": {
     "_model": "gemini-3.5-flash-lite",
     "_provider": "gemini",
@@ -887,6 +943,13 @@
     "classification": "infra",
     "confidence": 0.95,
     "reasoning": "Granite Telecommunications is a telecommunications provider offering network and connectivity services to business customers."
+  },
+  "grape_bussiness": {
+    "_model": "gemini-3.5-flash-lite",
+    "_provider": "gemini",
+    "classification": "end_business",
+    "confidence": 0.5,
+    "reasoning": "The name indicates a commercial enterprise rather than an infrastructure or hosting provider."
   },
   "gtt": {
     "_model": "gemini-3.5-flash-lite",
@@ -1056,12 +1119,26 @@
     "confidence": 0.55,
     "reasoning": "The name appears to be a standard German corporate entity rather than an internet or hosting infrastructure provider."
   },
+  "infinity developments limited": {
+    "_model": "gemini-3.5-flash-lite",
+    "_provider": "gemini",
+    "classification": "end_business",
+    "confidence": 0.5,
+    "reasoning": "The name suggests a real estate or business development firm rather than a network infrastructure provider."
+  },
   "infrastructure": {
     "_model": "gemini-3.5-flash-lite",
     "_provider": "gemini",
     "classification": "infra",
     "confidence": 0.85,
     "reasoning": "The name explicitly indicates infrastructure services rather than an end business."
+  },
+  "ingels laurent": {
+    "_model": "gemini-3.5-flash-lite",
+    "_provider": "gemini",
+    "classification": "end_business",
+    "confidence": 0.5,
+    "reasoning": "The name resembles a private individual or a small professional business operating for its own use rather than an infrastructure or hosting provider."
   },
   "intercolo gmbh": {
     "_model": "gemini-3.5-flash-lite",
@@ -1104,6 +1181,13 @@
     "classification": "infra",
     "confidence": 0.9,
     "reasoning": "IPTP Networks is a global tier-1 internet service provider and connectivity/colocation provider."
+  },
+  "irideos spa": {
+    "_model": "gemini-3.5-flash-lite",
+    "_provider": "gemini",
+    "classification": "infra",
+    "confidence": 0.9,
+    "reasoning": "Irideos is an Italian telecommunications and cloud provider that offers connectivity and data center services to businesses."
   },
   "iroko networks corporation": {
     "_model": "gemini-3.5-flash-lite",
@@ -1259,6 +1343,13 @@
     "confidence": 0.9,
     "reasoning": "Mashhad DSL is an Internet Service Provider (ISP), providing connectivity infrastructure rather than operating as an end-business using IP space solely for its own internal operations."
   },
+  "max planck institut fuer molekulare physiologie": {
+    "_model": "gemini-3.5-flash-lite",
+    "_provider": "gemini",
+    "classification": "end_business",
+    "confidence": 0.9,
+    "reasoning": "This is a scientific research institution that uses its IP space for its own operations rather than providing hosting or telecom services."
+  },
   "maxis broadband sdn bhd": {
     "_model": "gemini-3.5-flash-lite",
     "_provider": "gemini",
@@ -1384,6 +1475,13 @@
     "classification": "end_business",
     "confidence": 0.55,
     "reasoning": "The name suggests a corporate entity, but lacks clear signals of being an infrastructure or telecommunications provider."
+  },
+  "nexeon technologies, inc.": {
+    "_model": "gemini-3.5-flash-lite",
+    "_provider": "gemini",
+    "classification": "end_business",
+    "confidence": 0.8,
+    "reasoning": "The name indicates a specialized technology company that likely uses its IP space for its own business operations rather than providing public cloud or hosting infrastructure."
   },
   "niles sp. z o.o.": {
     "_model": "gemini-3.5-flash-lite",
@@ -1560,6 +1658,13 @@
     "confidence": 0.95,
     "reasoning": "Orange Espagne SA is a major telecommunications and internet service provider offering connectivity and hosting."
   },
+  "orange s.a.": {
+    "_model": "gemini-3.5-flash-lite",
+    "_provider": "gemini",
+    "classification": "infra",
+    "confidence": 0.95,
+    "reasoning": "Orange S.A. is a major multinational telecommunications corporation providing internet and network connectivity."
+  },
   "orange wbc broadband": {
     "_model": "gemini-3.5-flash-lite",
     "_provider": "gemini",
@@ -1671,6 +1776,13 @@
     "classification": "infra",
     "confidence": 0.95,
     "reasoning": "Proxad and Free SAS are major French telecommunications providers and ISPs that allocate IP space to end-users rather than operating as a distinct end-business."
+  },
+  "pt comunicacoes s.a.": {
+    "_model": "gemini-3.5-flash-lite",
+    "_provider": "gemini",
+    "classification": "infra",
+    "confidence": 0.9,
+    "reasoning": "PT Comunicacoes is a major telecommunications and internet service provider, whose IP address space is used for connectivity and network infrastructure."
   },
   "pt jala lintas media - nap": {
     "_model": "gemini-3.5-flash-lite",
@@ -2134,6 +2246,13 @@
     "confidence": 0.85,
     "reasoning": "The name indicates a telecommunications and ICT infrastructure provider company."
   },
+  "tot public company limited": {
+    "_model": "gemini-3.5-flash-lite",
+    "_provider": "gemini",
+    "classification": "infra",
+    "confidence": 0.95,
+    "reasoning": "TOT Public Company Limited is a major Thai telecommunications and ISP provider, operating network and IP infrastructure for connectivity."
+  },
   "trans ocean network": {
     "_model": "gemini-3.5-flash-lite",
     "_provider": "gemini",
@@ -2316,6 +2435,13 @@
     "confidence": 0.85,
     "reasoning": "Wurm Austria GmbH is a corporate commercial entity operating in its own industry rather than acting as a network infrastructure or hosting provider."
   },
+  "xinxizhongxin": {
+    "_model": "gemini-3.5-flash-lite",
+    "_provider": "gemini",
+    "classification": "end_business",
+    "confidence": 0.5,
+    "reasoning": "The organization name appears to be a standard corporate entity without any indicators of being a cloud provider or hosting service."
+  },
   "xserver inc.": {
     "_model": "gemini-3.5-flash-lite",
     "_provider": "gemini",
@@ -2336,5 +2462,12 @@
     "classification": "infra",
     "confidence": 0.95,
     "reasoning": "ZAIN KW is a major telecommunications and internet service provider in Kuwait providing connectivity infrastructure."
+  },
+  "zone media llc": {
+    "_model": "gemini-3.5-flash-lite",
+    "_provider": "gemini",
+    "classification": "infra",
+    "confidence": 0.85,
+    "reasoning": "Zone Media is a web hosting and internet service provider offering infrastructure services."
   }
 }
