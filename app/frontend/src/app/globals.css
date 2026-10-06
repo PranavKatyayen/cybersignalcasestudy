@@ -1,6 +1,7 @@
 @import "tailwindcss";
 
 :root {
+  color-scheme: light;
   --background: #f6f7fb;
   --foreground: #0f172a;
 
@@ -14,6 +15,8 @@
   --surface: #ffffff;
   --surface-border: #e5e7eb;
   --surface-muted: #f8fafc;
+  --surface-shadow: 0 1px 2px rgba(15, 23, 42, 0.04), 0 1px 1px rgba(15, 23, 42, 0.02);
+  --page-glow: var(--brand-50);
 
   /* Tiers */
   --tier-critical-bg: #fef2f2;
@@ -37,6 +40,181 @@
   --tier-low-dot: #94a3b8;
 }
 
+/*
+  Dark theme. The whole app styles itself with Tailwind colour classes, and Tailwind reads them from CSS variables,
+  so switching theme is a matter of giving those variables dark values. No component needs its own dark classes.
+  The theme is chosen by the data-theme attribute on <html> (see ThemeToggle.tsx and the script in layout.tsx).
+*/
+[data-theme="dark"] {
+  color-scheme: dark;
+  --background: #0a0f1e;
+  --foreground: #e6ebf5;
+
+  --brand-50: #1a1f45;
+  --brand-100: #262b5c;
+  --brand-600: #6366f1;
+  --brand-700: #818cf8;
+
+  --surface: #121a2e;
+  --surface-border: #243049;
+  --surface-muted: #0f1626;
+  --surface-shadow: 0 1px 2px rgba(0, 0, 0, 0.45), 0 8px 24px -12px rgba(0, 0, 0, 0.5);
+  --page-glow: rgba(79, 70, 229, 0.16);
+
+  --tier-critical-bg: #2c1519;
+  --tier-critical-border: #5c2530;
+  --tier-critical-text: #fca5a5;
+  --tier-critical-dot: #ef4444;
+
+  --tier-high-bg: #2d1c10;
+  --tier-high-border: #5e3a18;
+  --tier-high-text: #fdba74;
+  --tier-high-dot: #f97316;
+
+  --tier-medium-bg: #2b2310;
+  --tier-medium-border: #5b4a14;
+  --tier-medium-text: #fcd34d;
+  --tier-medium-dot: #eab308;
+
+  --tier-low-bg: #172036;
+  --tier-low-border: #2a3858;
+  --tier-low-text: #aab7cc;
+  --tier-low-dot: #7f8fab;
+
+  /* Tailwind colour ramps, re-mapped for a dark surface (generated: tints become dark washes, dark text shades become light) */
+  --color-red-50: #2f1f31;
+  --color-red-100: #432333;
+  --color-red-200: #622936;
+  --color-red-300: #802f39;
+  --color-red-700: #fca5a5;
+  --color-red-800: #fecaca;
+  --color-red-900: #fecaca;
+  --color-red-950: #fecaca;
+  --color-orange-50: #30262b;
+  --color-orange-100: #452e29;
+  --color-orange-200: #653a25;
+  --color-orange-300: #864622;
+  --color-orange-700: #fdba74;
+  --color-orange-800: #fed7aa;
+  --color-orange-900: #fed7aa;
+  --color-orange-950: #fed7aa;
+  --color-amber-50: #302b29;
+  --color-amber-100: #443726;
+  --color-amber-200: #644a21;
+  --color-amber-300: #845c1c;
+  --color-amber-700: #fcd34d;
+  --color-amber-800: #fde68a;
+  --color-amber-900: #fde68a;
+  --color-amber-950: #fde68a;
+  --color-yellow-50: #2e2e29;
+  --color-yellow-100: #423c26;
+  --color-yellow-200: #605120;
+  --color-yellow-300: #7e661b;
+  --color-yellow-700: #fde047;
+  --color-yellow-800: #fef08a;
+  --color-yellow-900: #fef08a;
+  --color-yellow-950: #fef08a;
+  --color-lime-50: #21312b;
+  --color-lime-100: #2b4129;
+  --color-lime-200: #3b5a25;
+  --color-lime-300: #4b7322;
+  --color-lime-700: #bef264;
+  --color-lime-800: #d9f99d;
+  --color-lime-900: #d9f99d;
+  --color-lime-950: #d9f99d;
+  --color-emerald-50: #122f39;
+  --color-emerald-100: #123d40;
+  --color-emerald-200: #11534c;
+  --color-emerald-300: #116a58;
+  --color-emerald-700: #6ee7b7;
+  --color-emerald-800: #a7f3d0;
+  --color-emerald-900: #a7f3d0;
+  --color-emerald-950: #a7f3d0;
+  --color-teal-50: #122f3e;
+  --color-teal-100: #123d48;
+  --color-teal-200: #135359;
+  --color-teal-300: #13696a;
+  --color-teal-700: #5eead4;
+  --color-teal-800: #99f6e4;
+  --color-teal-900: #99f6e4;
+  --color-teal-950: #99f6e4;
+  --color-cyan-50: #102e44;
+  --color-cyan-100: #0f3c53;
+  --color-cyan-200: #0e526a;
+  --color-cyan-300: #0c6881;
+  --color-cyan-700: #67e8f9;
+  --color-cyan-800: #a5f3fc;
+  --color-cyan-900: #a5f3fc;
+  --color-cyan-950: #a5f3fc;
+  --color-sky-50: #112c46;
+  --color-sky-100: #113957;
+  --color-sky-200: #114c71;
+  --color-sky-300: #10608c;
+  --color-sky-700: #7dd3fc;
+  --color-sky-800: #bae6fd;
+  --color-sky-900: #bae6fd;
+  --color-sky-950: #bae6fd;
+  --color-indigo-50: #1d2447;
+  --color-indigo-100: #242b59;
+  --color-indigo-200: #2f3574;
+  --color-indigo-300: #3a4090;
+  --color-indigo-700: #a5b4fc;
+  --color-indigo-800: #c7d2fe;
+  --color-indigo-900: #c7d2fe;
+  --color-indigo-950: #c7d2fe;
+  --color-violet-50: #222348;
+  --color-violet-100: #2d295a;
+  --color-violet-200: #3e3276;
+  --color-violet-300: #4e3b92;
+  --color-violet-700: #c4b5fd;
+  --color-violet-800: #ddd6fe;
+  --color-violet-900: #ddd6fe;
+  --color-violet-950: #ddd6fe;
+  --color-purple-50: #262248;
+  --color-purple-100: #33275a;
+  --color-purple-200: #482f76;
+  --color-purple-300: #5d3892;
+  --color-purple-700: #d8b4fe;
+  --color-purple-800: #e9d5ff;
+  --color-purple-900: #e9d5ff;
+  --color-purple-950: #e9d5ff;
+  --color-fuchsia-50: #2c2047;
+  --color-fuchsia-100: #3e2458;
+  --color-fuchsia-200: #5a2a73;
+  --color-fuchsia-300: #76308e;
+  --color-fuchsia-700: #f0abfc;
+  --color-fuchsia-800: #f5d0fe;
+  --color-fuchsia-900: #f5d0fe;
+  --color-fuchsia-950: #f5d0fe;
+  --color-pink-50: #2e203c;
+  --color-pink-100: #422446;
+  --color-pink-200: #602b55;
+  --color-pink-300: #7f3164;
+  --color-pink-700: #f9a8d4;
+  --color-pink-800: #fbcfe8;
+  --color-pink-900: #fbcfe8;
+  --color-pink-950: #fbcfe8;
+  --color-rose-50: #2f1f34;
+  --color-rose-100: #442239;
+  --color-rose-200: #63273f;
+  --color-rose-300: #832c46;
+  --color-rose-700: #fda4af;
+  --color-rose-800: #fecdd3;
+  --color-rose-900: #fecdd3;
+  --color-rose-950: #fecdd3;
+  --color-slate-50: #162036;
+  --color-slate-100: #1b2742;
+  --color-slate-200: #263451;
+  --color-slate-300: #3b4c6b;
+  --color-slate-400: #7f8fab;
+  --color-slate-500: #97a6c0;
+  --color-slate-600: #aab7cc;
+  --color-slate-700: #c3cde0;
+  --color-slate-800: #dbe3ef;
+  --color-slate-900: #f1f5fb;
+  --color-indigo-600: #5558e6;
+}
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
@@ -54,7 +232,7 @@ html {
 
 body {
   background:
-    radial-gradient(1200px 480px at 10% -10%, var(--brand-50) 0%, transparent 60%),
+    radial-gradient(1200px 480px at 10% -10%, var(--page-glow) 0%, transparent 60%),
     var(--background);
   color: var(--foreground);
   font-family: var(--font-sans), ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
@@ -72,5 +250,38 @@ body {
   background: var(--surface);
   border: 1px solid var(--surface-border);
   border-radius: 14px;
-  box-shadow: 0 1px 2px rgba(15, 23, 42, 0.04), 0 1px 1px rgba(15, 23, 42, 0.02);
+  box-shadow: var(--surface-shadow);
+}
+
+/* Smooth colour change when the theme is switched (not on first load) */
+html.theme-ready body,
+html.theme-ready .surface-card {
+  transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+}
+
+/*
+  Dark theme: the few places where one colour class means two different things, so the variable mapping alone is not enough.
+*/
+[data-theme="dark"] .bg-white { background-color: var(--surface); }
+[data-theme="dark"] .bg-white\/80 { background-color: rgb(10 15 30 / 0.78); }
+[data-theme="dark"] .bg-white\/70 { background-color: rgb(255 255 255 / 0.1); }
+[data-theme="dark"] .text-indigo-100 { color: #e0e7ff; }
+[data-theme="dark"] .text-indigo-600,
+[data-theme="dark"] .hover\:text-indigo-600:hover { color: #a5b4fc; }
+[data-theme="dark"] .hover\:bg-indigo-700:hover { background-color: #4338ca; }
+[data-theme="dark"] .hover\:bg-indigo-500:hover { background-color: #6f72f5; }
+[data-theme="dark"] .bg-slate-500 { background-color: #475674; }
+[data-theme="dark"] .border-slate-500 { border-color: #475674; }
+/* active "All" pill: light chip on dark; request panels in the Traces page stay dark */
+[data-theme="dark"] .bg-slate-900.text-white { background-color: #e6ebf5; border-color: #e6ebf5; color: #0a0f1e; }
+[data-theme="dark"] .bg-slate-900.text-slate-100 { background-color: #070b16; color: #e2e8f0; }
+[data-theme="dark"] .stat-icon { filter: brightness(1.5) saturate(1.1); }
+[data-theme="dark"] .theme-icon-moon { display: none; }
+[data-theme="light"] .theme-icon-sun,
+:root:not([data-theme]) .theme-icon-sun { display: none; }
+
+/* Keyboard focus that is visible on both themes */
+:focus-visible {
+  outline: 2px solid #6366f1;
+  outline-offset: 2px;
 }

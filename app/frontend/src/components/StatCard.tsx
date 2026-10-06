@@ -15,7 +15,7 @@ export function StatCard({
     <div className="surface-card flex items-center gap-3.5 px-5 py-4">
       {icon && (
         <div
-          className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg"
+          className="stat-icon flex h-9 w-9 shrink-0 items-center justify-center rounded-lg"
           style={{ background: accent ? `${accent}1a` : "var(--surface-muted)", color: accent || "#64748b" }}
         >
           {icon}
