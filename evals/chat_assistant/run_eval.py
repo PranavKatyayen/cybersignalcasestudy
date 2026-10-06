@@ -12,9 +12,16 @@ ROOT = Path(__file__).resolve().parents[2]
 ENTITIES = {}
 for line in open(ROOT / "data" / "curated" / "entities.jsonl", encoding="utf-8"):
     e = json.loads(line); ENTITIES[e["entity_key"]] = e
+TECH = {}
+_tech_path = ROOT / "data" / "curated" / "tech_evidence.jsonl"
+if _tech_path.exists():
+    for line in open(_tech_path, encoding="utf-8"):
+        t = json.loads(line); TECH.setdefault(t["entity_key"], set()).add(t["technology"])
 ALL_CVES = set(re.findall(r"CVE-\d{4}-\d+", " ".join(f for e in ENTITIES.values() for f in e["top_findings"])))
 
-def tier_of(score): return "CRITICAL" if score >= 100 else "HIGH" if score >= 40 else "MEDIUM" if score >= 20 else "LOW"
+def tier_of(score, confidence="HIGH"):
+    """Same rule as dbt: a name-only (MEDIUM confidence) account is capped at HIGH."""
+    return "CRITICAL" if score >= 100 and confidence == "HIGH" else "HIGH" if score >= 40 else "MEDIUM" if score >= 20 else "LOW"
 
 def main():
     ap = argparse.ArgumentParser(); ap.add_argument("--url", default="http://localhost:3000"); a = ap.parse_args()
@@ -36,10 +43,11 @@ def main():
             for x in accounts:
                 e = ENTITIES.get(x["entity_key"])
                 if not e: ok = False; continue
-                if "tier" in exp and tier_of(e["total_score"]) != exp["tier"]: ok = False
+                if "tier" in exp and tier_of(e["total_score"], e["attribution_confidence"]) != exp["tier"]: ok = False
                 if "country" in exp and exp["country"] not in e["countries"]: ok = False
                 if "confidence" in exp and e["attribution_confidence"] != exp["confidence"]: ok = False
                 if "min_score" in exp and e["total_score"] < exp["min_score"]: ok = False
+                if "technology" in exp and exp["technology"] not in TECH.get(x["entity_key"], set()): ok = False
             ck["filter_correct"] = ok and len(accounts) > 0
         if q["type"] in ("filter", "general", "no_trend", "empty_ok"):
             named = [k for k in ENTITIES if len(k) > 5 and k in answer]

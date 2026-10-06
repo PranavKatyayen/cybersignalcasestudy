@@ -39,6 +39,11 @@ const METRIC_LABELS: Record<string, string> = {
   no_trend_claim: "No trend claims",
   no_unrelated_accounts_shown: "No unrelated accounts",
   refuses_off_topic: "Refuses off-topic",
+  precision: "Precision",
+  recall: "Recall",
+  f1: "F1",
+  exact_match_rate: "Records fully right",
+  version_accuracy: "Versions right",
 };
 
 const COST_ROWS = [
@@ -49,7 +54,7 @@ const COST_ROWS = [
 ];
 
 const PROD_ROWS = [
-  { item: "Briefs", math: "417 accounts × $0.00051", day: "$0.21" },
+  { item: "Briefs", math: "368 accounts × $0.00051", day: "$0.19" },
   { item: "Organization classification", math: "about 45 new names × $0.00021", day: "$0.01" },
   { item: "Chat", math: "500 questions × $0.0024", day: "$1.20" },
 ];
@@ -203,7 +208,7 @@ export default async function TracesPage({ searchParams }: PageProps<"/traces">)
                 <tr key={i} className="align-top hover:bg-slate-50/60">
                   <td className="px-3.5 py-2.5 font-mono text-xs text-slate-700">{e.skill}</td>
                   <td className="px-3.5 py-2.5 font-semibold text-slate-700">{e.version}</td>
-                  <td className="px-3.5 py-2.5 text-xs text-slate-500">{e.model ?? "live app"}</td>
+                  <td className="px-3.5 py-2.5 text-xs text-slate-500">{e.model ?? (e.skill === "chat_assistant" ? "live app" : "rules, no model")}</td>
                   <td className="px-3.5 py-2.5">
                     <div className="flex flex-wrap gap-1.5">
                       {Object.entries(e.metrics).map(([k, v]) => (
@@ -374,14 +379,14 @@ export default async function TracesPage({ searchParams }: PageProps<"/traces">)
               ))}
               <tr className="bg-slate-50/60">
                 <td className="px-3 py-2 font-semibold text-slate-800">Total</td>
-                <td className="px-3 py-2 text-slate-600">&times; 30 days = about $43 a month</td>
+                <td className="px-3 py-2 text-slate-600">&times; 30 days = about $42 a month</td>
                 <td className="px-3 py-2 font-semibold text-slate-800">about $1.40</td>
               </tr>
             </tbody>
           </table>
           <p>
             <strong>Ceiling: $60 a month</strong>, with a hard stop if one day&apos;s spend passes 3&times; the expected
-            amount (about $4.30). Each logged call carries its cost, so that check is a sum over one day&apos;s records.
+            amount (about $4.20). Each logged call carries its cost, so that check is a sum over one day&apos;s records.
             Volumes are planning assumptions (a daily scan of this size, 20% new organization names, 500 chat questions a
             day); token counts and prices are measured or published. The chat cost per question is an estimate.
           </p>

@@ -51,7 +51,7 @@ Do NOT run this skill when:
 ## Dependent Prompt
 `prompts/risk_narrative/v1.md` and `v2.md`; **v2 is the default**. Model tier: **large** -- this is
 a writing/judgement task where failure (fabrication, overclaiming) matters more than a few cents.
-The shipped briefs were written by Gemini (prompt v2): the first ~214 by `gemini-3.5-flash-lite`, the rest by `gemini-3.1-flash-lite`
+The shipped briefs were written by Gemini (prompt v2): 173 by `gemini-3.5-flash-lite` and 195 by `gemini-3.1-flash-lite`
 after the first model's free daily quota (500 requests/day) ran out. Every brief records its model, and the app shows it. The prompt
 comparison was measured on Groq `openai/gpt-oss-120b`; v2 was re-measured on both Gemini models.
 

@@ -31,6 +31,7 @@ function describeFilters(f: Record<string, unknown> | null | undefined): string 
   if (f.country) parts.push(`country ${f.country}`);
   if (typeof f.minScore === "number") parts.push(`score >= ${f.minScore}`);
   if (f.confidence) parts.push(`${f.confidence} confidence`);
+  if (f.technology) parts.push(`uses ${f.technology}`);
   if (f.text) parts.push(`matching "${f.text}"`);
   return parts.length ? `Filters applied: ${parts.join(", ")}` : "No filters: top-ranked accounts";
 }

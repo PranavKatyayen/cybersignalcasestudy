@@ -19,6 +19,7 @@ So the product is CyberSignal: external exposure intelligence for a security sal
 | 2 | Why this account? | The verified findings behind each score (CVEs, ports, end-of-life software) and how sure we are the business owns them | Rules |
 | 3 | What do I say? | A 2-3 sentence brief and a suggested opening question, citing its evidence | AI, checked by code |
 | 4 | Can I slice my list in plain words? | A chat assistant: the AI turns a question into filters; fixed SQL fetches the accounts; the answer uses only those rows | AI, guarded |
+| 5 | What does this account run? | The technologies seen on its systems (cloud, web server, CDN, frameworks, OS), traced to the evidence, and a filter to find accounts that use a technology | Rules; an LLM proposed the rules once and a person reviewed them |
 
 Each is a daily rep task and none needs data this file lacks. Cases 1-2 must be stable and explainable, so they are rules; cases 3-4 are language problems, where AI earns its cost.
 

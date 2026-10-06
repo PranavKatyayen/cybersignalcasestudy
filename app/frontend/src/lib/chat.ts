@@ -27,6 +27,20 @@ export async function knownCountries(): Promise<string[]> {
   return countryCache.list;
 }
 
+let techCache: { at: number; list: string[] } | null = null;
+
+// Technology names in the data, most common first. An empty list just turns the technology filter off.
+export async function knownTechnologies(): Promise<string[]> {
+  if (techCache && Date.now() - techCache.at < 10 * 60_000) return techCache.list;
+  try {
+    const rows = await query<{ TECHNOLOGY: string }>(`SELECT technology FROM mart_technology_catalog ORDER BY account_count DESC, technology`);
+    techCache = { at: Date.now(), list: rows.map((r) => r.TECHNOLOGY) };
+  } catch {
+    techCache = { at: Date.now(), list: [] };
+  }
+  return techCache.list;
+}
+
 export async function runAccountSearch(f: ChatFilters): Promise<AccountRow[]> {
   const where: string[] = [];
   const binds: (string | number)[] = [];
@@ -37,6 +51,10 @@ export async function runAccountSearch(f: ChatFilters): Promise<AccountRow[]> {
   if (f.country) {
     where.push(`ARRAY_CONTAINS(TO_VARIANT(?), countries)`);
     binds.push(f.country);
+  }
+  if (f.technology) {
+    where.push(`entity_key IN (SELECT entity_key FROM mart_account_technologies WHERE technology = ?)`);
+    binds.push(f.technology);
   }
   if (f.minScore !== null) {
     where.push(`total_score >= ?`);

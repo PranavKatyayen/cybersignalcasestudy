@@ -4,6 +4,8 @@ import { query } from "@/lib/snowflake";
 import { parseJsonArray, parseJsonIntArray } from "@/lib/parse";
 import { TierBadge, ConfidenceBadge } from "@/components/TierBadge";
 import { ArrowLeftIcon, SparkleIcon } from "@/components/icons";
+import { TechnologyStack } from "@/components/TechnologyStack";
+import { getAccountTechnologies } from "@/lib/tech";
 import type { ProspectAccountRow, AssetEvidenceRow } from "@/lib/types";
 
 export const revalidate = 60;
@@ -26,6 +28,7 @@ export default async function AccountDetailPage(
     [entityKey]
   );
 
+  const tech = await getAccountTechnologies(entityKey);
   const topFindings = parseJsonArray(account.TOP_FINDINGS);
   const citedIndices = new Set(parseJsonIntArray(account.NARRATIVE_CITED_EVIDENCE_INDICES));
   const orgs = parseJsonArray(account.ORGS);
@@ -138,6 +141,8 @@ export default async function AccountDetailPage(
           ))}
         </ul>
       </section>
+
+      <TechnologyStack technologies={tech.technologies} evidence={tech.evidence} />
 
       <section>
         <h2 className="mb-3 text-[11px] font-semibold uppercase tracking-wider text-slate-400">

@@ -24,7 +24,7 @@ export function ConfidenceBadge({ confidence }: { confidence: string }) {
   const isHigh = confidence === "HIGH";
   return (
     <span
-      title={isHigh ? "We saw this business's own website" : "Matched by organization name only; score counted at 70%"}
+      title={isHigh ? "We saw this business's own website" : "Matched by organization name only; score counted at 70% and capped at HIGH priority"}
       className={`inline-flex items-center rounded-full border px-2 py-0.5 text-[11px] font-medium ${
         isHigh
           ? "bg-indigo-50 text-indigo-700 border-indigo-200"

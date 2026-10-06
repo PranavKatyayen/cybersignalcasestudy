@@ -7,9 +7,10 @@ Live app: https://cybersignal-web.vercel.app
 
 ## What it does
 
-- **Ranked account list** with priority tiers (CRITICAL / HIGH / MEDIUM / LOW), attribution confidence and filters.
+- **Ranked account list** with priority tiers (CRITICAL / HIGH / MEDIUM / LOW), attribution confidence, search, country, confidence and technology filters, paging and CSV export.
 - **Account pages** with an AI sales brief (model and prompt version shown), the evidence behind the score, and per-asset detail.
-- **Ask CyberSignal**: a grounded chat assistant that answers only from the account data (the AI never writes SQL).
+- **Technologies page** and an account tab: which cloud, web server, CDN, framework and OS each account runs, traced to the string and asset that revealed it. It covers accounts with no security findings too.
+- **Ask CyberSignal**: a grounded chat assistant that answers only from the account data (the AI never writes SQL). It can filter by technology.
 - **Traces page**: every LLM call is logged; the page summarises calls, latency and paid-equivalent cost.
 
 ## How it is built (short)
@@ -18,6 +19,9 @@ Live app: https://cybersignal-web.vercel.app
 raw internet-scan sample -> Python: rules score accounts; LLM classifies ambiguous org names
    -> LLM writes one cited brief per account (offline, once) -> Snowflake RAW -> dbt (staging/intermediate/marts)
    -> Next.js app on Vercel (reads the marts; chat calls Gemini with Groq as backup)
+
+raw scan -> rules extract each account's technologies (an LLM proposed the rules once; a person reviewed them; no model at runtime)
+   -> Snowflake RAW.TECH_EVIDENCE -> dbt marts -> Technologies page, account tab, dashboard and chat filter
 ```
 
 Design principles: rules decide scores, the LLM only handles genuine ambiguity and writing; every LLM call is traced;
@@ -27,13 +31,14 @@ prompts are versioned files that the code actually loads; every LLM skill has a 
 
 | Path | What it is |
 |---|---|
-| `app/backend/` | Python engine: provider-agnostic LLM client, prompt loader, attribution + scoring rules, the two AI skills |
+| `app/backend/` | Python engine: provider-agnostic LLM client, prompt loader, attribution, scoring and technology rules, the AI skills |
 | `app/frontend/` | Next.js 16 app (dashboard, account pages, traces, chat API + widget) |
 | `scripts/` | Pipeline steps: score, generate briefs, Snowflake setup + fast stage/COPY load, dbt runner, trace summary |
 | `dbt_project/` | Snowflake transformations and data-quality tests |
 | `prompts/` | Versioned prompts (v1, v2 per skill); the code loads these files |
-| `skills/` | `SKILL.md` specs for `org-classification` and `risk-narrative` |
-| `evals/` | Labelled sets, harnesses and real results for org classification, briefs, and the chat assistant |
+| `skills/` | `SKILL.md` specs for `org-classification`, `risk-narrative` and `technology-discovery` |
+| `evals/` | Labelled sets, harnesses and real results for org classification, briefs, the chat assistant and technology extraction |
+| `tests/` | Unit tests for the scoring, attribution and technology rules (run in CI with the dbt parse and type check) |
 | `data/curated/` | Pipeline outputs that were loaded into Snowflake |
 | `traces/` | Aggregate + sample of the LLM call log (the full log stays local) |
 | `docs/` | Planning, architecture and the how-I-built-this reflection  |
@@ -47,11 +52,14 @@ copy .env.example .env            # fill in Snowflake + at least one LLM key (Ge
 python scripts/run_snowflake_setup.py
 python scripts/export_curated_dataset.py --input sample.jsonl     # score accounts (needs the raw scan sample)
 python scripts/generate_narratives.py                              # resumable; free tiers may need a second day
+python scripts/export_technologies.py --input sample.jsonl        # technologies per account, rules only, no model
 python scripts/load_curated_to_snowflake.py
 python scripts/run_dbt.py run && python scripts/run_dbt.py test
 
 python evals/org_classification/run_eval.py --prompt-version v2 --compare-to results/v1_groq_gpt-oss-20b.json
 python evals/risk_narrative/run_eval.py --prompt-version v2 --compare-to results/v1_groq_gpt-oss-120b.json
+python evals/technology_extraction/run_eval.py --label v2_seed_plus_discovered --compare-to results/v1_seed.json
+python -m pytest tests -q
 
 cd app/frontend
 copy .env.local.example .env.local   # SNOWFLAKE_SCHEMA=ANALYTICS, plus GEMINI_API_KEY / GROQ_API_KEY
@@ -65,6 +73,6 @@ LLM provider is chosen per skill (`LLM_PROVIDER_<SKILL>`), then globally (`LLM_P
 
 - The dataset is a small scan snapshot: no trend or change claims are made anywhere.
 - Scores measure *need* (visible weakness), not *fit* (company size, industry) or *intent*.
-- Evals are small (25 and 23 labelled examples plus 12 chat questions); v2 prompts were written after seeing v1's failures on the
+- Technologies are only what the scan showed, in one snapshot. Evals are small (25 and 23 labelled examples, 16 chat questions, 38 technology records); v2 prompts were written after seeing v1's failures on the
   same sets, and some checks are keyword-based. Results and caveats are in `skills/*/SKILL.md` and `evals/*/results/`.
 - Development ran on free LLM tiers, which cap requests and tokens per day; the pipeline is resumable for that reason.

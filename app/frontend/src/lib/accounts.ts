@@ -7,6 +7,7 @@ export interface AccountFilters {
   q: string | null;
   country: string | null;
   confidence: "HIGH" | "MEDIUM" | null;
+  tech: string | null;
 }
 
 type Params = Record<string, string | string[] | undefined>;
@@ -22,6 +23,7 @@ export function parseAccountFilters(params: Params, countries: string[]): Accoun
     q,
     country: country ? matchCountry(country, countries) : null,
     confidence: conf === "HIGH" || conf === "MEDIUM" ? conf : null,
+    tech: one(params.tech)?.trim().slice(0, 80) || null,
   };
 }
 
@@ -40,6 +42,10 @@ export function accountWhere(f: AccountFilters, skip: (keyof AccountFilters)[] =
   if (f.country && !skip.includes("country")) {
     where.push("ARRAY_CONTAINS(TO_VARIANT(?), countries)");
     binds.push(f.country);
+  }
+  if (f.tech && !skip.includes("tech")) {
+    where.push("entity_key IN (SELECT entity_key FROM mart_account_technologies WHERE technology = ?)");
+    binds.push(f.tech);
   }
   if (f.q && !skip.includes("q")) {
     const like = `%${f.q.toLowerCase().replace(/[%_]/g, "")}%`;

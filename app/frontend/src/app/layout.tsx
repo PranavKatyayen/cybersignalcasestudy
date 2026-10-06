@@ -43,6 +43,12 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
                 Dashboard
               </Link>
               <Link
+                href="/technologies"
+                className="rounded-md px-3 py-1.5 text-sm font-medium text-slate-600 transition-colors hover:bg-slate-100 hover:text-slate-900"
+              >
+                Technologies
+              </Link>
+              <Link
                 href="/traces"
                 className="rounded-md px-3 py-1.5 text-sm font-medium text-slate-600 transition-colors hover:bg-slate-100 hover:text-slate-900"
               >

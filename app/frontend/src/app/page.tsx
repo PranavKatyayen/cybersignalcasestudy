@@ -5,6 +5,7 @@ import { TierBadge, ConfidenceBadge } from "@/components/TierBadge";
 import { StatCard } from "@/components/StatCard";
 import { Pager, parsePaging } from "@/components/Pager";
 import { knownCountries } from "@/lib/chat";
+import { getCatalog } from "@/lib/tech";
 import { accountWhere, parseAccountFilters, toQueryString } from "@/lib/accounts";
 import { AlertIcon, LayersIcon, GlobeIcon } from "@/components/icons";
 import { CHIP_STYLES, describeFindings } from "@/lib/findings";
@@ -31,7 +32,7 @@ export default async function DashboardPage({
   const filters = parseAccountFilters(params, countries);
   const tierFilter = filters.tier;
   const { size, page: requestedPage } = parsePaging(params, PAGE_SIZES, 20);
-  const anyFilter = Boolean(filters.q || filters.country || filters.confidence || filters.tier);
+  const anyFilter = Boolean(filters.q || filters.country || filters.confidence || filters.tier || filters.tech);
 
   // tier pill counts follow the other filters (search, country, confidence) but not the tier itself
   const scope = accountWhere(filters, ["tier"]);
@@ -62,6 +63,7 @@ export default async function DashboardPage({
     const qs = toQueryString({ ...filters, tier }, { size: size !== 20 ? size : null });
     return qs ? `/?${qs}` : "/";
   };
+  const techOptions = await getCatalog({ rankedOnly: true, limit: 80 });
   const exportHref = `/api/export?${toQueryString(filters)}`;
 
   return (
@@ -117,6 +119,24 @@ export default async function DashboardPage({
             <option value="MEDIUM">MEDIUM</option>
           </select>
         </label>
+        {techOptions.length > 0 && (
+          <label className="flex flex-col gap-1 text-[11px] font-semibold uppercase tracking-wider text-slate-400">
+            Uses technology
+            <select
+              name="tech"
+              defaultValue={filters.tech ?? ""}
+              className="rounded-md border border-slate-200 bg-white px-3 py-1.5 text-sm font-normal normal-case tracking-normal text-slate-700"
+            >
+              <option value="">Any</option>
+              {techOptions
+                .slice()
+                .sort((a, b) => a.technology.localeCompare(b.technology))
+                .map((t) => (
+                  <option key={t.technology} value={t.technology}>{t.technology} ({t.rankedAccounts})</option>
+                ))}
+            </select>
+          </label>
+        )}
         {tierFilter && <input type="hidden" name="tier" value={tierFilter} />}
         {size !== 20 && <input type="hidden" name="size" value={size} />}
         <button type="submit" className="rounded-md bg-indigo-600 px-4 py-1.5 text-sm font-medium text-white hover:bg-indigo-700">
@@ -165,11 +185,11 @@ export default async function DashboardPage({
         <strong className="font-semibold text-slate-600">How to read this list:</strong> the score adds points for each
         verified weakness (fixed rules, not AI). Priority bands: CRITICAL 100+, HIGH 40&ndash;99, MEDIUM 20&ndash;39, LOW
         under 20. <em>HIGH confidence</em> means we saw the business&apos;s own website; <em>MEDIUM</em> means it was matched by
-        organization name only. Hover a tag for what it means.
+        organization name only, so its score counts at 70% and it can never be CRITICAL. Hover a tag for what it means.
       </p>
 
       <div className="mb-3">
-        <Pager basePath="/" extra={{ tier: tierFilter, q: filters.q, country: filters.country, confidence: filters.confidence }} page={page} size={size} total={filteredTotal} sizes={PAGE_SIZES} noun="accounts" />
+        <Pager basePath="/" extra={{ tier: tierFilter, q: filters.q, country: filters.country, confidence: filters.confidence, tech: filters.tech }} page={page} size={size} total={filteredTotal} sizes={PAGE_SIZES} noun="accounts" />
       </div>
 
       <div className="surface-card overflow-hidden">
@@ -256,7 +276,7 @@ export default async function DashboardPage({
       )}
 
       <div className="mt-4">
-        <Pager basePath="/" extra={{ tier: tierFilter, q: filters.q, country: filters.country, confidence: filters.confidence }} page={page} size={size} total={filteredTotal} sizes={PAGE_SIZES} noun="accounts" />
+        <Pager basePath="/" extra={{ tier: tierFilter, q: filters.q, country: filters.country, confidence: filters.confidence, tech: filters.tech }} page={page} size={size} total={filteredTotal} sizes={PAGE_SIZES} noun="accounts" />
       </div>
     </main>
   );
